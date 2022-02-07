@@ -3,7 +3,7 @@
 
 916 C:\Users\n97802\AppData\Local\Programs\Python\Python310\Scripts\pip.exe 
 
-
+```
 Windows PowerShell
 Copyright (C) Microsoft Corporation. All rights reserved.
 
@@ -28,7 +28,7 @@ C:\Users\n97802\AppData\Local\atom-beta\bin
 D:\User\n97802\AppData\Local\Programs\Python\Python39\Scripts
 C:\Users\n97802\AppData\Local\Programs\Python\Python310\Scripts
 PS D:\GitHub\-SP-Python-Essentials-DP> ls
-
+```
 
     Directory: D:\GitHub\-SP-Python-Essentials-DP
 
