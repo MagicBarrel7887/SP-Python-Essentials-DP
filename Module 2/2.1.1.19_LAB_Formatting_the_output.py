@@ -25,7 +25,9 @@
 # change any of the print words into something else, differing only in case (e.g., Print) - what happens now?
 # replace some of the quotes with apostrophes
 # watch what happens carefully.
-stringstring = "***"
+
+stars = ["    *", "   * *", "  *   *", " *     *", "***   ***", "  *   *", "  *   *", "  *****", " \n ", " done "]
+
 
 print("    *")
 print("   * *")
@@ -35,3 +37,9 @@ print("***   ***", sep="   ", end="\n")
 print("  *   *")
 print("  *   *")
 print("  *****")
+
+print("\n")
+
+
+for i in stars:
+    print(i)
