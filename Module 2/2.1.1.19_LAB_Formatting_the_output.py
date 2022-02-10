@@ -1,3 +1,5 @@
+import time
+
 # LAB
 
 # Estimated time
@@ -28,18 +30,18 @@
 
 stars = ["    *", "   * *", "  *   *", " *     *", "***   ***", "  *   *", "  *   *", "  *****", " \n ", " done "]
 
-
-print("    *")
-print("   * *")
-print("  *   *")
-print(" *     *")
-print("***   ***", sep="   ", end="\n")
-print("  *   *")
-print("  *   *")
-print("  *****")
-
 print("\n")
 
+# start Measure Execution Time
+start = time.time()
 
 for i in stars:
     print(i)
+
+# stop Measure Execution Time
+end = time.time()
+
+print("The program took ", end - start, "seconds", )
+
+
+print("\n")
