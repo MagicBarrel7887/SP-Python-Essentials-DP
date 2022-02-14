@@ -39,9 +39,17 @@
 
 #-----------#
 
-for i in range(0, 3)
+for i in range(0, 3):
 
-    x = 0   # hardcode your test data here
+    if i == 0:
+      x = 0   # hardcode your test data here
+      pass
+    elif i == 1:
+      x = 1   # hardcode your test data here
+      pass
+    elif i == 2:
+      x = -1   # hardcode your test data here
+      pass
 
     x = float(x)
 
