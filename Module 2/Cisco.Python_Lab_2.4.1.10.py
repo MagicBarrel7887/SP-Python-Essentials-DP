@@ -39,22 +39,21 @@
 
 #-----------#
 
+for i in range(0, 3)
 
+    x = 0   # hardcode your test data here
 
+    x = float(x)
 
+    #  define the expression as a function
+    def expression():
+        return 3*x** 3 - 2*x**2 + 3*x-1
 
-x = 0  # hardcode your test data here
+    # run the expression
+    y = expression()
 
-x = float(x)
+    print("y =", y)
 
-#  define the expression as a function
-def expression():
-    return 3*x** 3 - 2*x**2 + 3*x-1
+    # write your code here
 
-# run the expression
-y = expression()
-
-# write your code here
-
-print("y =", y)
 
