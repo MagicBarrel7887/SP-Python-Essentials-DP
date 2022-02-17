@@ -44,3 +44,5 @@ d-----        1/31/2022  10:53 AM                Module 2
 PS D:\GitHub\-SP-Python-Essentials-DP> [Environment]::SetEnvironmentVariable(
 >>     "Path",
 >>     [Environment]::GetEnvironmentVariable("Path", [EnvironmentVariableTarget]::User) + ";C:\Users\n97802\AppData\Local\Programs\Python\Python310",   
+
+acc: TNJ9UPTJ
