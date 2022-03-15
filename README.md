@@ -30,19 +30,10 @@ C:\Users\n97802\AppData\Local\Programs\Python\Python310\Scripts
 PS D:\GitHub\-SP-Python-Essentials-DP> ls
 ```
 
-    Directory: D:\GitHub\-SP-Python-Essentials-DP
-
-
-d-----        1/31/2022  10:53 AM                Module 1
-d-----        1/31/2022  10:53 AM                Module 2
--a----        1/31/2022  10:53 AM             68 .gitattributes
--a----        1/31/2022  10:54 AM           2374 Env_Path.txt
--a----        1/31/2022  10:53 AM           1082 LICENSE
--a----        1/31/2022  10:53 AM            111 README.md
-
-
+```
 PS D:\GitHub\-SP-Python-Essentials-DP> [Environment]::SetEnvironmentVariable(
 >>     "Path",
 >>     [Environment]::GetEnvironmentVariable("Path", [EnvironmentVariableTarget]::User) + ";C:\Users\n97802\AppData\Local\Programs\Python\Python310",   
+```
 
 acc: TNJ9UPTJ
