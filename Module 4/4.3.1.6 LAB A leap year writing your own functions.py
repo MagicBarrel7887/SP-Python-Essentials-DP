@@ -4,35 +4,27 @@ from pickle import APPEND, TRUE
 
 
 def is_year_leap(year):
- is_year = False
- dis_4 = False
- dis_100 = False
- dis_400 = False
- 
- if (year % 4) == 0:
-     dis_4 = TRUE
-     pass
- 
- if (year % 100) == 0 :
-     dis_100 = TRUE
-     pass
- 
- if (year % 400) == 0:
-     dis_400 = TRUE
-     pass
- 
- print(int(bool(dis_4)), int(bool(dis_100)), int(bool(dis_400)))
-    
- if dis_4 == TRUE and dis_100 == TRUE :
-     if dis_400 != TRUE:
-             is_year = True
-     pass
- pass
- #
- # put your code here
- #
- 
- return is_year
+
+        if (year % 400 == 0) and (year % 100 == 0):
+            print("{0} is a leap year".format(year))
+            is_year = True
+            pass
+
+        # not divided by 100 means not a century year
+        # year divided by 4 is a leap year
+        elif (year % 4 == 0) and (year % 100 != 0):
+            print("{0} is a leap year".format(year))
+            is_year = True
+            pass
+
+        # if not divided by both 400 (century year) and 4 (not century year)
+        # year is not leap year
+        else:
+            print("{0} is not a leap year".format(year))
+            is_year = False
+            pass
+        
+        return is_year
 
 
 
