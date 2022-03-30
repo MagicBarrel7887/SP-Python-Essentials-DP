@@ -1,7 +1,7 @@
 
 
 
-tem_c0 = int(input())
+tem_c0 = int(input("enter data : "))
 print("\n")
 c0 = tem_c0
 steps = 0
