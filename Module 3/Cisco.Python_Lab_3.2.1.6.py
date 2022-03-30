@@ -1,4 +1,3 @@
-from cgi import print_form
 import time
 print("Ready or not, here I come!", end="\n")
 print("", end="\n")
