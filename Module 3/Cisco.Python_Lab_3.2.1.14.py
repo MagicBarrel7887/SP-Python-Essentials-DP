@@ -1,11 +1,15 @@
-nete = int(input())
+nete = int(input("input blocks"))
 
 i = 0
 
-dive = nete / 2
+hisssss = 0
 
 while i < nete:
     i = i + 1
+    nete -= 1
+    hisssss += 1
     
-    print(dive)
+    
 pass
+
+print("The height of the pyramid: ",hisssss)
