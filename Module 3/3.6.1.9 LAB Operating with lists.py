@@ -9,15 +9,12 @@ temp_list = my_list
 print(temp_list)
 
 for i in temp_list:
-    tem_int = temp_list[i]
-    for j in temp_list:
-        if tem_int == temp_list[1- j]:
-            print(tem_int,temp_list[j] ,sep=" : ")
-            temp_list.pop(1-j)
-            pass
+    number = temp_list[i]
+    if number == temp_list[i]:
+        temp_list.remove(temp_list[i])
         pass
     pass
-print(temp_list)
+
 #
 # Write your code here.
 #
