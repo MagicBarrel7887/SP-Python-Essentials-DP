@@ -5,19 +5,13 @@ board = [[ '1', '2', '3' ], [ '4', 'X', '6' ], [ '7', '8', '9' ]]
 from random import randrange
 
 def displayBoard(board):
-    print('+-------+-------+-------+')
-    print('|       |       |       |')
-    print('|   ' + board[0][0] +   '   |   ' +   board[0][1] +  '   |   ' + board[0][2] + '   |')
-    print('|       |       |       |')
-    print('+-------+-------+-------+')
-    print('|       |       |       |')
-    print('|   ' + board[1][0] +   '   |   ' +   board[1][1] +  '   |   ' + board[1][2] + '   |')
-    print('|       |       |       |')
-    print('+-------+-------+-------+')
-    print('|       |       |       |')
-    print('|   ' + board[2][0] +   '   |   ' +   board[2][1] +  '   |   ' + board[2][2] + '   |')
-    print('|       |       |       |')
-    print('+-------+-------+-------+')
+
+    for i in range(0,3):
+        print('+-------+-------+-------+')
+        print('|       |       |       |')
+        print('|   ' + board[i][0] + '   |   ' + board[i][1] + '   |    ' + board[i][2] + '  |')
+        print('|       |       |       |')
+        print('+-------+-------+-------+')
 
 def enterMove(board):
 
