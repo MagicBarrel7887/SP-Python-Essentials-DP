@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Users/coste/source/repos/MagicBarrel7887/-SP-Python-Essentials-DP/c++/quiz 1/CMakeProject1/out/install/windows-default")
+  set(CMAKE_INSTALL_PREFIX "C:/Users/coste/Source/Repos/MagicBarrel7887/-SP-Python-Essentials-DP/c++/quiz 1/CMakeProject1/out/install/windows-default")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
