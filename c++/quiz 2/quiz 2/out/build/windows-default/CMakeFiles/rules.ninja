@@ -47,7 +47,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -S"C:\Users\coste\source\repos\MagicBarrel7887\-SP-Python-Essentials-DP\c++\quiz 2\quiz 2" -B"C:\Users\coste\source\repos\MagicBarrel7887\-SP-Python-Essentials-DP\c++\quiz 2\quiz 2\out\build\windows-default"
+  command = "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -S"C:\Users\coste\source\repos\MagicBarrel7887\SP-Python-Essentials-DP\c++\quiz 2\quiz 2" -B"C:\Users\coste\source\repos\MagicBarrel7887\SP-Python-Essentials-DP\c++\quiz 2\quiz 2\out\build\windows-default"
   description = Re-running CMake...
   generator = 1
 

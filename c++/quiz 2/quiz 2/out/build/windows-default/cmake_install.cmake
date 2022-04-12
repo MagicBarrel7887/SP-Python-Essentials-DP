@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/coste/source/repos/MagicBarrel7887/-SP-Python-Essentials-DP/c++/quiz 2/quiz 2
+# Install script for directory: C:/Users/coste/source/repos/MagicBarrel7887/SP-Python-Essentials-DP/c++/quiz 2/quiz 2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Users/coste/source/repos/MagicBarrel7887/-SP-Python-Essentials-DP/c++/quiz 2/quiz 2/out/install/windows-default")
+  set(CMAKE_INSTALL_PREFIX "C:/Users/coste/source/repos/MagicBarrel7887/SP-Python-Essentials-DP/c++/quiz 2/quiz 2/out/install/windows-default")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/coste/source/repos/MagicBarrel7887/-SP-Python-Essentials-DP/c++/quiz 2/quiz 2/out/build/windows-default/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/coste/source/repos/MagicBarrel7887/SP-Python-Essentials-DP/c++/quiz 2/quiz 2/out/build/windows-default/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
