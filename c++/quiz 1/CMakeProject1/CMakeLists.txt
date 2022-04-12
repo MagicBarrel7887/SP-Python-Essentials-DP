@@ -3,7 +3,7 @@
 #
 cmake_minimum_required (VERSION 3.8)
 
-project ("CMakeProject1")
+project ("quiz-basic-1")
 
 # Add source to this project's executable.
 add_executable (CMakeProject1 "CMakeProject1.cpp" "CMakeProject1.h")
