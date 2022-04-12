@@ -1,7 +1,12 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\c++",
+    "\\c++\\quiz 1",
+    "\\c++\\quiz 1\\CMakeProject1",
+    "\\c++\\quiz 2",
+    "\\c++\\quiz 2\\quiz 2"
   ],
-  "SelectedNode": "\\C:\\Users\\coste\\Source\\Repos\\MagicBarrel7887\\SP-Python-Essentials-DP\\c++\\quiz 1\\CMakeProject1\\CMakeLists.txt",
+  "SelectedNode": "\\c++\\quiz 1\\CMakeProject1\\CMakeProject1.h",
   "PreviewInSolutionExplorer": false
 }
