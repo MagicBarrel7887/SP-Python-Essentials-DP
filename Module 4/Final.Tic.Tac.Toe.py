@@ -135,8 +135,3 @@ while numberOfMoves < 9:
         makeListofFreeFields(board)
         print()
         displayBoard(board)
-
-##
-    ## End of file
-
-## displayBoard(board)
