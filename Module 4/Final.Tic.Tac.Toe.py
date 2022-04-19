@@ -140,5 +140,3 @@ while numberOfMoves < 9:
     ## End of file
 
 ## displayBoard(board)
-
-
