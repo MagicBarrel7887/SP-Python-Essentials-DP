@@ -1,3 +1,0 @@
-C:/Users/coste/source/repos/MagicBarrel7887/-SP-Python-Essentials-DP/c++/quiz 1/CMakeProject1/out/build/windows-default/CMakeFiles/CMakeProject1.dir
-C:/Users/coste/source/repos/MagicBarrel7887/-SP-Python-Essentials-DP/c++/quiz 1/CMakeProject1/out/build/windows-default/CMakeFiles/edit_cache.dir
-C:/Users/coste/source/repos/MagicBarrel7887/-SP-Python-Essentials-DP/c++/quiz 1/CMakeProject1/out/build/windows-default/CMakeFiles/rebuild_cache.dir
