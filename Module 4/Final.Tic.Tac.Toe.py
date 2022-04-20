@@ -81,7 +81,7 @@ def victoryFor(board, sign):
         print('Player', sign, 'is your winner!!!')
         return True
 
-        print('We DO NOT have winner yet!')
+        ##print('We DO NOT have winner yet!')
         return False
 
 def drawMove(board):
