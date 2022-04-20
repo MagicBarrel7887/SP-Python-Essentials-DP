@@ -1,4 +1,5 @@
 board = [[ '1', '2', '3' ], [ '4', 'X', '6' ], [ '7', '8', '9' ]]
+
 ##
 ## 4.7.1.2 Tic-Tac-Toe
 ##
@@ -47,32 +48,40 @@ def makeListofFreeFields(board):
 def victoryFor(board, sign):
 
     print('Checking to see if Player', sign, 'is the winner!')
+
     if board[0][0] == sign and board[0][1] == sign and board[0][2] == sign:
         print('Player', sign, 'is your winner!!!')
         return True
-    elif board[1][0] == sign and board[1][1] == sign and board[1][2] == sign:
+
+    if board[1][0] == sign and board[1][1] == sign and board[1][2] == sign:
         print('Player', sign, 'is your winner!!!')
         return True
-    elif board[2][0] == sign and board[2][1] == sign and board[2][2] == sign:
+
+    if board[2][0] == sign and board[2][1] == sign and board[2][2] == sign:
         print('Player', sign, 'is your winner!!!')
         return True
-    elif board[0][0] == sign and board[1][0] == sign and board[2][0] == sign:
+
+    if board[0][0] == sign and board[1][0] == sign and board[2][0] == sign:
         print('Player', sign, 'is your winner!!!')
         return True
-    elif board[0][1] == sign and board[1][1] == sign and board[2][1] == sign:
+
+    if board[0][1] == sign and board[1][1] == sign and board[2][1] == sign:
         print('Player', sign, 'is your winner!!!')
         return True
-    elif board[0][2] == sign and board[1][2] == sign and board[2][2] == sign:
+
+    if board[0][2] == sign and board[1][2] == sign and board[2][2] == sign:
         print('Player', sign, 'is your winner!!!')
         return True
-    elif board[0][0] == sign and board[1][1] == sign and board[2][2] == sign:
+
+    if board[0][0] == sign and board[1][1] == sign and board[2][2] == sign:
         print('Player', sign, 'is your winner!!!')
         return True
-    elif board[2][0] == sign and board[1][1] == sign and board[0][2] == sign:
+
+    if board[2][0] == sign and board[1][1] == sign and board[0][2] == sign:
         print('Player', sign, 'is your winner!!!')
         return True
-    else:
-        print('We DO NOT have winner yet!')
+
+        ##print('We DO NOT have winner yet!')
         return False
 
 def drawMove(board):
