@@ -48,27 +48,35 @@ def makeListofFreeFields(board):
 def victoryFor(board, sign):
 
     print('Checking to see if Player', sign, 'is the winner!')
+
     if board[0][0] == sign and board[0][1] == sign and board[0][2] == sign:
         print('Player', sign, 'is your winner!!!')
         return True
+
     if board[1][0] == sign and board[1][1] == sign and board[1][2] == sign:
         print('Player', sign, 'is your winner!!!')
         return True
+
     if board[2][0] == sign and board[2][1] == sign and board[2][2] == sign:
         print('Player', sign, 'is your winner!!!')
         return True
+
     if board[0][0] == sign and board[1][0] == sign and board[2][0] == sign:
         print('Player', sign, 'is your winner!!!')
         return True
+
     if board[0][1] == sign and board[1][1] == sign and board[2][1] == sign:
         print('Player', sign, 'is your winner!!!')
         return True
+
     if board[0][2] == sign and board[1][2] == sign and board[2][2] == sign:
         print('Player', sign, 'is your winner!!!')
         return True
+
     if board[0][0] == sign and board[1][1] == sign and board[2][2] == sign:
         print('Player', sign, 'is your winner!!!')
         return True
+
     if board[2][0] == sign and board[1][1] == sign and board[0][2] == sign:
         print('Player', sign, 'is your winner!!!')
         return True
