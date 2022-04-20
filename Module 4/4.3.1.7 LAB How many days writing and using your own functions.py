@@ -5,6 +5,7 @@ import math
 from ast import Return
 from pickle import APPEND, TRUE
 from this import d
+import calendar
 
 
 def is_year_leap(year):
@@ -31,20 +32,14 @@ def is_year_leap(year):
         return is_year
 
 def days_in_month(year, month):
-    days_month = 0
-    
-    if is_year_leap(year) == True:
-            days_month = 30 + month % 2
-            pass
-    elif is_year_leap(year) == False:
-        days_month = 28 + (days_month + math.floor(days_month/8)) % 2 + \ 2 % days_month + 2 * math.floor(1/days_month)
-        pass
-   
+
+ print(calendar.monthrange(year,month)[1])
+ days_month = calendar.monthrange(year,month)[1]
 	#
 	# Write your new code here.
 	#
-    print(days_month)
-    return days_month
+ print(days_month)
+ return days_month
 
 print("\n")
 
