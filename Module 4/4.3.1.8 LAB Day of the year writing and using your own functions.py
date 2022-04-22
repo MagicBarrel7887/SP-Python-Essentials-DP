@@ -43,7 +43,7 @@ def days_in_month(year, month):
  return days_month
 
 def day_of_year(year, month, day):
-    date_val = date(2007, 7, 23)
+    date_val = date(year, month, day)
  
     year_month_day = date_val.toordinal() - date(date_val.year, 1, 1).toordinal() + 1
  
