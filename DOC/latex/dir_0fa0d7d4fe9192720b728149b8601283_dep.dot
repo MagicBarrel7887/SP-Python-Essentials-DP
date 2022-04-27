@@ -1,0 +1,11 @@
+digraph "jupyterLab/playsound-on-a-trigger-asink"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  compound=true
+  subgraph clusterdir_61b9c66ddfca9e62c09eb8e2c1cb6b17 {
+    graph [ bgcolor="#edf0f7", pencolor="grey25", style="filled,dashed,", label="jupyterLab", fontname="Helvetica", fontsize="10", URL="dir_61b9c66ddfca9e62c09eb8e2c1cb6b17.html"]
+  dir_0fa0d7d4fe9192720b728149b8601283 [shape=box, label="playsound-on-a-trigger-asink", style="filled,bold,", fillcolor="#edf0f7", color="grey25", URL="dir_0fa0d7d4fe9192720b728149b8601283.html"];
+  }
+}

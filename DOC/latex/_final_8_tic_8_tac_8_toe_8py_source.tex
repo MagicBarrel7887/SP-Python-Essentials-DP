@@ -1,0 +1,150 @@
+\hypertarget{_final_8_tic_8_tac_8_toe_8py_source}{}\doxysection{Final.\+Tic.\+Tac.\+Toe.\+py}
+\label{_final_8_tic_8_tac_8_toe_8py_source}\index{Module 4/Final.Tic.Tac.Toe.py@{Module 4/Final.Tic.Tac.Toe.py}}
+\mbox{\hyperlink{_final_8_tic_8_tac_8_toe_8py}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00001}\mbox{\hyperlink{namespace_final_a51ae200e38d1d6a97019a704201643d6}{00001}} board = [[ \textcolor{stringliteral}{'1'}, \textcolor{stringliteral}{'2'}, \textcolor{stringliteral}{'3'} ], [ \textcolor{stringliteral}{'4'}, \textcolor{stringliteral}{'X'}, \textcolor{stringliteral}{'6'} ], [ \textcolor{stringliteral}{'7'}, \textcolor{stringliteral}{'8'}, \textcolor{stringliteral}{'9'} ]]}
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00002}00002 }
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00003}00003 }
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00006}00006 \textcolor{keyword}{from} random \textcolor{keyword}{import} randrange}
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00007}00007 }
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00008}\mbox{\hyperlink{namespace_final_adfa4d5c078bc39ad34723a932123cf08}{00008}} \textcolor{keyword}{def }\mbox{\hyperlink{namespace_final_adfa4d5c078bc39ad34723a932123cf08}{displayBoard}}(board):}
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00009}00009 }
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00010}00010     \textcolor{keywordflow}{for} i \textcolor{keywordflow}{in} range(0,3):}
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00011}00011         print(\textcolor{stringliteral}{'+-\/-\/-\/-\/-\/-\/-\/+-\/-\/-\/-\/-\/-\/-\/+-\/-\/-\/-\/-\/-\/-\/+'})}
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00012}00012         print(\textcolor{stringliteral}{'|       |       |       |'})}
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00013}00013         print(\textcolor{stringliteral}{'|   '} + board[i][0] + \textcolor{stringliteral}{'   |   '} + board[i][1] + \textcolor{stringliteral}{'   |    '} + board[i][2] + \textcolor{stringliteral}{'  |'})}
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00014}00014         print(\textcolor{stringliteral}{'|       |       |       |'})}
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00015}00015         print(\textcolor{stringliteral}{'+-\/-\/-\/-\/-\/-\/-\/+-\/-\/-\/-\/-\/-\/-\/+-\/-\/-\/-\/-\/-\/-\/+'})}
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00016}00016 }
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00017}\mbox{\hyperlink{namespace_final_a7c6bc51955b29c7061da4e149d774cf5}{00017}} \textcolor{keyword}{def }\mbox{\hyperlink{namespace_final_a7c6bc51955b29c7061da4e149d774cf5}{enterMove}}(board):}
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00018}00018 }
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00019}00019     \textcolor{keywordflow}{while} \textcolor{keyword}{True}:}
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00020}00020 }
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00021}00021         move = int(input(\textcolor{stringliteral}{'Please pick a number within the range of squares (1-\/9): '}))}
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00022}00022 }
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00023}00023         \textcolor{keywordflow}{if} move < 1 \textcolor{keywordflow}{or} move > 9:}
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00024}00024             print(\textcolor{stringliteral}{'Please pick a number in the range of 1 through 9'})}
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00025}00025             \textcolor{keywordflow}{continue}}
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00026}00026         \textcolor{keywordflow}{elif} str(move) \textcolor{keywordflow}{not} \textcolor{keywordflow}{in} board[0] \textcolor{keywordflow}{and} str(move) \textcolor{keywordflow}{not} \textcolor{keywordflow}{in} board[1] \textcolor{keywordflow}{and} str(move) \textcolor{keywordflow}{not} \textcolor{keywordflow}{in} board[2]:}
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00027}00027             print(\textcolor{stringliteral}{'Sorry, that square is already taken! Please select another square!'})}
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00028}00028             \textcolor{keywordflow}{continue}}
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00029}00029         \textcolor{keywordflow}{for} row \textcolor{keywordflow}{in} range(0,3):}
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00030}00030             \textcolor{keywordflow}{for} column \textcolor{keywordflow}{in} range(0,3):}
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00031}00031                 \textcolor{keywordflow}{if} board[row][column] == str(move):}
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00032}00032                     board[row][column] = \textcolor{stringliteral}{'O'}}
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00033}00033         \textcolor{keywordflow}{break}}
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00034}00034 }
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00035}\mbox{\hyperlink{namespace_final_aec41efe1d39c4a149f01a4989543ea6e}{00035}} \textcolor{keyword}{def }\mbox{\hyperlink{namespace_final_aec41efe1d39c4a149f01a4989543ea6e}{makeListofFreeFields}}(board):}
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00036}00036     }
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00037}00037     \textcolor{keyword}{global} free\_squares}
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00038}00038     free\_squares = [ ]}
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00039}00039 }
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00040}00040     \textcolor{keywordflow}{for} row \textcolor{keywordflow}{in} range(0,3):}
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00041}00041         \textcolor{keywordflow}{for} column \textcolor{keywordflow}{in} range(0,3):}
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00042}00042             \textcolor{keywordflow}{if} board[row][column] == \textcolor{stringliteral}{'X'} \textcolor{keywordflow}{or} board[row][column] == \textcolor{stringliteral}{'O'}:}
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00043}00043                 \textcolor{keywordflow}{pass}}
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00044}00044             \textcolor{keywordflow}{else}:}
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00045}00045                 free\_squares.append(([row],[column]))}
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00046}00046     print(free\_squares)}
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00047}00047 }
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00048}\mbox{\hyperlink{namespace_final_a82bd9535b8592dc8620747e66c80fa1b}{00048}} \textcolor{keyword}{def }\mbox{\hyperlink{namespace_final_a82bd9535b8592dc8620747e66c80fa1b}{victoryFor}}(board, sign):}
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00049}00049 }
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00050}00050     print(\textcolor{stringliteral}{'Checking to see if Player'}, sign, \textcolor{stringliteral}{'is the winner!'})}
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00051}00051 }
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00052}00052     \textcolor{keywordflow}{if} board[0][0] == sign \textcolor{keywordflow}{and} board[0][1] == sign \textcolor{keywordflow}{and} board[0][2] == sign:}
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00053}00053         print(\textcolor{stringliteral}{'Player'}, sign, \textcolor{stringliteral}{'is your winner!!!'})}
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00054}00054         \textcolor{keywordflow}{return} \textcolor{keyword}{True}}
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00055}00055 }
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00056}00056     \textcolor{keywordflow}{if} board[1][0] == sign \textcolor{keywordflow}{and} board[1][1] == sign \textcolor{keywordflow}{and} board[1][2] == sign:}
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00057}00057         print(\textcolor{stringliteral}{'Player'}, sign, \textcolor{stringliteral}{'is your winner!!!'})}
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00058}00058         \textcolor{keywordflow}{return} \textcolor{keyword}{True}}
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00059}00059 }
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00060}00060     \textcolor{keywordflow}{if} board[2][0] == sign \textcolor{keywordflow}{and} board[2][1] == sign \textcolor{keywordflow}{and} board[2][2] == sign:}
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00061}00061         print(\textcolor{stringliteral}{'Player'}, sign, \textcolor{stringliteral}{'is your winner!!!'})}
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00062}00062         \textcolor{keywordflow}{return} \textcolor{keyword}{True}}
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00063}00063 }
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00064}00064     \textcolor{keywordflow}{if} board[0][0] == sign \textcolor{keywordflow}{and} board[1][0] == sign \textcolor{keywordflow}{and} board[2][0] == sign:}
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00065}00065         print(\textcolor{stringliteral}{'Player'}, sign, \textcolor{stringliteral}{'is your winner!!!'})}
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00066}00066         \textcolor{keywordflow}{return} \textcolor{keyword}{True}}
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00067}00067 }
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00068}00068     \textcolor{keywordflow}{if} board[0][1] == sign \textcolor{keywordflow}{and} board[1][1] == sign \textcolor{keywordflow}{and} board[2][1] == sign:}
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00069}00069         print(\textcolor{stringliteral}{'Player'}, sign, \textcolor{stringliteral}{'is your winner!!!'})}
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00070}00070         \textcolor{keywordflow}{return} \textcolor{keyword}{True}}
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00071}00071 }
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00072}00072     \textcolor{keywordflow}{if} board[0][2] == sign \textcolor{keywordflow}{and} board[1][2] == sign \textcolor{keywordflow}{and} board[2][2] == sign:}
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00073}00073         print(\textcolor{stringliteral}{'Player'}, sign, \textcolor{stringliteral}{'is your winner!!!'})}
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00074}00074         \textcolor{keywordflow}{return} \textcolor{keyword}{True}}
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00075}00075 }
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00076}00076     \textcolor{keywordflow}{if} board[0][0] == sign \textcolor{keywordflow}{and} board[1][1] == sign \textcolor{keywordflow}{and} board[2][2] == sign:}
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00077}00077         print(\textcolor{stringliteral}{'Player'}, sign, \textcolor{stringliteral}{'is your winner!!!'})}
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00078}00078         \textcolor{keywordflow}{return} \textcolor{keyword}{True}}
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00079}00079 }
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00080}00080     \textcolor{keywordflow}{if} board[2][0] == sign \textcolor{keywordflow}{and} board[1][1] == sign \textcolor{keywordflow}{and} board[0][2] == sign:}
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00081}00081         print(\textcolor{stringliteral}{'Player'}, sign, \textcolor{stringliteral}{'is your winner!!!'})}
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00082}00082         \textcolor{keywordflow}{return} \textcolor{keyword}{True}}
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00083}00083 }
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00084}00084         }
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00085}00085         \textcolor{keywordflow}{return} \textcolor{keyword}{False}}
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00086}00086 }
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00087}\mbox{\hyperlink{namespace_final_aeee15961e1378690c4d1597f8497fd02}{00087}} \textcolor{keyword}{def }\mbox{\hyperlink{namespace_final_aeee15961e1378690c4d1597f8497fd02}{drawMove}}(board):}
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00088}00088 }
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00089}00089     \textcolor{keywordflow}{while} \textcolor{keyword}{True}:}
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00090}00090 }
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00091}00091         row = randrange(3)}
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00092}00092         column = randrange(3)}
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00093}00093 }
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00094}00094         \textcolor{keywordflow}{if} ([row], [column]) \textcolor{keywordflow}{not} \textcolor{keywordflow}{in} free\_squares:}
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00095}00095             \textcolor{keywordflow}{continue}}
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00096}00096         \textcolor{keywordflow}{else}:}
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00097}00097             board[row][column] = \textcolor{stringliteral}{'X'}}
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00098}00098             \textcolor{keywordflow}{return}}
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00099}00099 }
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00100}00100 board = [ [ \textcolor{stringliteral}{'1'}, \textcolor{stringliteral}{'2'}, \textcolor{stringliteral}{'3'} ], [\textcolor{stringliteral}{'4'}, \textcolor{stringliteral}{'X'}, \textcolor{stringliteral}{'6'} ], [ \textcolor{stringliteral}{'7'}, \textcolor{stringliteral}{'8'}, \textcolor{stringliteral}{'9'} ] ]}
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00101}\mbox{\hyperlink{namespace_final_ae1e952199ef12ef1e9e4f72a65d57ba1}{00101}} numberOfMoves = 1}
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00102}\mbox{\hyperlink{namespace_final_af4c121f8af928d28fe8fbe861181cd40}{00102}} human = \textcolor{stringliteral}{'O'}}
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00103}\mbox{\hyperlink{namespace_final_aee62b71150c464a0e3d571c9a387483c}{00103}} computer = \textcolor{stringliteral}{'X'}}
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00104}00104 }
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00105}00105 print(\textcolor{stringliteral}{'Hello and Welcome to Tic-\/Tac-\/Toe the Pythonic Way!!!'})}
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00106}00106 print(\textcolor{stringliteral}{'Here is the current status of our game board: '})}
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00107}00107 \mbox{\hyperlink{namespace_final_adfa4d5c078bc39ad34723a932123cf08}{displayBoard}}(board)}
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00108}00108 print()}
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00109}00109 }
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00110}00110 \textcolor{keywordflow}{while} numberOfMoves < 9:}
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00111}00111 }
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00112}00112 }
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00113}00113     }
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00114}00114     \textcolor{keywordflow}{try}:}
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00115}00115      \mbox{\hyperlink{namespace_final_a7c6bc51955b29c7061da4e149d774cf5}{enterMove}}(board)}
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00116}00116     \textcolor{keywordflow}{except} Exception \textcolor{keyword}{as} e:}
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00117}00117         print(\textcolor{stringliteral}{"{}ERROR : "{}}+str(e))}
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00118}00118     numberOfMoves += 1}
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00119}00119     \mbox{\hyperlink{namespace_final_adfa4d5c078bc39ad34723a932123cf08}{displayBoard}}(board)}
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00120}00120 }
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00121}00121     \textcolor{keywordflow}{if} \mbox{\hyperlink{namespace_final_a82bd9535b8592dc8620747e66c80fa1b}{victoryFor}}(board, human) == \textcolor{keyword}{True}:}
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00122}00122         print(\textcolor{stringliteral}{'You crushed the computer! You are a super human! Woot woot!'})}
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00123}00123         \textcolor{keywordflow}{break}}
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00124}00124     \textcolor{keywordflow}{else}:}
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00125}00125         print(\textcolor{stringliteral}{'Here is the current list of free squares on our board and the statuse: '})}
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00126}00126         \mbox{\hyperlink{namespace_final_aec41efe1d39c4a149f01a4989543ea6e}{makeListofFreeFields}}(board)}
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00127}00127         print()}
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00128}00128         \mbox{\hyperlink{namespace_final_adfa4d5c078bc39ad34723a932123cf08}{displayBoard}}(board)}
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00129}00129 }
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00130}00130 }
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00131}00131 }
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00132}00132     print()}
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00133}00133     print(\textcolor{stringliteral}{'Now it is time for the computer to make its move!'})}
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00134}00134     \mbox{\hyperlink{namespace_final_aeee15961e1378690c4d1597f8497fd02}{drawMove}}(board)}
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00135}00135     numberOfMoves += 1}
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00136}00136     \mbox{\hyperlink{namespace_final_adfa4d5c078bc39ad34723a932123cf08}{displayBoard}}(board)}
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00137}00137     print()}
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00138}00138 }
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00139}00139     \textcolor{keywordflow}{if} \mbox{\hyperlink{namespace_final_a82bd9535b8592dc8620747e66c80fa1b}{victoryFor}}(board, computer) == \textcolor{keyword}{True}:}
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00140}00140         print(\textcolor{stringliteral}{'The computer has outsmarted you once again, Human! Better luck next time!'})}
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00141}00141         \textcolor{keywordflow}{break}}
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00142}00142     \textcolor{keywordflow}{else}:}
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00143}00143         print(\textcolor{stringliteral}{'Here is the current list of free squares on our board and the status: '})}
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00144}00144         \mbox{\hyperlink{namespace_final_aec41efe1d39c4a149f01a4989543ea6e}{makeListofFreeFields}}(board)}
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00145}00145         print()}
+\DoxyCodeLine{\Hypertarget{_final_8_tic_8_tac_8_toe_8py_source_l00146}00146         \mbox{\hyperlink{namespace_final_adfa4d5c078bc39ad34723a932123cf08}{displayBoard}}(board)}
+
+\end{DoxyCode}

@@ -1,0 +1,27 @@
+\hypertarget{multiprocessing_01_process_01_i_ds_8py_source}{}\doxysection{multiprocessing Process IDs.\+py}
+\label{multiprocessing_01_process_01_i_ds_8py_source}\index{mini projets/multiprocessing/multiprocessing Process IDs.py@{mini projets/multiprocessing/multiprocessing Process IDs.py}}
+\mbox{\hyperlink{multiprocessing_01_process_01_i_ds_8py}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\Hypertarget{multiprocessing_01_process_01_i_ds_8py_source_l00001}\mbox{\hyperlink{namespacemultiprocessing_01_process_01_i_ds}{00001}} \textcolor{keyword}{from} multiprocessing \textcolor{keyword}{import} Process}
+\DoxyCodeLine{\Hypertarget{multiprocessing_01_process_01_i_ds_8py_source_l00002}00002 \textcolor{keyword}{import} os}
+\DoxyCodeLine{\Hypertarget{multiprocessing_01_process_01_i_ds_8py_source_l00003}00003 }
+\DoxyCodeLine{\Hypertarget{multiprocessing_01_process_01_i_ds_8py_source_l00004}00004 }
+\DoxyCodeLine{\Hypertarget{multiprocessing_01_process_01_i_ds_8py_source_l00005}\mbox{\hyperlink{namespacemultiprocessing_01_process_01_i_ds_aae6bc5e42a2db9d098921c286087da33}{00005}} \textcolor{keyword}{def }\mbox{\hyperlink{namespacemultiprocessing_01_process_01_i_ds_aae6bc5e42a2db9d098921c286087da33}{info}}(title):}
+\DoxyCodeLine{\Hypertarget{multiprocessing_01_process_01_i_ds_8py_source_l00006}00006     print(title)}
+\DoxyCodeLine{\Hypertarget{multiprocessing_01_process_01_i_ds_8py_source_l00007}00007     print(\textcolor{stringliteral}{'module name:'}, \_\_name\_\_)}
+\DoxyCodeLine{\Hypertarget{multiprocessing_01_process_01_i_ds_8py_source_l00008}00008     print(\textcolor{stringliteral}{'parent process:'}, os.getppid())}
+\DoxyCodeLine{\Hypertarget{multiprocessing_01_process_01_i_ds_8py_source_l00009}00009     print(\textcolor{stringliteral}{'process id:'}, os.getpid())}
+\DoxyCodeLine{\Hypertarget{multiprocessing_01_process_01_i_ds_8py_source_l00010}00010 }
+\DoxyCodeLine{\Hypertarget{multiprocessing_01_process_01_i_ds_8py_source_l00011}00011 }
+\DoxyCodeLine{\Hypertarget{multiprocessing_01_process_01_i_ds_8py_source_l00012}\mbox{\hyperlink{namespacemultiprocessing_01_process_01_i_ds_ab06383f384f5f25ba5de944ffe533352}{00012}} \textcolor{keyword}{def }\mbox{\hyperlink{namespacemultiprocessing_01_process_01_i_ds_ab06383f384f5f25ba5de944ffe533352}{f}}(name):}
+\DoxyCodeLine{\Hypertarget{multiprocessing_01_process_01_i_ds_8py_source_l00013}00013     \mbox{\hyperlink{namespacemultiprocessing_01_process_01_i_ds_aae6bc5e42a2db9d098921c286087da33}{info}}(\textcolor{stringliteral}{'function f'})}
+\DoxyCodeLine{\Hypertarget{multiprocessing_01_process_01_i_ds_8py_source_l00014}00014     print(\textcolor{stringliteral}{'hello'}, name)}
+\DoxyCodeLine{\Hypertarget{multiprocessing_01_process_01_i_ds_8py_source_l00015}00015 }
+\DoxyCodeLine{\Hypertarget{multiprocessing_01_process_01_i_ds_8py_source_l00016}00016 }
+\DoxyCodeLine{\Hypertarget{multiprocessing_01_process_01_i_ds_8py_source_l00017}00017 \textcolor{keywordflow}{if} \_\_name\_\_ == \textcolor{stringliteral}{'\_\_main\_\_'}:}
+\DoxyCodeLine{\Hypertarget{multiprocessing_01_process_01_i_ds_8py_source_l00018}00018     \mbox{\hyperlink{namespacemultiprocessing_01_process_01_i_ds_aae6bc5e42a2db9d098921c286087da33}{info}}(\textcolor{stringliteral}{'main line'})}
+\DoxyCodeLine{\Hypertarget{multiprocessing_01_process_01_i_ds_8py_source_l00019}\mbox{\hyperlink{namespacemultiprocessing_01_process_01_i_ds_af78d5508168b92c6bf40ec1373736b51}{00019}}     p = Process(target=f, args=(\textcolor{stringliteral}{'bob'},))}
+\DoxyCodeLine{\Hypertarget{multiprocessing_01_process_01_i_ds_8py_source_l00020}00020     p.start()}
+\DoxyCodeLine{\Hypertarget{multiprocessing_01_process_01_i_ds_8py_source_l00021}00021     p.join()}
+
+\end{DoxyCode}
