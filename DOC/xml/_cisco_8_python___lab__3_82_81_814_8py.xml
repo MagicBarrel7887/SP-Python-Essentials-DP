@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="_cisco_8_python___lab__3_82_81_814_8py" kind="file" language="Python">
+    <compoundname>Cisco.Python_Lab_3.2.1.14.py</compoundname>
+    <innernamespace refid="namespace_cisco">Cisco</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespace_cisco_1a3751ace599cf2b39ed56e8a5f44b6e4a" refkind="member"><highlight class="normal">nete<sp/>=<sp/>int(input(</highlight><highlight class="stringliteral">&quot;input<sp/>blocks&quot;</highlight><highlight class="normal">))</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3" refid="namespace_cisco_1a815d367cd29f0dc894ce380524b7ff50" refkind="member"><highlight class="normal">i<sp/>=<sp/>0</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5" refid="namespace_cisco_1ab3bfb42f57ba5ec19e31eb321af4bb96" refkind="member"><highlight class="normal">hisssss<sp/>=<sp/>0</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>i<sp/>&lt;<sp/>nete:</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>i<sp/>=<sp/>i<sp/>+<sp/>1</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>nete<sp/>-=<sp/>1</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>hisssss<sp/>+=<sp/>1</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keywordflow">pass</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal">print(</highlight><highlight class="stringliteral">&quot;The<sp/>height<sp/>of<sp/>the<sp/>pyramid:<sp/>&quot;</highlight><highlight class="normal">,hisssss)</highlight></codeline>
+    </programlisting>
+    <location file="Module 3/Cisco.Python_Lab_3.2.1.14.py"/>
+  </compounddef>
+</doxygen>

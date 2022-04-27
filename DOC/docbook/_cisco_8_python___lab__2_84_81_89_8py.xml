@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__cisco_8_python___lab__2_84_81_89_8py" xml:lang="en-US">
+<title>Module 2/Cisco.Python_Lab_2.4.1.9.py File Reference</title>
+<indexterm><primary>Module 2/Cisco.Python_Lab_2.4.1.9.py</primary></indexterm>
+<simplesect>
+    <title>Namespaces    </title>
+        <itemizedlist>
+            <listitem><para>namespace <link linkend="_namespace_cisco">Cisco</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Variables    </title>
+        <itemizedlist>
+            <listitem><para>float <link linkend="_namespace_cisco_1af5fa77d48a75c9e02ffe2f954bc18387">Cisco.kilometers</link> = 12.25</para>
+</listitem>
+            <listitem><para>float <link linkend="_namespace_cisco_1a1fc7c78ff114c57f695bfb0e987d8a31">Cisco.miles</link> = 7.38</para>
+</listitem>
+            <listitem><para>tuple <link linkend="_namespace_cisco_1a58982ff43c15e23545a46ff368c502be">Cisco.miles_to_kilometers</link> = (miles * 1.609344)</para>
+</listitem>
+            <listitem><para>tuple <link linkend="_namespace_cisco_1a7247a62192b971db634e20a1c2e2e45d">Cisco.kilometers_to_miles</link> = (kilometers * 0.62137)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_2_84_81_810_8py" xml:lang="en-US">
+<title>Module 2/2.4.1.10.py File Reference</title>
+<indexterm><primary>Module 2/2.4.1.10.py</primary></indexterm>
+<simplesect>
+    <title>Namespaces    </title>
+        <itemizedlist>
+            <listitem><para>namespace <link linkend="_namespace2">2</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Variables    </title>
+        <itemizedlist>
+            <listitem><para>int <link linkend="_namespace2_1a8ee05c1f75adee656ec6ce3cea16cacc">2.x</link> = -1</para>
+</listitem>
+            <listitem><para>int <link linkend="_namespace2_1a05fccc4a73f965b73826ec1208548e5f">2.y</link> = 3 * x ** 2 - 2 * x ** 2 + 3 * x - 1</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

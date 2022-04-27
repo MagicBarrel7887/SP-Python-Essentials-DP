@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="multiprocessing_01_process_8py" kind="file" language="Python">
+    <compoundname>multiprocessing Process.py</compoundname>
+    <innernamespace refid="namespacemultiprocessing_01_process">multiprocessing Process</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespacemultiprocessing_01_process" refkind="compound"><highlight class="keyword">from</highlight><highlight class="normal"><sp/>multiprocessing<sp/></highlight><highlight class="keyword">import</highlight><highlight class="normal"><sp/>Process</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4" refid="namespacemultiprocessing_01_process_1abbddd0887b10c578a0db6dd3f9104ea0" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="namespacemultiprocessing_01_process_1abbddd0887b10c578a0db6dd3f9104ea0" kindref="member">f</ref>(name):</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/>print(</highlight><highlight class="stringliteral">&apos;hello&apos;</highlight><highlight class="normal">,<sp/>name)</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>__name__<sp/>==<sp/></highlight><highlight class="stringliteral">&apos;__main__&apos;</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="9" refid="namespacemultiprocessing_01_process_1aeddafb416cb9ed3aeb6b82a2bbc74e7d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>p<sp/>=<sp/>Process(target=f,<sp/>args=(</highlight><highlight class="stringliteral">&apos;bob&apos;</highlight><highlight class="normal">,))</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>p.start()</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>p.join()</highlight></codeline>
+    </programlisting>
+    <location file="mini projets/multiprocessing/multiprocessing Process.py"/>
+  </compounddef>
+</doxygen>

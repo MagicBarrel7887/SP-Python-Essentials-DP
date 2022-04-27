@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="_python_8_lab_84_83_81_810_8py" kind="file" language="Python">
+    <compoundname>Python.Lab.4.3.1.10.py</compoundname>
+    <innernamespace refid="namespace_python">Python</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespace_python_1ad6e02663aef9e3054d611c2cf650dc18" refkind="member"><highlight class="normal">Gallon<sp/>=<sp/>3.785411784<sp/></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3" refid="namespace_python_1ac587c9bfe00edb38f498cf0ca4a439c3" refkind="member"><highlight class="normal">Mile<sp/>=<sp/>1.609344<sp/></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5" refid="namespace_python_1a7dbc523d0e9e5e25dfb7f67f870b7184" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="namespace_python_1a7dbc523d0e9e5e25dfb7f67f870b7184" kindref="member">liters_100km_to_miles_gallon</ref>(liters):</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">#</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">#<sp/>Write<sp/>your<sp/>code<sp/>here.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="comment">#</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/>us<sp/>=<sp/>100<sp/>*3.785411784</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/>pre<sp/>=<sp/>1.609344*<sp/>liters</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/>gallon<sp/>=<sp/>us<sp/>/<sp/>pre</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>gallon</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight></codeline>
+<codeline lineno="18" refid="namespace_python_1a2e8ed7a63d41ae6ac596b2971b9ebd0a" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">def<sp/></highlight><highlight class="normal"><ref refid="namespace_python_1a2e8ed7a63d41ae6ac596b2971b9ebd0a" kindref="member">miles_gallon_to_liters_100km</ref>(miles):</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="comment">#</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="comment">#<sp/>Write<sp/>your<sp/>code<sp/>here</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="comment">#</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/>us<sp/>=<sp/>100<sp/>*3.785411784</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/>pre<sp/>=<sp/>1.609344*<sp/>miles</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/>Liters<sp/>=<sp/>us<sp/>/<sp/>pre</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>Liters</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal">print(<ref refid="namespace_python_1a7dbc523d0e9e5e25dfb7f67f870b7184" kindref="member">liters_100km_to_miles_gallon</ref>(3.9))</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">print(<ref refid="namespace_python_1a7dbc523d0e9e5e25dfb7f67f870b7184" kindref="member">liters_100km_to_miles_gallon</ref>(7.5))</highlight></codeline>
+<codeline lineno="32"><highlight class="normal">print(<ref refid="namespace_python_1a7dbc523d0e9e5e25dfb7f67f870b7184" kindref="member">liters_100km_to_miles_gallon</ref>(10.))</highlight></codeline>
+<codeline lineno="33"><highlight class="normal">print(<ref refid="namespace_python_1a2e8ed7a63d41ae6ac596b2971b9ebd0a" kindref="member">miles_gallon_to_liters_100km</ref>(60.3))</highlight></codeline>
+<codeline lineno="34"><highlight class="normal">print(<ref refid="namespace_python_1a2e8ed7a63d41ae6ac596b2971b9ebd0a" kindref="member">miles_gallon_to_liters_100km</ref>(31.4))</highlight></codeline>
+<codeline lineno="35"><highlight class="normal">print(<ref refid="namespace_python_1a2e8ed7a63d41ae6ac596b2971b9ebd0a" kindref="member">miles_gallon_to_liters_100km</ref>(23.5))</highlight></codeline>
+    </programlisting>
+    <location file="Module 4/Python.Lab.4.3.1.10.py"/>
+  </compounddef>
+</doxygen>

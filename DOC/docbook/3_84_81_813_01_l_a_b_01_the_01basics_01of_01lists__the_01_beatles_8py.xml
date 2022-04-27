@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_3_84_81_813_01_l_a_b_01_the_01basics_01of_01lists__the_01_beatles_8py" xml:lang="en-US">
+<title>Module 3/3.4.1.13 LAB The basics of lists_the Beatles.py File Reference</title>
+<indexterm><primary>Module 3/3.4.1.13 LAB The basics of lists_the Beatles.py</primary></indexterm>
+<simplesect>
+    <title>Namespaces    </title>
+        <itemizedlist>
+            <listitem><para>namespace <link linkend="_namespace3">3</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Variables    </title>
+        <itemizedlist>
+            <listitem><para>list <link linkend="_namespace3_1a6a79a292e7222cf2fd240cfaa744195b">3.beatles</link> = []</para>
+</listitem>
+            <listitem><para>list <link linkend="_namespace3_1ab994b076a9bdff4b3233f6176238fd2d">3.alt_members</link> = [&quot;Stu Sutcliffe&quot;, &quot;Pete Best&quot;]</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

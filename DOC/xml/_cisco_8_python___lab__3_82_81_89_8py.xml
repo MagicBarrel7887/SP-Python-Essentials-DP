@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="_cisco_8_python___lab__3_82_81_89_8py" kind="file" language="Python">
+    <compoundname>Cisco.Python_Lab_3.2.1.9.py</compoundname>
+    <innernamespace refid="namespace_cisco">Cisco</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespace_cisco_1a04982ebd2a5a80e043442fc57d90a1db" refkind="member"><highlight class="normal">passw<sp/>=<sp/></highlight><highlight class="stringliteral">&quot;chupacabra&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">True</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="4" refid="namespace_cisco_1a7aaab3dae54e7f704e193720efb6a2be" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>in_pass<sp/>=<sp/>input(</highlight><highlight class="stringliteral">&quot;enter<sp/>secret<sp/>&quot;</highlight><highlight class="normal">,</highlight><highlight class="stringliteral">&quot;\n&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>passw<sp/>==<sp/>in_pass:</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>print(</highlight><highlight class="stringliteral">&quot;You&apos;ve<sp/>successfully<sp/>left<sp/>the<sp/>loop.&quot;</highlight><highlight class="normal">,<sp/>end=</highlight><highlight class="stringliteral">&quot;\n&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">pass</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="Module 3/Cisco.Python_Lab_3.2.1.9.py"/>
+  </compounddef>
+</doxygen>

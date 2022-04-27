@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="namespace_python" kind="namespace" language="Python">
+    <compoundname>Python</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="namespace_python_1ad6e02663aef9e3054d611c2cf650dc18" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Python.Gallon</definition>
+        <argsstring></argsstring>
+        <name>Gallon</name>
+        <qualifiedname>Python.Gallon</qualifiedname>
+        <initializer>=  3.785411784</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Module 4/Python.Lab.4.3.1.10.py" line="1" column="1" bodyfile="Module 4/Python.Lab.4.3.1.10.py" bodystart="1" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_python_1ac587c9bfe00edb38f498cf0ca4a439c3" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Python.Mile</definition>
+        <argsstring></argsstring>
+        <name>Mile</name>
+        <qualifiedname>Python.Mile</qualifiedname>
+        <initializer>=  1.609344</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Module 4/Python.Lab.4.3.1.10.py" line="3" column="1" bodyfile="Module 4/Python.Lab.4.3.1.10.py" bodystart="3" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespace_python_1a7dbc523d0e9e5e25dfb7f67f870b7184" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def Python.liters_100km_to_miles_gallon</definition>
+        <argsstring>(liters)</argsstring>
+        <name>liters_100km_to_miles_gallon</name>
+        <qualifiedname>Python.liters_100km_to_miles_gallon</qualifiedname>
+        <param>
+          <type>liters</type>
+          <defname>liters</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Module 4/Python.Lab.4.3.1.10.py" line="5" column="1" bodyfile="Module 4/Python.Lab.4.3.1.10.py" bodystart="5" bodyend="17"/>
+        <referencedby refid="namespace_python_1a2e8ed7a63d41ae6ac596b2971b9ebd0a" compoundref="_python_8_lab_84_83_81_810_8py" startline="18" endline="35">miles_gallon_to_liters_100km</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="namespace_python_1a2e8ed7a63d41ae6ac596b2971b9ebd0a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def Python.miles_gallon_to_liters_100km</definition>
+        <argsstring>(miles)</argsstring>
+        <name>miles_gallon_to_liters_100km</name>
+        <qualifiedname>Python.miles_gallon_to_liters_100km</qualifiedname>
+        <param>
+          <type>miles</type>
+          <defname>miles</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Module 4/Python.Lab.4.3.1.10.py" line="18" column="1" bodyfile="Module 4/Python.Lab.4.3.1.10.py" bodystart="18" bodyend="35"/>
+        <references refid="namespace_python_1a7dbc523d0e9e5e25dfb7f67f870b7184" compoundref="_python_8_lab_84_83_81_810_8py" startline="5" endline="17">liters_100km_to_miles_gallon</references>
+        <references refid="namespace_python_1a2e8ed7a63d41ae6ac596b2971b9ebd0a" compoundref="_python_8_lab_84_83_81_810_8py" startline="18" endline="35">miles_gallon_to_liters_100km</references>
+        <referencedby refid="namespace_python_1a2e8ed7a63d41ae6ac596b2971b9ebd0a" compoundref="_python_8_lab_84_83_81_810_8py" startline="18" endline="35">miles_gallon_to_liters_100km</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Module 4/Python.Lab.4.3.1.10.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

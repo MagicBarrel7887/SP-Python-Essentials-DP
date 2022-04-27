@@ -1,0 +1,176 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespace_final" xml:lang="en-US">
+<title>Final Namespace Reference</title>
+<indexterm><primary>Final</primary></indexterm>
+<simplesect>
+    <title>Functions    </title>
+        <itemizedlist>
+            <listitem><para>def <link linkend="_namespace_final_1adfa4d5c078bc39ad34723a932123cf08">displayBoard</link> (<link linkend="_namespace_final_1a51ae200e38d1d6a97019a704201643d6">board</link>)</para>
+</listitem>
+            <listitem><para>def <link linkend="_namespace_final_1a7c6bc51955b29c7061da4e149d774cf5">enterMove</link> (<link linkend="_namespace_final_1a51ae200e38d1d6a97019a704201643d6">board</link>)</para>
+</listitem>
+            <listitem><para>def <link linkend="_namespace_final_1aec41efe1d39c4a149f01a4989543ea6e">makeListofFreeFields</link> (<link linkend="_namespace_final_1a51ae200e38d1d6a97019a704201643d6">board</link>)</para>
+</listitem>
+            <listitem><para>def <link linkend="_namespace_final_1a82bd9535b8592dc8620747e66c80fa1b">victoryFor</link> (<link linkend="_namespace_final_1a51ae200e38d1d6a97019a704201643d6">board</link>, sign)</para>
+</listitem>
+            <listitem><para>def <link linkend="_namespace_final_1aeee15961e1378690c4d1597f8497fd02">drawMove</link> (<link linkend="_namespace_final_1a51ae200e38d1d6a97019a704201643d6">board</link>)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Variables    </title>
+        <itemizedlist>
+            <listitem><para>list <link linkend="_namespace_final_1a51ae200e38d1d6a97019a704201643d6">board</link> = [[ &apos;1&apos;, &apos;2&apos;, &apos;3&apos; ], [ &apos;4&apos;, &apos;X&apos;, &apos;6&apos; ], [ &apos;7&apos;, &apos;8&apos;, &apos;9&apos; ]]</para>
+</listitem>
+            <listitem><para>int <link linkend="_namespace_final_1ae1e952199ef12ef1e9e4f72a65d57ba1">numberOfMoves</link> = 1</para>
+</listitem>
+            <listitem><para>string <link linkend="_namespace_final_1af4c121f8af928d28fe8fbe861181cd40">human</link> = &apos;O&apos;</para>
+</listitem>
+            <listitem><para>string <link linkend="_namespace_final_1aee62b71150c464a0e3d571c9a387483c">computer</link> = &apos;X&apos;</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Function Documentation</title>
+<anchor xml:id="_namespace_final_1adfa4d5c078bc39ad34723a932123cf08"/><section>
+    <title>displayBoard()</title>
+<indexterm><primary>displayBoard</primary><secondary>Final</secondary></indexterm>
+<indexterm><primary>Final</primary><secondary>displayBoard</secondary></indexterm>
+<para><computeroutput>def Final.displayBoard ( board)</computeroutput></para><programlisting linenumbering="unnumbered">00008 <emphasis role="keyword">def&#32;</emphasis><link linkend="_namespace_final_1adfa4d5c078bc39ad34723a932123cf08">displayBoard</link>(board):
+00009 
+00010 &#32;&#32;&#32;&#32;<emphasis role="keywordflow">for</emphasis>&#32;i&#32;<emphasis role="keywordflow">in</emphasis>&#32;range(0,3):
+00011 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;print(<emphasis role="stringliteral">&apos;+-------+-------+-------+&apos;</emphasis>)
+00012 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;print(<emphasis role="stringliteral">&apos;|&#32;&#32;&#32;&#32;&#32;&#32;&#32;|&#32;&#32;&#32;&#32;&#32;&#32;&#32;|&#32;&#32;&#32;&#32;&#32;&#32;&#32;|&apos;</emphasis>)
+00013 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;print(<emphasis role="stringliteral">&apos;|&#32;&#32;&#32;&apos;</emphasis>&#32;+&#32;board[i][0]&#32;+&#32;<emphasis role="stringliteral">&apos;&#32;&#32;&#32;|&#32;&#32;&#32;&apos;</emphasis>&#32;+&#32;board[i][1]&#32;+&#32;<emphasis role="stringliteral">&apos;&#32;&#32;&#32;|&#32;&#32;&#32;&#32;&apos;</emphasis>&#32;+&#32;board[i][2]&#32;+&#32;<emphasis role="stringliteral">&apos;&#32;&#32;|&apos;</emphasis>)
+00014 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;print(<emphasis role="stringliteral">&apos;|&#32;&#32;&#32;&#32;&#32;&#32;&#32;|&#32;&#32;&#32;&#32;&#32;&#32;&#32;|&#32;&#32;&#32;&#32;&#32;&#32;&#32;|&apos;</emphasis>)
+00015 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;print(<emphasis role="stringliteral">&apos;+-------+-------+-------+&apos;</emphasis>)
+00016 
+</programlisting></section>
+<anchor xml:id="_namespace_final_1aeee15961e1378690c4d1597f8497fd02"/><section>
+    <title>drawMove()</title>
+<indexterm><primary>drawMove</primary><secondary>Final</secondary></indexterm>
+<indexterm><primary>Final</primary><secondary>drawMove</secondary></indexterm>
+<para><computeroutput>def Final.drawMove ( board)</computeroutput></para><programlisting linenumbering="unnumbered">00087 <emphasis role="keyword">def&#32;</emphasis><link linkend="_namespace_final_1aeee15961e1378690c4d1597f8497fd02">drawMove</link>(board):
+00088 
+00089 &#32;&#32;&#32;&#32;<emphasis role="keywordflow">while</emphasis>&#32;<emphasis role="keyword">True</emphasis>:
+00090 
+00091 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;row&#32;=&#32;randrange(3)
+00092 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;column&#32;=&#32;randrange(3)
+00093 
+00094 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">if</emphasis>&#32;([row],&#32;[column])&#32;<emphasis role="keywordflow">not</emphasis>&#32;<emphasis role="keywordflow">in</emphasis>&#32;free_squares:
+00095 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">continue</emphasis>
+00096 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">else</emphasis>:
+00097 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;board[row][column]&#32;=&#32;<emphasis role="stringliteral">&apos;X&apos;</emphasis>
+00098 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">return</emphasis>
+00099 
+</programlisting></section>
+<anchor xml:id="_namespace_final_1a7c6bc51955b29c7061da4e149d774cf5"/><section>
+    <title>enterMove()</title>
+<indexterm><primary>enterMove</primary><secondary>Final</secondary></indexterm>
+<indexterm><primary>Final</primary><secondary>enterMove</secondary></indexterm>
+<para><computeroutput>def Final.enterMove ( board)</computeroutput></para><programlisting linenumbering="unnumbered">00017 <emphasis role="keyword">def&#32;</emphasis><link linkend="_namespace_final_1a7c6bc51955b29c7061da4e149d774cf5">enterMove</link>(board):
+00018 
+00019 &#32;&#32;&#32;&#32;<emphasis role="keywordflow">while</emphasis>&#32;<emphasis role="keyword">True</emphasis>:
+00020 
+00021 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;move&#32;=&#32;int(input(<emphasis role="stringliteral">&apos;Please&#32;pick&#32;a&#32;number&#32;within&#32;the&#32;range&#32;of&#32;squares&#32;(1-9):&#32;&apos;</emphasis>))
+00022 
+00023 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">if</emphasis>&#32;move&#32;&lt;&#32;1&#32;<emphasis role="keywordflow">or</emphasis>&#32;move&#32;&gt;&#32;9:
+00024 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;print(<emphasis role="stringliteral">&apos;Please&#32;pick&#32;a&#32;number&#32;in&#32;the&#32;range&#32;of&#32;1&#32;through&#32;9&apos;</emphasis>)
+00025 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">continue</emphasis>
+00026 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">elif</emphasis>&#32;str(move)&#32;<emphasis role="keywordflow">not</emphasis>&#32;<emphasis role="keywordflow">in</emphasis>&#32;board[0]&#32;<emphasis role="keywordflow">and</emphasis>&#32;str(move)&#32;<emphasis role="keywordflow">not</emphasis>&#32;<emphasis role="keywordflow">in</emphasis>&#32;board[1]&#32;<emphasis role="keywordflow">and</emphasis>&#32;str(move)&#32;<emphasis role="keywordflow">not</emphasis>&#32;<emphasis role="keywordflow">in</emphasis>&#32;board[2]:
+00027 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;print(<emphasis role="stringliteral">&apos;Sorry,&#32;that&#32;square&#32;is&#32;already&#32;taken!&#32;Please&#32;select&#32;another&#32;square!&apos;</emphasis>)
+00028 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">continue</emphasis>
+00029 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">for</emphasis>&#32;row&#32;<emphasis role="keywordflow">in</emphasis>&#32;range(0,3):
+00030 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">for</emphasis>&#32;column&#32;<emphasis role="keywordflow">in</emphasis>&#32;range(0,3):
+00031 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">if</emphasis>&#32;board[row][column]&#32;==&#32;str(move):
+00032 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;board[row][column]&#32;=&#32;<emphasis role="stringliteral">&apos;O&apos;</emphasis>
+00033 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">break</emphasis>
+00034 
+</programlisting></section>
+<anchor xml:id="_namespace_final_1aec41efe1d39c4a149f01a4989543ea6e"/><section>
+    <title>makeListofFreeFields()</title>
+<indexterm><primary>makeListofFreeFields</primary><secondary>Final</secondary></indexterm>
+<indexterm><primary>Final</primary><secondary>makeListofFreeFields</secondary></indexterm>
+<para><computeroutput>def Final.makeListofFreeFields ( board)</computeroutput></para><programlisting linenumbering="unnumbered">00035 <emphasis role="keyword">def&#32;</emphasis><link linkend="_namespace_final_1aec41efe1d39c4a149f01a4989543ea6e">makeListofFreeFields</link>(board):
+00036 &#32;&#32;&#32;&#32;
+00037 &#32;&#32;&#32;&#32;<emphasis role="keyword">global</emphasis>&#32;free_squares
+00038 &#32;&#32;&#32;&#32;free_squares&#32;=&#32;[&#32;]
+00039 
+00040 &#32;&#32;&#32;&#32;<emphasis role="keywordflow">for</emphasis>&#32;row&#32;<emphasis role="keywordflow">in</emphasis>&#32;range(0,3):
+00041 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">for</emphasis>&#32;column&#32;<emphasis role="keywordflow">in</emphasis>&#32;range(0,3):
+00042 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">if</emphasis>&#32;board[row][column]&#32;==&#32;<emphasis role="stringliteral">&apos;X&apos;</emphasis>&#32;<emphasis role="keywordflow">or</emphasis>&#32;board[row][column]&#32;==&#32;<emphasis role="stringliteral">&apos;O&apos;</emphasis>:
+00043 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">pass</emphasis>
+00044 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">else</emphasis>:
+00045 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;free_squares.append(([row],[column]))
+00046 &#32;&#32;&#32;&#32;print(free_squares)
+00047 
+</programlisting></section>
+<anchor xml:id="_namespace_final_1a82bd9535b8592dc8620747e66c80fa1b"/><section>
+    <title>victoryFor()</title>
+<indexterm><primary>victoryFor</primary><secondary>Final</secondary></indexterm>
+<indexterm><primary>Final</primary><secondary>victoryFor</secondary></indexterm>
+<para><computeroutput>def Final.victoryFor ( board,  sign)</computeroutput></para><programlisting linenumbering="unnumbered">00048 <emphasis role="keyword">def&#32;</emphasis><link linkend="_namespace_final_1a82bd9535b8592dc8620747e66c80fa1b">victoryFor</link>(board,&#32;sign):
+00049 
+00050 &#32;&#32;&#32;&#32;print(<emphasis role="stringliteral">&apos;Checking&#32;to&#32;see&#32;if&#32;Player&apos;</emphasis>,&#32;sign,&#32;<emphasis role="stringliteral">&apos;is&#32;the&#32;winner!&apos;</emphasis>)
+00051 
+00052 &#32;&#32;&#32;&#32;<emphasis role="keywordflow">if</emphasis>&#32;board[0][0]&#32;==&#32;sign&#32;<emphasis role="keywordflow">and</emphasis>&#32;board[0][1]&#32;==&#32;sign&#32;<emphasis role="keywordflow">and</emphasis>&#32;board[0][2]&#32;==&#32;sign:
+00053 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;print(<emphasis role="stringliteral">&apos;Player&apos;</emphasis>,&#32;sign,&#32;<emphasis role="stringliteral">&apos;is&#32;your&#32;winner!!!&apos;</emphasis>)
+00054 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">return</emphasis>&#32;<emphasis role="keyword">True</emphasis>
+00055 
+00056 &#32;&#32;&#32;&#32;<emphasis role="keywordflow">if</emphasis>&#32;board[1][0]&#32;==&#32;sign&#32;<emphasis role="keywordflow">and</emphasis>&#32;board[1][1]&#32;==&#32;sign&#32;<emphasis role="keywordflow">and</emphasis>&#32;board[1][2]&#32;==&#32;sign:
+00057 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;print(<emphasis role="stringliteral">&apos;Player&apos;</emphasis>,&#32;sign,&#32;<emphasis role="stringliteral">&apos;is&#32;your&#32;winner!!!&apos;</emphasis>)
+00058 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">return</emphasis>&#32;<emphasis role="keyword">True</emphasis>
+00059 
+00060 &#32;&#32;&#32;&#32;<emphasis role="keywordflow">if</emphasis>&#32;board[2][0]&#32;==&#32;sign&#32;<emphasis role="keywordflow">and</emphasis>&#32;board[2][1]&#32;==&#32;sign&#32;<emphasis role="keywordflow">and</emphasis>&#32;board[2][2]&#32;==&#32;sign:
+00061 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;print(<emphasis role="stringliteral">&apos;Player&apos;</emphasis>,&#32;sign,&#32;<emphasis role="stringliteral">&apos;is&#32;your&#32;winner!!!&apos;</emphasis>)
+00062 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">return</emphasis>&#32;<emphasis role="keyword">True</emphasis>
+00063 
+00064 &#32;&#32;&#32;&#32;<emphasis role="keywordflow">if</emphasis>&#32;board[0][0]&#32;==&#32;sign&#32;<emphasis role="keywordflow">and</emphasis>&#32;board[1][0]&#32;==&#32;sign&#32;<emphasis role="keywordflow">and</emphasis>&#32;board[2][0]&#32;==&#32;sign:
+00065 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;print(<emphasis role="stringliteral">&apos;Player&apos;</emphasis>,&#32;sign,&#32;<emphasis role="stringliteral">&apos;is&#32;your&#32;winner!!!&apos;</emphasis>)
+00066 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">return</emphasis>&#32;<emphasis role="keyword">True</emphasis>
+00067 
+00068 &#32;&#32;&#32;&#32;<emphasis role="keywordflow">if</emphasis>&#32;board[0][1]&#32;==&#32;sign&#32;<emphasis role="keywordflow">and</emphasis>&#32;board[1][1]&#32;==&#32;sign&#32;<emphasis role="keywordflow">and</emphasis>&#32;board[2][1]&#32;==&#32;sign:
+00069 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;print(<emphasis role="stringliteral">&apos;Player&apos;</emphasis>,&#32;sign,&#32;<emphasis role="stringliteral">&apos;is&#32;your&#32;winner!!!&apos;</emphasis>)
+00070 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">return</emphasis>&#32;<emphasis role="keyword">True</emphasis>
+00071 
+00072 &#32;&#32;&#32;&#32;<emphasis role="keywordflow">if</emphasis>&#32;board[0][2]&#32;==&#32;sign&#32;<emphasis role="keywordflow">and</emphasis>&#32;board[1][2]&#32;==&#32;sign&#32;<emphasis role="keywordflow">and</emphasis>&#32;board[2][2]&#32;==&#32;sign:
+00073 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;print(<emphasis role="stringliteral">&apos;Player&apos;</emphasis>,&#32;sign,&#32;<emphasis role="stringliteral">&apos;is&#32;your&#32;winner!!!&apos;</emphasis>)
+00074 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">return</emphasis>&#32;<emphasis role="keyword">True</emphasis>
+00075 
+00076 &#32;&#32;&#32;&#32;<emphasis role="keywordflow">if</emphasis>&#32;board[0][0]&#32;==&#32;sign&#32;<emphasis role="keywordflow">and</emphasis>&#32;board[1][1]&#32;==&#32;sign&#32;<emphasis role="keywordflow">and</emphasis>&#32;board[2][2]&#32;==&#32;sign:
+00077 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;print(<emphasis role="stringliteral">&apos;Player&apos;</emphasis>,&#32;sign,&#32;<emphasis role="stringliteral">&apos;is&#32;your&#32;winner!!!&apos;</emphasis>)
+00078 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">return</emphasis>&#32;<emphasis role="keyword">True</emphasis>
+00079 
+00080 &#32;&#32;&#32;&#32;<emphasis role="keywordflow">if</emphasis>&#32;board[2][0]&#32;==&#32;sign&#32;<emphasis role="keywordflow">and</emphasis>&#32;board[1][1]&#32;==&#32;sign&#32;<emphasis role="keywordflow">and</emphasis>&#32;board[0][2]&#32;==&#32;sign:
+00081 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;print(<emphasis role="stringliteral">&apos;Player&apos;</emphasis>,&#32;sign,&#32;<emphasis role="stringliteral">&apos;is&#32;your&#32;winner!!!&apos;</emphasis>)
+00082 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">return</emphasis>&#32;<emphasis role="keyword">True</emphasis>
+00083 
+00084 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;
+00085 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">return</emphasis>&#32;<emphasis role="keyword">False</emphasis>
+00086 
+</programlisting></section>
+</section>
+<section>
+<title>Variable Documentation</title>
+<anchor xml:id="_namespace_final_1a51ae200e38d1d6a97019a704201643d6"/><section>
+    <title>board</title>
+<indexterm><primary>board</primary><secondary>Final</secondary></indexterm>
+<indexterm><primary>Final</primary><secondary>board</secondary></indexterm>
+<para><computeroutput>list Final.board = [[ &apos;1&apos;, &apos;2&apos;, &apos;3&apos; ], [ &apos;4&apos;, &apos;X&apos;, &apos;6&apos; ], [ &apos;7&apos;, &apos;8&apos;, &apos;9&apos; ]]</computeroutput></para></section>
+<anchor xml:id="_namespace_final_1aee62b71150c464a0e3d571c9a387483c"/><section>
+    <title>computer</title>
+<indexterm><primary>computer</primary><secondary>Final</secondary></indexterm>
+<indexterm><primary>Final</primary><secondary>computer</secondary></indexterm>
+<para><computeroutput>string Final.computer = &apos;X&apos;</computeroutput></para></section>
+<anchor xml:id="_namespace_final_1af4c121f8af928d28fe8fbe861181cd40"/><section>
+    <title>human</title>
+<indexterm><primary>human</primary><secondary>Final</secondary></indexterm>
+<indexterm><primary>Final</primary><secondary>human</secondary></indexterm>
+<para><computeroutput>string Final.human = &apos;O&apos;</computeroutput></para></section>
+<anchor xml:id="_namespace_final_1ae1e952199ef12ef1e9e4f72a65d57ba1"/><section>
+    <title>numberOfMoves</title>
+<indexterm><primary>numberOfMoves</primary><secondary>Final</secondary></indexterm>
+<indexterm><primary>Final</primary><secondary>numberOfMoves</secondary></indexterm>
+<para><computeroutput>int Final.numberOfMoves = 1</computeroutput></para></section>
+</section>
+</section>

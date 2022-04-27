@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_dir_0bd06b7d03c6854bd06404f5b4854b5e" xml:lang="en-US">
+<title>Module 3 Directory Reference</title>
+<indexterm><primary>Module 3 Directory Reference</primary></indexterm>
+<simplesect>
+    <title>Directories    </title>
+        <itemizedlist>
+            <listitem><para>directory <link linkend="_dir_fd6cca27c7b217717012da86b391c9f1">quiz</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Files    </title>
+        <itemizedlist>
+            <listitem><para>file <link linkend="_3_81_81_84___l_a_b___questions__and__answers_8py">3.1.1.4_LAB_Questions_and_answers.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="_3_84_81_813_01_l_a_b_01_the_01basics_01of_01lists__the_01_beatles_8py">3.4.1.13 LAB The basics of lists_the Beatles.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__cisco_8_python___lab__3_81_81_810_8py">Cisco.Python_Lab_3.1.1.10.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__cisco_8_python___lab__3_81_81_84_8py">Cisco.Python_Lab_3.1.1.4.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__cisco_8_python___lab__3_82_81_810_8py">Cisco.Python_Lab_3.2.1.10.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__cisco_8_python___lab__3_82_81_811_8py">Cisco.Python_Lab_3.2.1.11.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__cisco_8_python___lab__3_82_81_814_8py">Cisco.Python_Lab_3.2.1.14.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__cisco_8_python___lab__3_82_81_815_8py">Cisco.Python_Lab_3.2.1.15.py</link></para>
+</listitem>
+            <listitem><para>file <link linkend="__cisco_8_python___lab__3_82_81_89_8py">Cisco.Python_Lab_3.2.1.9.py</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

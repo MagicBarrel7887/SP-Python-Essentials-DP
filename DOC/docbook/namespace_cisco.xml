@@ -1,0 +1,283 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespace_cisco" xml:lang="en-US">
+<title>Cisco Namespace Reference</title>
+<indexterm><primary>Cisco</primary></indexterm>
+<simplesect>
+    <title>Functions    </title>
+        <itemizedlist>
+            <listitem><para>def <link linkend="_namespace_cisco_1ac31f777abe756fb4b29a9369858cd111">expression</link> ()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Variables    </title>
+        <itemizedlist>
+            <listitem><para>int <link linkend="_namespace_cisco_1a7194c7b178ddd6ae57abeaddd5155caa">x</link> = 0</para>
+</listitem>
+            <listitem><para>def <link linkend="_namespace_cisco_1a2900ad212e97daecd1c92fc20fcc117d">y</link> = <link linkend="_namespace_cisco_1ac31f777abe756fb4b29a9369858cd111">expression</link>()</para>
+</listitem>
+            <listitem><para>int <link linkend="_namespace_cisco_1ae28e0f8b41cb04212e9d04811a781d36">john</link> = 3</para>
+</listitem>
+            <listitem><para>int <link linkend="_namespace_cisco_1a27291b460dac1c454512a582dcd708dc">mary</link> = 5</para>
+</listitem>
+            <listitem><para>int <link linkend="_namespace_cisco_1a5cf18072f1ea696daf41d93605d63354">adam</link> = 6</para>
+</listitem>
+            <listitem><para><link linkend="_namespace_cisco_1ac75e445bef1e84532bce3e96ed82d92d">sep</link></para>
+</listitem>
+            <listitem><para><link linkend="_namespace_cisco_1a4420aac06f328aa722074787c911578b">end</link></para>
+</listitem>
+            <listitem><para>int <link linkend="_namespace_cisco_1a7f2a10a754b57011641377434342d99d">total_apples</link> = <link linkend="_namespace_cisco_1a5cf18072f1ea696daf41d93605d63354">adam</link> + <link linkend="_namespace_cisco_1ae28e0f8b41cb04212e9d04811a781d36">john</link> + <link linkend="_namespace_cisco_1a27291b460dac1c454512a582dcd708dc">mary</link></para>
+</listitem>
+            <listitem><para>float <link linkend="_namespace_cisco_1af5fa77d48a75c9e02ffe2f954bc18387">kilometers</link> = 12.25</para>
+</listitem>
+            <listitem><para>float <link linkend="_namespace_cisco_1a1fc7c78ff114c57f695bfb0e987d8a31">miles</link> = 7.38</para>
+</listitem>
+            <listitem><para>tuple <link linkend="_namespace_cisco_1a58982ff43c15e23545a46ff368c502be">miles_to_kilometers</link> = (<link linkend="_namespace_cisco_1a1fc7c78ff114c57f695bfb0e987d8a31">miles</link> * 1.609344)</para>
+</listitem>
+            <listitem><para>tuple <link linkend="_namespace_cisco_1a7247a62192b971db634e20a1c2e2e45d">kilometers_to_miles</link> = (<link linkend="_namespace_cisco_1af5fa77d48a75c9e02ffe2f954bc18387">kilometers</link> * 0.62137)</para>
+</listitem>
+            <listitem><para>int <link linkend="_namespace_cisco_1a9fb2b149de7a1d302673528adfe783ac">a</link> = 2</para>
+</listitem>
+            <listitem><para>int <link linkend="_namespace_cisco_1aa440b4e9013b7fbb7f3a826a57fbb69a">seconds</link> = 3600</para>
+</listitem>
+            <listitem><para>tuple <link linkend="_namespace_cisco_1a025cf704a8fd74436df4f9a3fd100b66">c</link> = (1/1) + <link linkend="_namespace_cisco_1a7194c7b178ddd6ae57abeaddd5155caa">x</link></para>
+</listitem>
+            <listitem><para><link linkend="_namespace_cisco_1a9a4effebff616604c5acfb6772ee7a58">hour</link> = int(input(&quot;Starting time (hours): &quot;))</para>
+</listitem>
+            <listitem><para><link linkend="_namespace_cisco_1ac43154497ad1ffc397585ba26132a26d">mins</link> = int(input(&quot;Starting time (minutes): &quot;))</para>
+</listitem>
+            <listitem><para><link linkend="_namespace_cisco_1ac0f4768777c8e5bf6ce7785da2d1fa08">dura</link> = int(input(&quot;Event duration (minutes): &quot;))</para>
+</listitem>
+            <listitem><para>tuple <link linkend="_namespace_cisco_1a986fb9fb32f5c9522d30eb7d50a84149">time_hour</link> = (<link linkend="_namespace_cisco_1a9a4effebff616604c5acfb6772ee7a58">hour</link> + <link linkend="_namespace_cisco_1ac0f4768777c8e5bf6ce7785da2d1fa08">dura</link>//60 + (<link linkend="_namespace_cisco_1ac43154497ad1ffc397585ba26132a26d">mins</link>+ <link linkend="_namespace_cisco_1ac0f4768777c8e5bf6ce7785da2d1fa08">dura</link>%60)//60)%24</para>
+</listitem>
+            <listitem><para><link linkend="_namespace_cisco_1a9fdbbc095a5b5ce07afb1a74816e000d">b</link> = int(input(&quot;Input b &quot;))</para>
+</listitem>
+            <listitem><para><link linkend="_namespace_cisco_1a8208dd53e26ed243719d3fb12fdf4404">spath</link> = input(&quot;Sample input: &quot;)</para>
+</listitem>
+            <listitem><para>string <link linkend="_namespace_cisco_1afe366eb64a12feb8fb534632845d9f36">Spathiphyllum</link> = &quot;Spathiphyllum&quot;</para>
+</listitem>
+            <listitem><para>string <link linkend="_namespace_cisco_1a831e66b32a4676957b781ba4ee86e0a1">spathiphyllum</link> = &quot;spathiphyllum&quot;</para>
+</listitem>
+            <listitem><para><link linkend="_namespace_cisco_1af7b7583f51868a828e0e2ca9b70321c4">number</link> = int(input(&quot;Sample input: &quot;))</para>
+</listitem>
+            <listitem><para>bool <link linkend="_namespace_cisco_1adbdaa6ba9cfea20b61d9dcb006566535">Expected</link> = False</para>
+</listitem>
+            <listitem><para><link linkend="_namespace_cisco_1a1df934710c2815320848fc6779838e16">user_word</link> = input()</para>
+</listitem>
+            <listitem><para><link linkend="_namespace_cisco_1ab1c8b9528844ca7620175522b79afa97">income</link> = float(input(&quot;Enter the annual income: &quot;))</para>
+</listitem>
+            <listitem><para>float <link linkend="_namespace_cisco_1a48fa64f65e0a69d3bf065edd6bccadb7">tax</link> = 0.0</para>
+</listitem>
+            <listitem><para><link linkend="_namespace_cisco_1a3751ace599cf2b39ed56e8a5f44b6e4a">nete</link> = int(input(&quot;input blocks&quot;))</para>
+</listitem>
+            <listitem><para>int <link linkend="_namespace_cisco_1a815d367cd29f0dc894ce380524b7ff50">i</link> = 0</para>
+</listitem>
+            <listitem><para>int <link linkend="_namespace_cisco_1ab3bfb42f57ba5ec19e31eb321af4bb96">hisssss</link> = 0</para>
+</listitem>
+            <listitem><para><link linkend="_namespace_cisco_1af4bd7c8a357622f47b18dc100c899acc">tem_c0</link> = int(input(&quot;enter data : &quot;))</para>
+</listitem>
+            <listitem><para><link linkend="_namespace_cisco_1a004efc7c6ce5bfb0490e69048bd242fb">c0</link> = <link linkend="_namespace_cisco_1af4bd7c8a357622f47b18dc100c899acc">tem_c0</link></para>
+</listitem>
+            <listitem><para>int <link linkend="_namespace_cisco_1a1964c14b2da0c190c1fd3dbb73f0ebe7">steps</link> = 0</para>
+</listitem>
+            <listitem><para>string <link linkend="_namespace_cisco_1a04982ebd2a5a80e043442fc57d90a1db">passw</link> = &quot;chupacabra&quot;</para>
+</listitem>
+            <listitem><para><link linkend="_namespace_cisco_1a7aaab3dae54e7f704e193720efb6a2be">in_pass</link> = input(&quot;enter secret &quot;,&quot;\n&quot;)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Function Documentation</title>
+<anchor xml:id="_namespace_cisco_1ac31f777abe756fb4b29a9369858cd111"/><section>
+    <title>expression()</title>
+<indexterm><primary>expression</primary><secondary>Cisco</secondary></indexterm>
+<indexterm><primary>Cisco</primary><secondary>expression</secondary></indexterm>
+<para><computeroutput>def Cisco.expression ( )</computeroutput></para><programlisting linenumbering="unnumbered">00057 &#32;&#32;&#32;&#32;<emphasis role="keyword">def&#32;</emphasis><link linkend="_namespace_cisco_1ac31f777abe756fb4b29a9369858cd111">expression</link>():
+00058 &#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<emphasis role="keywordflow">return</emphasis>&#32;3*x**&#32;3&#32;-&#32;2*x**2&#32;+&#32;3*x-1
+00059 
+</programlisting></section>
+</section>
+<section>
+<title>Variable Documentation</title>
+<anchor xml:id="_namespace_cisco_1a9fb2b149de7a1d302673528adfe783ac"/><section>
+    <title>a</title>
+<indexterm><primary>a</primary><secondary>Cisco</secondary></indexterm>
+<indexterm><primary>Cisco</primary><secondary>a</secondary></indexterm>
+<para><computeroutput>Cisco.a = 2</computeroutput></para></section>
+<anchor xml:id="_namespace_cisco_1a5cf18072f1ea696daf41d93605d63354"/><section>
+    <title>adam</title>
+<indexterm><primary>adam</primary><secondary>Cisco</secondary></indexterm>
+<indexterm><primary>Cisco</primary><secondary>adam</secondary></indexterm>
+<para><computeroutput>Cisco.adam = 6</computeroutput></para></section>
+<anchor xml:id="_namespace_cisco_1a9fdbbc095a5b5ce07afb1a74816e000d"/><section>
+    <title>b</title>
+<indexterm><primary>b</primary><secondary>Cisco</secondary></indexterm>
+<indexterm><primary>Cisco</primary><secondary>b</secondary></indexterm>
+<para><computeroutput>Cisco.b = int(input(&quot;Input b &quot;))</computeroutput></para></section>
+<anchor xml:id="_namespace_cisco_1a025cf704a8fd74436df4f9a3fd100b66"/><section>
+    <title>c</title>
+<indexterm><primary>c</primary><secondary>Cisco</secondary></indexterm>
+<indexterm><primary>Cisco</primary><secondary>c</secondary></indexterm>
+<para><computeroutput>tuple Cisco.c = (1/1) + <link linkend="_namespace_cisco_1a7194c7b178ddd6ae57abeaddd5155caa">x</link></computeroutput></para></section>
+<anchor xml:id="_namespace_cisco_1a004efc7c6ce5bfb0490e69048bd242fb"/><section>
+    <title>c0</title>
+<indexterm><primary>c0</primary><secondary>Cisco</secondary></indexterm>
+<indexterm><primary>Cisco</primary><secondary>c0</secondary></indexterm>
+<para><computeroutput>int Cisco.c0 = <link linkend="_namespace_cisco_1af4bd7c8a357622f47b18dc100c899acc">tem_c0</link></computeroutput></para></section>
+<anchor xml:id="_namespace_cisco_1ac0f4768777c8e5bf6ce7785da2d1fa08"/><section>
+    <title>dura</title>
+<indexterm><primary>dura</primary><secondary>Cisco</secondary></indexterm>
+<indexterm><primary>Cisco</primary><secondary>dura</secondary></indexterm>
+<para><computeroutput>Cisco.dura = int(input(&quot;Event duration (minutes): &quot;))</computeroutput></para></section>
+<anchor xml:id="_namespace_cisco_1a4420aac06f328aa722074787c911578b"/><section>
+    <title>end</title>
+<indexterm><primary>end</primary><secondary>Cisco</secondary></indexterm>
+<indexterm><primary>Cisco</primary><secondary>end</secondary></indexterm>
+<para><computeroutput>Cisco.end</computeroutput></para></section>
+<anchor xml:id="_namespace_cisco_1adbdaa6ba9cfea20b61d9dcb006566535"/><section>
+    <title>Expected</title>
+<indexterm><primary>Expected</primary><secondary>Cisco</secondary></indexterm>
+<indexterm><primary>Cisco</primary><secondary>Expected</secondary></indexterm>
+<para><computeroutput>bool Cisco.Expected = False</computeroutput></para></section>
+<anchor xml:id="_namespace_cisco_1ab3bfb42f57ba5ec19e31eb321af4bb96"/><section>
+    <title>hisssss</title>
+<indexterm><primary>hisssss</primary><secondary>Cisco</secondary></indexterm>
+<indexterm><primary>Cisco</primary><secondary>hisssss</secondary></indexterm>
+<para><computeroutput>int Cisco.hisssss = 0</computeroutput></para></section>
+<anchor xml:id="_namespace_cisco_1a9a4effebff616604c5acfb6772ee7a58"/><section>
+    <title>hour</title>
+<indexterm><primary>hour</primary><secondary>Cisco</secondary></indexterm>
+<indexterm><primary>Cisco</primary><secondary>hour</secondary></indexterm>
+<para><computeroutput>Cisco.hour = int(input(&quot;Starting time (hours): &quot;))</computeroutput></para></section>
+<anchor xml:id="_namespace_cisco_1a815d367cd29f0dc894ce380524b7ff50"/><section>
+    <title>i</title>
+<indexterm><primary>i</primary><secondary>Cisco</secondary></indexterm>
+<indexterm><primary>Cisco</primary><secondary>i</secondary></indexterm>
+<para><computeroutput>int Cisco.i = 0</computeroutput></para></section>
+<anchor xml:id="_namespace_cisco_1a7aaab3dae54e7f704e193720efb6a2be"/><section>
+    <title>in_pass</title>
+<indexterm><primary>in_pass</primary><secondary>Cisco</secondary></indexterm>
+<indexterm><primary>Cisco</primary><secondary>in_pass</secondary></indexterm>
+<para><computeroutput>Cisco.in_pass = input(&quot;enter secret &quot;,&quot;\n&quot;)</computeroutput></para></section>
+<anchor xml:id="_namespace_cisco_1ab1c8b9528844ca7620175522b79afa97"/><section>
+    <title>income</title>
+<indexterm><primary>income</primary><secondary>Cisco</secondary></indexterm>
+<indexterm><primary>Cisco</primary><secondary>income</secondary></indexterm>
+<para><computeroutput>Cisco.income = float(input(&quot;Enter the annual income: &quot;))</computeroutput></para></section>
+<anchor xml:id="_namespace_cisco_1ae28e0f8b41cb04212e9d04811a781d36"/><section>
+    <title>john</title>
+<indexterm><primary>john</primary><secondary>Cisco</secondary></indexterm>
+<indexterm><primary>Cisco</primary><secondary>john</secondary></indexterm>
+<para><computeroutput>Cisco.john = 3</computeroutput></para></section>
+<anchor xml:id="_namespace_cisco_1af5fa77d48a75c9e02ffe2f954bc18387"/><section>
+    <title>kilometers</title>
+<indexterm><primary>kilometers</primary><secondary>Cisco</secondary></indexterm>
+<indexterm><primary>Cisco</primary><secondary>kilometers</secondary></indexterm>
+<para><computeroutput>float Cisco.kilometers = 12.25</computeroutput></para></section>
+<anchor xml:id="_namespace_cisco_1a7247a62192b971db634e20a1c2e2e45d"/><section>
+    <title>kilometers_to_miles</title>
+<indexterm><primary>kilometers_to_miles</primary><secondary>Cisco</secondary></indexterm>
+<indexterm><primary>Cisco</primary><secondary>kilometers_to_miles</secondary></indexterm>
+<para><computeroutput>tuple Cisco.kilometers_to_miles = (<link linkend="_namespace_cisco_1af5fa77d48a75c9e02ffe2f954bc18387">kilometers</link> * 0.62137)</computeroutput></para></section>
+<anchor xml:id="_namespace_cisco_1a27291b460dac1c454512a582dcd708dc"/><section>
+    <title>mary</title>
+<indexterm><primary>mary</primary><secondary>Cisco</secondary></indexterm>
+<indexterm><primary>Cisco</primary><secondary>mary</secondary></indexterm>
+<para><computeroutput>Cisco.mary = 5</computeroutput></para></section>
+<anchor xml:id="_namespace_cisco_1a1fc7c78ff114c57f695bfb0e987d8a31"/><section>
+    <title>miles</title>
+<indexterm><primary>miles</primary><secondary>Cisco</secondary></indexterm>
+<indexterm><primary>Cisco</primary><secondary>miles</secondary></indexterm>
+<para><computeroutput>float Cisco.miles = 7.38</computeroutput></para></section>
+<anchor xml:id="_namespace_cisco_1a58982ff43c15e23545a46ff368c502be"/><section>
+    <title>miles_to_kilometers</title>
+<indexterm><primary>miles_to_kilometers</primary><secondary>Cisco</secondary></indexterm>
+<indexterm><primary>Cisco</primary><secondary>miles_to_kilometers</secondary></indexterm>
+<para><computeroutput>tuple Cisco.miles_to_kilometers = (<link linkend="_namespace_cisco_1a1fc7c78ff114c57f695bfb0e987d8a31">miles</link> * 1.609344)</computeroutput></para></section>
+<anchor xml:id="_namespace_cisco_1ac43154497ad1ffc397585ba26132a26d"/><section>
+    <title>mins</title>
+<indexterm><primary>mins</primary><secondary>Cisco</secondary></indexterm>
+<indexterm><primary>Cisco</primary><secondary>mins</secondary></indexterm>
+<para><computeroutput>int Cisco.mins = int(input(&quot;Starting time (minutes): &quot;))</computeroutput></para></section>
+<anchor xml:id="_namespace_cisco_1a3751ace599cf2b39ed56e8a5f44b6e4a"/><section>
+    <title>nete</title>
+<indexterm><primary>nete</primary><secondary>Cisco</secondary></indexterm>
+<indexterm><primary>Cisco</primary><secondary>nete</secondary></indexterm>
+<para><computeroutput>Cisco.nete = int(input(&quot;input blocks&quot;))</computeroutput></para></section>
+<anchor xml:id="_namespace_cisco_1af7b7583f51868a828e0e2ca9b70321c4"/><section>
+    <title>number</title>
+<indexterm><primary>number</primary><secondary>Cisco</secondary></indexterm>
+<indexterm><primary>Cisco</primary><secondary>number</secondary></indexterm>
+<para><computeroutput>Cisco.number = int(input(&quot;Sample input: &quot;))</computeroutput></para></section>
+<anchor xml:id="_namespace_cisco_1a04982ebd2a5a80e043442fc57d90a1db"/><section>
+    <title>passw</title>
+<indexterm><primary>passw</primary><secondary>Cisco</secondary></indexterm>
+<indexterm><primary>Cisco</primary><secondary>passw</secondary></indexterm>
+<para><computeroutput>string Cisco.passw = &quot;chupacabra&quot;</computeroutput></para></section>
+<anchor xml:id="_namespace_cisco_1aa440b4e9013b7fbb7f3a826a57fbb69a"/><section>
+    <title>seconds</title>
+<indexterm><primary>seconds</primary><secondary>Cisco</secondary></indexterm>
+<indexterm><primary>Cisco</primary><secondary>seconds</secondary></indexterm>
+<para><computeroutput>int Cisco.seconds = 3600</computeroutput></para></section>
+<anchor xml:id="_namespace_cisco_1ac75e445bef1e84532bce3e96ed82d92d"/><section>
+    <title>sep</title>
+<indexterm><primary>sep</primary><secondary>Cisco</secondary></indexterm>
+<indexterm><primary>Cisco</primary><secondary>sep</secondary></indexterm>
+<para><computeroutput>Cisco.sep</computeroutput></para></section>
+<anchor xml:id="_namespace_cisco_1a8208dd53e26ed243719d3fb12fdf4404"/><section>
+    <title>spath</title>
+<indexterm><primary>spath</primary><secondary>Cisco</secondary></indexterm>
+<indexterm><primary>Cisco</primary><secondary>spath</secondary></indexterm>
+<para><computeroutput>Cisco.spath = input(&quot;Sample input: &quot;)</computeroutput></para></section>
+<anchor xml:id="_namespace_cisco_1afe366eb64a12feb8fb534632845d9f36"/><section>
+    <title>Spathiphyllum</title>
+<indexterm><primary>Spathiphyllum</primary><secondary>Cisco</secondary></indexterm>
+<indexterm><primary>Cisco</primary><secondary>Spathiphyllum</secondary></indexterm>
+<para><computeroutput>string Cisco.Spathiphyllum = &quot;Spathiphyllum&quot;</computeroutput></para></section>
+<anchor xml:id="_namespace_cisco_1a831e66b32a4676957b781ba4ee86e0a1"/><section>
+    <title>spathiphyllum</title>
+<indexterm><primary>spathiphyllum</primary><secondary>Cisco</secondary></indexterm>
+<indexterm><primary>Cisco</primary><secondary>spathiphyllum</secondary></indexterm>
+<para><computeroutput>string Cisco.spathiphyllum = &quot;spathiphyllum&quot;</computeroutput></para></section>
+<anchor xml:id="_namespace_cisco_1a1964c14b2da0c190c1fd3dbb73f0ebe7"/><section>
+    <title>steps</title>
+<indexterm><primary>steps</primary><secondary>Cisco</secondary></indexterm>
+<indexterm><primary>Cisco</primary><secondary>steps</secondary></indexterm>
+<para><computeroutput>int Cisco.steps = 0</computeroutput></para></section>
+<anchor xml:id="_namespace_cisco_1a48fa64f65e0a69d3bf065edd6bccadb7"/><section>
+    <title>tax</title>
+<indexterm><primary>tax</primary><secondary>Cisco</secondary></indexterm>
+<indexterm><primary>Cisco</primary><secondary>tax</secondary></indexterm>
+<para><computeroutput>tuple Cisco.tax = 0.0</computeroutput></para></section>
+<anchor xml:id="_namespace_cisco_1af4bd7c8a357622f47b18dc100c899acc"/><section>
+    <title>tem_c0</title>
+<indexterm><primary>tem_c0</primary><secondary>Cisco</secondary></indexterm>
+<indexterm><primary>Cisco</primary><secondary>tem_c0</secondary></indexterm>
+<para><computeroutput>Cisco.tem_c0 = int(input(&quot;enter data : &quot;))</computeroutput></para></section>
+<anchor xml:id="_namespace_cisco_1a986fb9fb32f5c9522d30eb7d50a84149"/><section>
+    <title>time_hour</title>
+<indexterm><primary>time_hour</primary><secondary>Cisco</secondary></indexterm>
+<indexterm><primary>Cisco</primary><secondary>time_hour</secondary></indexterm>
+<para><computeroutput>Cisco.time_hour = (<link linkend="_namespace_cisco_1a9a4effebff616604c5acfb6772ee7a58">hour</link> + <link linkend="_namespace_cisco_1ac0f4768777c8e5bf6ce7785da2d1fa08">dura</link>//60 + (<link linkend="_namespace_cisco_1ac43154497ad1ffc397585ba26132a26d">mins</link>+ <link linkend="_namespace_cisco_1ac0f4768777c8e5bf6ce7785da2d1fa08">dura</link>%60)//60)%24</computeroutput></para></section>
+<anchor xml:id="_namespace_cisco_1a7f2a10a754b57011641377434342d99d"/><section>
+    <title>total_apples</title>
+<indexterm><primary>total_apples</primary><secondary>Cisco</secondary></indexterm>
+<indexterm><primary>Cisco</primary><secondary>total_apples</secondary></indexterm>
+<para><computeroutput>Cisco.total_apples = <link linkend="_namespace_cisco_1a5cf18072f1ea696daf41d93605d63354">adam</link> + <link linkend="_namespace_cisco_1ae28e0f8b41cb04212e9d04811a781d36">john</link> + <link linkend="_namespace_cisco_1a27291b460dac1c454512a582dcd708dc">mary</link></computeroutput></para></section>
+<anchor xml:id="_namespace_cisco_1a1df934710c2815320848fc6779838e16"/><section>
+    <title>user_word</title>
+<indexterm><primary>user_word</primary><secondary>Cisco</secondary></indexterm>
+<indexterm><primary>Cisco</primary><secondary>user_word</secondary></indexterm>
+<para><computeroutput>Cisco.user_word = input()</computeroutput></para></section>
+<anchor xml:id="_namespace_cisco_1a7194c7b178ddd6ae57abeaddd5155caa"/><section>
+    <title>x</title>
+<indexterm><primary>x</primary><secondary>Cisco</secondary></indexterm>
+<indexterm><primary>Cisco</primary><secondary>x</secondary></indexterm>
+<para><computeroutput>int Cisco.x = 0</computeroutput></para></section>
+<anchor xml:id="_namespace_cisco_1a2900ad212e97daecd1c92fc20fcc117d"/><section>
+    <title>y</title>
+<indexterm><primary>y</primary><secondary>Cisco</secondary></indexterm>
+<indexterm><primary>Cisco</primary><secondary>y</secondary></indexterm>
+<para><computeroutput>def Cisco.y = <link linkend="_namespace_cisco_1ac31f777abe756fb4b29a9369858cd111">expression</link>()</computeroutput></para></section>
+</section>
+</section>

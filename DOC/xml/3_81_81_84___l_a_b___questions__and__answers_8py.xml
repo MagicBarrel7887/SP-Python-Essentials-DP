@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="3_81_81_84___l_a_b___questions__and__answers_8py" kind="file" language="Python">
+    <compoundname>3.1.1.4_LAB_Questions_and_answers.py</compoundname>
+    <innernamespace refid="namespace3">3</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespace3_1a95df6fd368fe254cc240ab51d4680e7e" refkind="member"><highlight class="normal">egg<sp/>=<sp/>int(input())</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3" refid="namespace3_1a20ac4a920fa774d4d79e5f66be3f117d" refkind="member"><highlight class="normal">spud<sp/>=<sp/>egg</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keywordflow">if</highlight><highlight class="normal"><sp/>spud<sp/>&gt;=<sp/>100:</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/>print(</highlight><highlight class="stringliteral">&quot;True&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keywordflow">else</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>print(</highlight><highlight class="stringliteral">&quot;false&quot;</highlight><highlight class="normal">)</highlight></codeline>
+    </programlisting>
+    <location file="Module 3/3.1.1.4_LAB_Questions_and_answers.py"/>
+  </compounddef>
+</doxygen>

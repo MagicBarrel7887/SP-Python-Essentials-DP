@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__cisco_8_python___lab__3_81_81_810_8py" xml:lang="en-US">
+<title>Module 3/Cisco.Python_Lab_3.1.1.10.py File Reference</title>
+<indexterm><primary>Module 3/Cisco.Python_Lab_3.1.1.10.py</primary></indexterm>
+<simplesect>
+    <title>Namespaces    </title>
+        <itemizedlist>
+            <listitem><para>namespace <link linkend="_namespace_cisco">Cisco</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Variables    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_namespace_cisco_1a8208dd53e26ed243719d3fb12fdf4404">Cisco.spath</link> = input(&quot;Sample input: &quot;)</para>
+</listitem>
+            <listitem><para>string <link linkend="_namespace_cisco_1afe366eb64a12feb8fb534632845d9f36">Cisco.Spathiphyllum</link> = &quot;Spathiphyllum&quot;</para>
+</listitem>
+            <listitem><para>string <link linkend="_namespace_cisco_1a831e66b32a4676957b781ba4ee86e0a1">Cisco.spathiphyllum</link> = &quot;spathiphyllum&quot;</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

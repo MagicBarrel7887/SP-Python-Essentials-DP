@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespace3" xml:lang="en-US">
+<title>3 Namespace Reference</title>
+<indexterm><primary>3</primary></indexterm>
+<simplesect>
+    <title>Variables    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_namespace3_1a95df6fd368fe254cc240ab51d4680e7e">egg</link> = int(input())</para>
+</listitem>
+            <listitem><para><link linkend="_namespace3_1a20ac4a920fa774d4d79e5f66be3f117d">spud</link> = <link linkend="_namespace3_1a95df6fd368fe254cc240ab51d4680e7e">egg</link></para>
+</listitem>
+            <listitem><para>list <link linkend="_namespace3_1a6a79a292e7222cf2fd240cfaa744195b">beatles</link> = []</para>
+</listitem>
+            <listitem><para>list <link linkend="_namespace3_1ab994b076a9bdff4b3233f6176238fd2d">alt_members</link> = [&quot;Stu Sutcliffe&quot;, &quot;Pete Best&quot;]</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Variable Documentation</title>
+<anchor xml:id="_namespace3_1ab994b076a9bdff4b3233f6176238fd2d"/><section>
+    <title>alt_members</title>
+<indexterm><primary>alt_members</primary><secondary>3</secondary></indexterm>
+<indexterm><primary>3</primary><secondary>alt_members</secondary></indexterm>
+<para><computeroutput>list 3.alt_members = [&quot;Stu Sutcliffe&quot;, &quot;Pete Best&quot;]</computeroutput></para></section>
+<anchor xml:id="_namespace3_1a6a79a292e7222cf2fd240cfaa744195b"/><section>
+    <title>beatles</title>
+<indexterm><primary>beatles</primary><secondary>3</secondary></indexterm>
+<indexterm><primary>3</primary><secondary>beatles</secondary></indexterm>
+<para><computeroutput>list 3.beatles = []</computeroutput></para></section>
+<anchor xml:id="_namespace3_1a95df6fd368fe254cc240ab51d4680e7e"/><section>
+    <title>egg</title>
+<indexterm><primary>egg</primary><secondary>3</secondary></indexterm>
+<indexterm><primary>3</primary><secondary>egg</secondary></indexterm>
+<para><computeroutput>3.egg = int(input())</computeroutput></para></section>
+<anchor xml:id="_namespace3_1a20ac4a920fa774d4d79e5f66be3f117d"/><section>
+    <title>spud</title>
+<indexterm><primary>spud</primary><secondary>3</secondary></indexterm>
+<indexterm><primary>3</primary><secondary>spud</secondary></indexterm>
+<para><computeroutput>3.spud = <link linkend="_namespace3_1a95df6fd368fe254cc240ab51d4680e7e">egg</link></computeroutput></para></section>
+</section>
+</section>

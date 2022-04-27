@@ -1,0 +1,567 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="namespace_cisco" kind="namespace" language="Python">
+    <compoundname>Cisco</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="namespace_cisco_1a7194c7b178ddd6ae57abeaddd5155caa" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Cisco::x</definition>
+        <argsstring></argsstring>
+        <name>x</name>
+        <qualifiedname>Cisco.x</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Module 2/Cisco.Python_Lab_2.4.1.10.py" line="45" column="1" bodyfile="Module 2/Cisco.Python_Lab_2.4.1.10.py" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_cisco_1a2900ad212e97daecd1c92fc20fcc117d" prot="public" static="no" mutable="no">
+        <type>def</type>
+        <definition>def Cisco.y</definition>
+        <argsstring></argsstring>
+        <name>y</name>
+        <qualifiedname>Cisco.y</qualifiedname>
+        <initializer>=  <ref refid="namespace_cisco_1ac31f777abe756fb4b29a9369858cd111" kindref="member">expression</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Module 2/Cisco.Python_Lab_2.4.1.10.py" line="61" column="1" bodyfile="Module 2/Cisco.Python_Lab_2.4.1.10.py" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_cisco_1ae28e0f8b41cb04212e9d04811a781d36" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>Cisco.john</definition>
+        <argsstring></argsstring>
+        <name>john</name>
+        <qualifiedname>Cisco.john</qualifiedname>
+        <initializer>=  3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Module 2/Cisco.Python_Lab_2.4.1.7.py" line="1" column="1" bodyfile="Module 2/Cisco.Python_Lab_2.4.1.7.py" bodystart="1" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_cisco_1a27291b460dac1c454512a582dcd708dc" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>Cisco.mary</definition>
+        <argsstring></argsstring>
+        <name>mary</name>
+        <qualifiedname>Cisco.mary</qualifiedname>
+        <initializer>=  5</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Module 2/Cisco.Python_Lab_2.4.1.7.py" line="2" column="1" bodyfile="Module 2/Cisco.Python_Lab_2.4.1.7.py" bodystart="2" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_cisco_1a5cf18072f1ea696daf41d93605d63354" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>Cisco.adam</definition>
+        <argsstring></argsstring>
+        <name>adam</name>
+        <qualifiedname>Cisco.adam</qualifiedname>
+        <initializer>=  6</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Module 2/Cisco.Python_Lab_2.4.1.7.py" line="3" column="1" bodyfile="Module 2/Cisco.Python_Lab_2.4.1.7.py" bodystart="3" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_cisco_1ac75e445bef1e84532bce3e96ed82d92d" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Cisco.sep</definition>
+        <argsstring></argsstring>
+        <name>sep</name>
+        <qualifiedname>Cisco.sep</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Module 2/Cisco.Python_Lab_2.4.1.7.py" line="5" column="1" bodyfile="Module 2/Cisco.Python_Lab_2.4.1.7.py" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_cisco_1a4420aac06f328aa722074787c911578b" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Cisco.end</definition>
+        <argsstring></argsstring>
+        <name>end</name>
+        <qualifiedname>Cisco.end</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Module 2/Cisco.Python_Lab_2.4.1.7.py" line="5" column="1" bodyfile="Module 2/Cisco.Python_Lab_2.4.1.7.py" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_cisco_1a7f2a10a754b57011641377434342d99d" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>Cisco.total_apples</definition>
+        <argsstring></argsstring>
+        <name>total_apples</name>
+        <qualifiedname>Cisco.total_apples</qualifiedname>
+        <initializer>=  <ref refid="namespace_cisco_1a5cf18072f1ea696daf41d93605d63354" kindref="member">adam</ref> + <ref refid="namespace_cisco_1ae28e0f8b41cb04212e9d04811a781d36" kindref="member">john</ref> + <ref refid="namespace_cisco_1a27291b460dac1c454512a582dcd708dc" kindref="member">mary</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Module 2/Cisco.Python_Lab_2.4.1.7.py" line="8" column="1" bodyfile="Module 2/Cisco.Python_Lab_2.4.1.7.py" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_cisco_1af5fa77d48a75c9e02ffe2f954bc18387" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Cisco.kilometers</definition>
+        <argsstring></argsstring>
+        <name>kilometers</name>
+        <qualifiedname>Cisco.kilometers</qualifiedname>
+        <initializer>=  12.25</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Module 2/Cisco.Python_Lab_2.4.1.9.py" line="1" column="1" bodyfile="Module 2/Cisco.Python_Lab_2.4.1.9.py" bodystart="1" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_cisco_1a1fc7c78ff114c57f695bfb0e987d8a31" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>float Cisco.miles</definition>
+        <argsstring></argsstring>
+        <name>miles</name>
+        <qualifiedname>Cisco.miles</qualifiedname>
+        <initializer>=  7.38</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Module 2/Cisco.Python_Lab_2.4.1.9.py" line="2" column="1" bodyfile="Module 2/Cisco.Python_Lab_2.4.1.9.py" bodystart="2" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_cisco_1a58982ff43c15e23545a46ff368c502be" prot="public" static="no" mutable="no">
+        <type>tuple</type>
+        <definition>tuple Cisco.miles_to_kilometers</definition>
+        <argsstring></argsstring>
+        <name>miles_to_kilometers</name>
+        <qualifiedname>Cisco.miles_to_kilometers</qualifiedname>
+        <initializer>=  (<ref refid="namespace_cisco_1a1fc7c78ff114c57f695bfb0e987d8a31" kindref="member">miles</ref> * 1.609344)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Module 2/Cisco.Python_Lab_2.4.1.9.py" line="4" column="1" bodyfile="Module 2/Cisco.Python_Lab_2.4.1.9.py" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_cisco_1a7247a62192b971db634e20a1c2e2e45d" prot="public" static="no" mutable="no">
+        <type>tuple</type>
+        <definition>tuple Cisco.kilometers_to_miles</definition>
+        <argsstring></argsstring>
+        <name>kilometers_to_miles</name>
+        <qualifiedname>Cisco.kilometers_to_miles</qualifiedname>
+        <initializer>=  (<ref refid="namespace_cisco_1af5fa77d48a75c9e02ffe2f954bc18387" kindref="member">kilometers</ref> * 0.62137)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Module 2/Cisco.Python_Lab_2.4.1.9.py" line="5" column="1" bodyfile="Module 2/Cisco.Python_Lab_2.4.1.9.py" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_cisco_1a9fb2b149de7a1d302673528adfe783ac" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>Cisco.a</definition>
+        <argsstring></argsstring>
+        <name>a</name>
+        <qualifiedname>Cisco.a</qualifiedname>
+        <initializer>=  2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Module 2/Cisco.Python_Lab_2.5.1.2.py" line="5" column="1" bodyfile="Module 2/Cisco.Python_Lab_2.5.1.2.py" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_cisco_1aa440b4e9013b7fbb7f3a826a57fbb69a" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Cisco.seconds</definition>
+        <argsstring></argsstring>
+        <name>seconds</name>
+        <qualifiedname>Cisco.seconds</qualifiedname>
+        <initializer>=  3600</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Module 2/Cisco.Python_Lab_2.5.1.2.py" line="6" column="1" bodyfile="Module 2/Cisco.Python_Lab_2.5.1.2.py" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_cisco_1a025cf704a8fd74436df4f9a3fd100b66" prot="public" static="no" mutable="no">
+        <type>tuple</type>
+        <definition>tuple Cisco::c</definition>
+        <argsstring></argsstring>
+        <name>c</name>
+        <qualifiedname>Cisco.c</qualifiedname>
+        <initializer>=  (1/1) + <ref refid="namespace_cisco_1a7194c7b178ddd6ae57abeaddd5155caa" kindref="member">x</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Module 2/Cisco.Python_Lab_2.6.1.10.py" line="43" column="1" bodyfile="Module 2/Cisco.Python_Lab_2.6.1.10.py" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_cisco_1a9a4effebff616604c5acfb6772ee7a58" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Cisco.hour</definition>
+        <argsstring></argsstring>
+        <name>hour</name>
+        <qualifiedname>Cisco.hour</qualifiedname>
+        <initializer>=  int(input(&quot;Starting time (hours): &quot;))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Module 2/Cisco.Python_Lab_2.6.1.11.py" line="1" column="1" bodyfile="Module 2/Cisco.Python_Lab_2.6.1.11.py" bodystart="1" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_cisco_1ac43154497ad1ffc397585ba26132a26d" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>int Cisco::mins</definition>
+        <argsstring></argsstring>
+        <name>mins</name>
+        <qualifiedname>Cisco.mins</qualifiedname>
+        <initializer>=  int(input(&quot;Starting time (minutes): &quot;))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Module 2/Cisco.Python_Lab_2.6.1.11.py" line="2" column="1" bodyfile="Module 2/Cisco.Python_Lab_2.6.1.11.py" bodystart="2" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_cisco_1ac0f4768777c8e5bf6ce7785da2d1fa08" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Cisco.dura</definition>
+        <argsstring></argsstring>
+        <name>dura</name>
+        <qualifiedname>Cisco.dura</qualifiedname>
+        <initializer>=  int(input(&quot;Event duration (minutes): &quot;))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Module 2/Cisco.Python_Lab_2.6.1.11.py" line="3" column="1" bodyfile="Module 2/Cisco.Python_Lab_2.6.1.11.py" bodystart="3" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_cisco_1a986fb9fb32f5c9522d30eb7d50a84149" prot="public" static="no" mutable="no">
+        <type>tuple</type>
+        <definition>Cisco.time_hour</definition>
+        <argsstring></argsstring>
+        <name>time_hour</name>
+        <qualifiedname>Cisco.time_hour</qualifiedname>
+        <initializer>=  (<ref refid="namespace_cisco_1a9a4effebff616604c5acfb6772ee7a58" kindref="member">hour</ref> + <ref refid="namespace_cisco_1ac0f4768777c8e5bf6ce7785da2d1fa08" kindref="member">dura</ref>//60 + (<ref refid="namespace_cisco_1ac43154497ad1ffc397585ba26132a26d" kindref="member">mins</ref>+ <ref refid="namespace_cisco_1ac0f4768777c8e5bf6ce7785da2d1fa08" kindref="member">dura</ref>%60)//60)%24</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Module 2/Cisco.Python_Lab_2.6.1.11.py" line="6" column="1" bodyfile="Module 2/Cisco.Python_Lab_2.6.1.11.py" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_cisco_1a9fdbbc095a5b5ce07afb1a74816e000d" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Cisco.b</definition>
+        <argsstring></argsstring>
+        <name>b</name>
+        <qualifiedname>Cisco.b</qualifiedname>
+        <initializer>=  int(input(&quot;Input b &quot;))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Module 2/Cisco.Python_Lab_2.6.1.9.py" line="4" column="1" bodyfile="Module 2/Cisco.Python_Lab_2.6.1.9.py" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_cisco_1a8208dd53e26ed243719d3fb12fdf4404" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Cisco.spath</definition>
+        <argsstring></argsstring>
+        <name>spath</name>
+        <qualifiedname>Cisco.spath</qualifiedname>
+        <initializer>=  input(&quot;Sample input: &quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Module 3/Cisco.Python_Lab_3.1.1.10.py" line="1" column="1" bodyfile="Module 3/Cisco.Python_Lab_3.1.1.10.py" bodystart="1" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_cisco_1afe366eb64a12feb8fb534632845d9f36" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Cisco.Spathiphyllum</definition>
+        <argsstring></argsstring>
+        <name>Spathiphyllum</name>
+        <qualifiedname>Cisco.Spathiphyllum</qualifiedname>
+        <initializer>=  &quot;Spathiphyllum&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Module 3/Cisco.Python_Lab_3.1.1.10.py" line="2" column="1" bodyfile="Module 3/Cisco.Python_Lab_3.1.1.10.py" bodystart="2" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_cisco_1a831e66b32a4676957b781ba4ee86e0a1" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Cisco.spathiphyllum</definition>
+        <argsstring></argsstring>
+        <name>spathiphyllum</name>
+        <qualifiedname>Cisco.spathiphyllum</qualifiedname>
+        <initializer>=  &quot;spathiphyllum&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Module 3/Cisco.Python_Lab_3.1.1.10.py" line="3" column="1" bodyfile="Module 3/Cisco.Python_Lab_3.1.1.10.py" bodystart="3" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_cisco_1af7b7583f51868a828e0e2ca9b70321c4" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Cisco.number</definition>
+        <argsstring></argsstring>
+        <name>number</name>
+        <qualifiedname>Cisco.number</qualifiedname>
+        <initializer>=  int(input(&quot;Sample input: &quot;))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Module 3/Cisco.Python_Lab_3.1.1.4.py" line="4" column="1" bodyfile="Module 3/Cisco.Python_Lab_3.1.1.4.py" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_cisco_1adbdaa6ba9cfea20b61d9dcb006566535" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Cisco::Expected</definition>
+        <argsstring></argsstring>
+        <name>Expected</name>
+        <qualifiedname>Cisco.Expected</qualifiedname>
+        <initializer>=  False</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Module 3/Cisco.Python_Lab_3.1.1.4.py" line="6" column="1" bodyfile="Module 3/Cisco.Python_Lab_3.1.1.4.py" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_cisco_1a1df934710c2815320848fc6779838e16" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Cisco.user_word</definition>
+        <argsstring></argsstring>
+        <name>user_word</name>
+        <qualifiedname>Cisco.user_word</qualifiedname>
+        <initializer>=  input()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Module 3/Cisco.Python_Lab_3.2.1.10.py" line="1" column="1" bodyfile="Module 3/Cisco.Python_Lab_3.2.1.10.py" bodystart="1" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_cisco_1ab1c8b9528844ca7620175522b79afa97" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Cisco.income</definition>
+        <argsstring></argsstring>
+        <name>income</name>
+        <qualifiedname>Cisco.income</qualifiedname>
+        <initializer>=  float(input(&quot;Enter the annual income: &quot;))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Module 3/Cisco.Python_Lab_3.2.1.11.py" line="1" column="1" bodyfile="Module 3/Cisco.Python_Lab_3.2.1.11.py" bodystart="1" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_cisco_1a48fa64f65e0a69d3bf065edd6bccadb7" prot="public" static="no" mutable="no">
+        <type>float</type>
+        <definition>tuple Cisco::tax</definition>
+        <argsstring></argsstring>
+        <name>tax</name>
+        <qualifiedname>Cisco.tax</qualifiedname>
+        <initializer>=  0.0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Module 3/Cisco.Python_Lab_3.2.1.11.py" line="3" column="1" bodyfile="Module 3/Cisco.Python_Lab_3.2.1.11.py" bodystart="3" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_cisco_1a3751ace599cf2b39ed56e8a5f44b6e4a" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Cisco.nete</definition>
+        <argsstring></argsstring>
+        <name>nete</name>
+        <qualifiedname>Cisco.nete</qualifiedname>
+        <initializer>=  int(input(&quot;input blocks&quot;))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Module 3/Cisco.Python_Lab_3.2.1.14.py" line="1" column="1" bodyfile="Module 3/Cisco.Python_Lab_3.2.1.14.py" bodystart="1" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_cisco_1a815d367cd29f0dc894ce380524b7ff50" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Cisco::i</definition>
+        <argsstring></argsstring>
+        <name>i</name>
+        <qualifiedname>Cisco.i</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Module 3/Cisco.Python_Lab_3.2.1.14.py" line="3" column="1" bodyfile="Module 3/Cisco.Python_Lab_3.2.1.14.py" bodystart="3" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_cisco_1ab3bfb42f57ba5ec19e31eb321af4bb96" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Cisco.hisssss</definition>
+        <argsstring></argsstring>
+        <name>hisssss</name>
+        <qualifiedname>Cisco.hisssss</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Module 3/Cisco.Python_Lab_3.2.1.14.py" line="5" column="1" bodyfile="Module 3/Cisco.Python_Lab_3.2.1.14.py" bodystart="5" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_cisco_1af4bd7c8a357622f47b18dc100c899acc" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Cisco.tem_c0</definition>
+        <argsstring></argsstring>
+        <name>tem_c0</name>
+        <qualifiedname>Cisco.tem_c0</qualifiedname>
+        <initializer>=  int(input(&quot;enter data : &quot;))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Module 3/Cisco.Python_Lab_3.2.1.15.py" line="4" column="1" bodyfile="Module 3/Cisco.Python_Lab_3.2.1.15.py" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_cisco_1a004efc7c6ce5bfb0490e69048bd242fb" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>int Cisco::c0</definition>
+        <argsstring></argsstring>
+        <name>c0</name>
+        <qualifiedname>Cisco.c0</qualifiedname>
+        <initializer>=  <ref refid="namespace_cisco_1af4bd7c8a357622f47b18dc100c899acc" kindref="member">tem_c0</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Module 3/Cisco.Python_Lab_3.2.1.15.py" line="6" column="1" bodyfile="Module 3/Cisco.Python_Lab_3.2.1.15.py" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_cisco_1a1964c14b2da0c190c1fd3dbb73f0ebe7" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Cisco::steps</definition>
+        <argsstring></argsstring>
+        <name>steps</name>
+        <qualifiedname>Cisco.steps</qualifiedname>
+        <initializer>=  0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Module 3/Cisco.Python_Lab_3.2.1.15.py" line="7" column="1" bodyfile="Module 3/Cisco.Python_Lab_3.2.1.15.py" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_cisco_1a04982ebd2a5a80e043442fc57d90a1db" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Cisco.passw</definition>
+        <argsstring></argsstring>
+        <name>passw</name>
+        <qualifiedname>Cisco.passw</qualifiedname>
+        <initializer>=  &quot;chupacabra&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Module 3/Cisco.Python_Lab_3.2.1.9.py" line="1" column="1" bodyfile="Module 3/Cisco.Python_Lab_3.2.1.9.py" bodystart="1" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_cisco_1a7aaab3dae54e7f704e193720efb6a2be" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>Cisco.in_pass</definition>
+        <argsstring></argsstring>
+        <name>in_pass</name>
+        <qualifiedname>Cisco.in_pass</qualifiedname>
+        <initializer>=  input(&quot;enter secret &quot;,&quot;\n&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Module 3/Cisco.Python_Lab_3.2.1.9.py" line="4" column="1" bodyfile="Module 3/Cisco.Python_Lab_3.2.1.9.py" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="namespace_cisco_1ac31f777abe756fb4b29a9369858cd111" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>def</type>
+        <definition>def Cisco.expression</definition>
+        <argsstring>()</argsstring>
+        <name>expression</name>
+        <qualifiedname>Cisco.expression</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Module 2/Cisco.Python_Lab_2.4.1.10.py" line="57" column="1" bodyfile="Module 2/Cisco.Python_Lab_2.4.1.10.py" bodystart="57" bodyend="59"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Module 2/Cisco.Python_Lab_2.4.1.10.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

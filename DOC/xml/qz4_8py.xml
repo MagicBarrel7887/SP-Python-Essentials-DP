@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="qz4_8py" kind="file" language="Python">
+    <compoundname>qz4.py</compoundname>
+    <innernamespace refid="namespaceqz4">qz4</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespaceqz4" refkind="compound"><highlight class="keywordflow">try</highlight><highlight class="normal">:<sp/></highlight></codeline>
+<codeline lineno="2" refid="namespaceqz4_1ace40a073abc25150b174454e75a31a73" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>first_prompt<sp/>=<sp/>input(</highlight><highlight class="stringliteral">&quot;ent<sp/>1<sp/>&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="3" refid="namespaceqz4_1a405c4bf72321caf00b277a9b4480f089" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>a<sp/>=<sp/>len(first_prompt)</highlight></codeline>
+<codeline lineno="4" refid="namespaceqz4_1a7186752a81e7254e70b44652fa8b283e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>second_prompt<sp/>=<sp/>input(</highlight><highlight class="stringliteral">&quot;ent<sp/>2<sp/>&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="5" refid="namespaceqz4_1a5178460e627043479b5988d510be28a9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>b<sp/>=<sp/>len(second_prompt)<sp/>*<sp/>2</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/>print(a/b)</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keywordflow">except</highlight><highlight class="normal"><sp/>ZeroDivisionError:</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>print(</highlight><highlight class="stringliteral">&quot;err<sp/>divide<sp/>zero!&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keywordflow">except</highlight><highlight class="normal"><sp/>ValueError:</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>print(</highlight><highlight class="stringliteral">&quot;err<sp/>val&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keywordflow">except</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>print(</highlight><highlight class="stringliteral">&quot;Error.Error.Error&quot;</highlight><highlight class="normal">)</highlight></codeline>
+    </programlisting>
+    <location file="Module 4/qz4.py"/>
+  </compounddef>
+</doxygen>

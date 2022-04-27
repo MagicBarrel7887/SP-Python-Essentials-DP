@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="2_84_81_89_8py" kind="file" language="Python">
+    <compoundname>2.4.1.9.py</compoundname>
+    <innernamespace refid="namespace2">2</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespace2_1a18a405b9db0b1b5939ce90b73cd2857e" refkind="member"><highlight class="normal">kilometers<sp/>=<sp/>12.25</highlight></codeline>
+<codeline lineno="2" refid="namespace2_1a3bc4d0e1b9af56e2efc9941b30c1e90c" refkind="member"><highlight class="normal">miles<sp/>=<sp/>7.38</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4" refid="namespace2_1af310cedc1d91979eeb77403052ac4a16" refkind="member"><highlight class="normal">miles_to_kilometers<sp/>=<sp/>miles<sp/>*<sp/>1.609344</highlight></codeline>
+<codeline lineno="5" refid="namespace2_1a56982eaa43067ed623eeb63df7f6fde3" refkind="member"><highlight class="normal">kilometers_to_miles<sp/>=<sp/>kilometers<sp/>/<sp/>1.609344</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal">print(miles,<sp/></highlight><highlight class="stringliteral">&quot;miles<sp/>is&quot;</highlight><highlight class="normal">,<sp/>round(miles_to_kilometers,<sp/>2),<sp/></highlight><highlight class="stringliteral">&quot;kilometers&quot;</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="8"><highlight class="normal">print(kilometers,<sp/></highlight><highlight class="stringliteral">&quot;kilometers<sp/>is&quot;</highlight><highlight class="normal">,<sp/>round(kilometers_to_miles,<sp/>2),<sp/></highlight><highlight class="stringliteral">&quot;miles&quot;</highlight><highlight class="normal">)</highlight></codeline>
+    </programlisting>
+    <location file="Module 2/2.4.1.9.py"/>
+  </compounddef>
+</doxygen>

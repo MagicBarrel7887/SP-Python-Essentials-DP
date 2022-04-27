@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_dir_a9d1bc984fee8341a9ff23b175562faf" xml:lang="en-US">
+<title>mini projets Directory Reference</title>
+<indexterm><primary>mini projets Directory Reference</primary></indexterm>
+<simplesect>
+    <title>Directories    </title>
+        <itemizedlist>
+            <listitem><para>directory <link linkend="_dir_91ae49d7e49200e00dff992841879fae">multiprocessing</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Files    </title>
+        <itemizedlist>
+            <listitem><para>file <link linkend="_wx__test_8py">wx_test.py</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

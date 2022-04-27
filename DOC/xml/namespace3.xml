@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="namespace3" kind="namespace" language="Python">
+    <compoundname>3</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="namespace3_1a95df6fd368fe254cc240ab51d4680e7e" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>3.egg</definition>
+        <argsstring></argsstring>
+        <name>egg</name>
+        <qualifiedname>3.egg</qualifiedname>
+        <initializer>=  int(input())</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Module 3/3.1.1.4_LAB_Questions_and_answers.py" line="1" column="1" bodyfile="Module 3/3.1.1.4_LAB_Questions_and_answers.py" bodystart="1" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace3_1a20ac4a920fa774d4d79e5f66be3f117d" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>3.spud</definition>
+        <argsstring></argsstring>
+        <name>spud</name>
+        <qualifiedname>3.spud</qualifiedname>
+        <initializer>=  <ref refid="namespace3_1a95df6fd368fe254cc240ab51d4680e7e" kindref="member">egg</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Module 3/3.1.1.4_LAB_Questions_and_answers.py" line="3" column="1" bodyfile="Module 3/3.1.1.4_LAB_Questions_and_answers.py" bodystart="3" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace3_1a6a79a292e7222cf2fd240cfaa744195b" prot="public" static="no" mutable="no">
+        <type>list</type>
+        <definition>list 3.beatles</definition>
+        <argsstring></argsstring>
+        <name>beatles</name>
+        <qualifiedname>3.beatles</qualifiedname>
+        <initializer>=  []</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Module 3/3.4.1.13 LAB The basics of lists_the Beatles.py" line="3" column="1" bodyfile="Module 3/3.4.1.13 LAB The basics of lists_the Beatles.py" bodystart="3" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace3_1ab994b076a9bdff4b3233f6176238fd2d" prot="public" static="no" mutable="no">
+        <type>list</type>
+        <definition>list 3.alt_members</definition>
+        <argsstring></argsstring>
+        <name>alt_members</name>
+        <qualifiedname>3.alt_members</qualifiedname>
+        <initializer>=  [&quot;Stu Sutcliffe&quot;, &quot;Pete Best&quot;]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Module 3/3.4.1.13 LAB The basics of lists_the Beatles.py" line="4" column="1" bodyfile="Module 3/3.4.1.13 LAB The basics of lists_the Beatles.py" bodystart="4" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Module 3/3.1.1.4_LAB_Questions_and_answers.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

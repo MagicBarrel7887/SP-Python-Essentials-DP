@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_2_81_81_819___l_a_b___formatting__the__output_8py" xml:lang="en-US">
+<title>Module 2/2.1.1.19_LAB_Formatting_the_output.py File Reference</title>
+<indexterm><primary>Module 2/2.1.1.19_LAB_Formatting_the_output.py</primary></indexterm>
+<simplesect>
+    <title>Namespaces    </title>
+        <itemizedlist>
+            <listitem><para>namespace <link linkend="_namespace2">2</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Variables    </title>
+        <itemizedlist>
+            <listitem><para>list <link linkend="_namespace2_1aee8602051b4f3e94bc9f3cde418dda44">2.stars</link> = [&quot; *&quot;, &quot; * *&quot;, &quot; * *&quot;, &quot; * *&quot;, &quot;*** ***&quot;, &quot; * *&quot;, &quot; * *&quot;, &quot; *****&quot;, &quot; \n &quot;, &quot; done &quot;]</para>
+</listitem>
+            <listitem><para><link linkend="_namespace2_1a58b35af24c9de7e3b4b821b037544b93">2.start</link> = time.time()</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

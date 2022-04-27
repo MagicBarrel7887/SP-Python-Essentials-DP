@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="_cisco_8_python___lab__2_86_81_89_8py" kind="file" language="Python">
+    <compoundname>Cisco.Python_Lab_2.6.1.9.py</compoundname>
+    <innernamespace refid="namespace_cisco">Cisco</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">#<sp/>input<sp/>a<sp/>float<sp/>value<sp/>for<sp/>variable<sp/>a<sp/>here</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">#<sp/>input<sp/>a<sp/>float<sp/>value<sp/>for<sp/>variable<sp/>b<sp/>here</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal">a<sp/>=<sp/>int(input(</highlight><highlight class="stringliteral">&quot;Input<sp/>a<sp/>&quot;</highlight><highlight class="normal">))</highlight></codeline>
+<codeline lineno="4" refid="namespace_cisco_1a9fdbbc095a5b5ce07afb1a74816e000d" refkind="member"><highlight class="normal">b<sp/>=<sp/>int(input(</highlight><highlight class="stringliteral">&quot;Input<sp/>b<sp/>&quot;</highlight><highlight class="normal">))</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal">print(a+b)</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">print(a<sp/>-<sp/>b)</highlight></codeline>
+<codeline lineno="8"><highlight class="normal">print(a<sp/>*<sp/>b)</highlight></codeline>
+<codeline lineno="9"><highlight class="normal">print(a<sp/>/<sp/>b)</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">#<sp/>output<sp/>the<sp/>result<sp/>of<sp/>addition<sp/>here</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="comment">#<sp/>output<sp/>the<sp/>result<sp/>of<sp/>subtraction<sp/>here</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="comment">#<sp/>output<sp/>the<sp/>result<sp/>of<sp/>multiplication<sp/>here</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="comment">#<sp/>output<sp/>the<sp/>result<sp/>of<sp/>division<sp/>here</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal">print(</highlight><highlight class="stringliteral">&quot;\nThat&apos;s<sp/>all,<sp/>folks!&quot;</highlight><highlight class="normal">)</highlight></codeline>
+    </programlisting>
+    <location file="Module 2/Cisco.Python_Lab_2.6.1.9.py"/>
+  </compounddef>
+</doxygen>

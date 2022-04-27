@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__final_8_tic_8_tac_8_toe_8py" xml:lang="en-US">
+<title>Module 4/Final.Tic.Tac.Toe.py File Reference</title>
+<indexterm><primary>Module 4/Final.Tic.Tac.Toe.py</primary></indexterm>
+<simplesect>
+    <title>Namespaces    </title>
+        <itemizedlist>
+            <listitem><para>namespace <link linkend="_namespace_final">Final</link></para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Functions    </title>
+        <itemizedlist>
+            <listitem><para>def <link linkend="_namespace_final_1adfa4d5c078bc39ad34723a932123cf08">Final.displayBoard</link> (board)</para>
+</listitem>
+            <listitem><para>def <link linkend="_namespace_final_1a7c6bc51955b29c7061da4e149d774cf5">Final.enterMove</link> (board)</para>
+</listitem>
+            <listitem><para>def <link linkend="_namespace_final_1aec41efe1d39c4a149f01a4989543ea6e">Final.makeListofFreeFields</link> (board)</para>
+</listitem>
+            <listitem><para>def <link linkend="_namespace_final_1a82bd9535b8592dc8620747e66c80fa1b">Final.victoryFor</link> (board, sign)</para>
+</listitem>
+            <listitem><para>def <link linkend="_namespace_final_1aeee15961e1378690c4d1597f8497fd02">Final.drawMove</link> (board)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Variables    </title>
+        <itemizedlist>
+            <listitem><para>list <link linkend="_namespace_final_1a51ae200e38d1d6a97019a704201643d6">Final.board</link> = [[ &apos;1&apos;, &apos;2&apos;, &apos;3&apos; ], [ &apos;4&apos;, &apos;X&apos;, &apos;6&apos; ], [ &apos;7&apos;, &apos;8&apos;, &apos;9&apos; ]]</para>
+</listitem>
+            <listitem><para>int <link linkend="_namespace_final_1ae1e952199ef12ef1e9e4f72a65d57ba1">Final.numberOfMoves</link> = 1</para>
+</listitem>
+            <listitem><para>string <link linkend="_namespace_final_1af4c121f8af928d28fe8fbe861181cd40">Final.human</link> = &apos;O&apos;</para>
+</listitem>
+            <listitem><para>string <link linkend="_namespace_final_1aee62b71150c464a0e3d571c9a387483c">Final.computer</link> = &apos;X&apos;</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+</section>

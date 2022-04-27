@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="dir_0fa0d7d4fe9192720b728149b8601283" kind="dir">
+    <compoundname>jupyterLab/playsound-on-a-trigger-asink</compoundname>
+    <innerfile refid="mqtt_8py">mqtt.py</innerfile>
+    <innerfile refid="test_8py">test.py</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="jupyterLab/playsound-on-a-trigger-asink/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_namespacemultiprocessing_01_process_01_i_ds" xml:lang="en-US">
+<title>multiprocessing Process IDs Namespace Reference</title>
+<indexterm><primary>multiprocessing Process IDs</primary></indexterm>
+<simplesect>
+    <title>Functions    </title>
+        <itemizedlist>
+            <listitem><para>def <link linkend="_namespacemultiprocessing_01_process_01_i_ds_1aae6bc5e42a2db9d098921c286087da33">info</link> (title)</para>
+</listitem>
+            <listitem><para>def <link linkend="_namespacemultiprocessing_01_process_01_i_ds_1ab06383f384f5f25ba5de944ffe533352">f</link> (name)</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<simplesect>
+    <title>Variables    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_namespacemultiprocessing_01_process_01_i_ds_1af78d5508168b92c6bf40ec1373736b51">p</link> = Process(target=<link linkend="_namespacemultiprocessing_01_process_01_i_ds_1ab06383f384f5f25ba5de944ffe533352">f</link>, args=(&apos;bob&apos;,))</para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Function Documentation</title>
+<anchor xml:id="_namespacemultiprocessing_01_process_01_i_ds_1ab06383f384f5f25ba5de944ffe533352"/><section>
+    <title>f()</title>
+<indexterm><primary>f</primary><secondary>multiprocessing Process IDs</secondary></indexterm>
+<indexterm><primary>multiprocessing Process IDs</primary><secondary>f</secondary></indexterm>
+<para><computeroutput>def multiprocessing Process IDs.f ( name)</computeroutput></para><programlisting linenumbering="unnumbered">00012 <emphasis role="keyword">def&#32;</emphasis><link linkend="_namespacemultiprocessing_01_process_01_i_ds_1ab06383f384f5f25ba5de944ffe533352">f</link>(name):
+00013 &#32;&#32;&#32;&#32;<link linkend="_namespacemultiprocessing_01_process_01_i_ds_1aae6bc5e42a2db9d098921c286087da33">info</link>(<emphasis role="stringliteral">&apos;function&#32;f&apos;</emphasis>)
+00014 &#32;&#32;&#32;&#32;print(<emphasis role="stringliteral">&apos;hello&apos;</emphasis>,&#32;name)
+00015 
+00016 
+</programlisting><para>
+References <link linkend="_l00005">info()</link>.</para>
+Here is the call graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="namespacemultiprocessing_01_process_01_i_ds_ab06383f384f5f25ba5de944ffe533352_cgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+<anchor xml:id="_namespacemultiprocessing_01_process_01_i_ds_1aae6bc5e42a2db9d098921c286087da33"/><section>
+    <title>info()</title>
+<indexterm><primary>info</primary><secondary>multiprocessing Process IDs</secondary></indexterm>
+<indexterm><primary>multiprocessing Process IDs</primary><secondary>info</secondary></indexterm>
+<para><computeroutput>def multiprocessing Process IDs.info ( title)</computeroutput></para><programlisting linenumbering="unnumbered">00005 <emphasis role="keyword">def&#32;</emphasis><link linkend="_namespacemultiprocessing_01_process_01_i_ds_1aae6bc5e42a2db9d098921c286087da33">info</link>(title):
+00006 &#32;&#32;&#32;&#32;print(title)
+00007 &#32;&#32;&#32;&#32;print(<emphasis role="stringliteral">&apos;module&#32;name:&apos;</emphasis>,&#32;__name__)
+00008 &#32;&#32;&#32;&#32;print(<emphasis role="stringliteral">&apos;parent&#32;process:&apos;</emphasis>,&#32;os.getppid())
+00009 &#32;&#32;&#32;&#32;print(<emphasis role="stringliteral">&apos;process&#32;id:&apos;</emphasis>,&#32;os.getpid())
+00010 
+00011 
+</programlisting><para>
+Referenced by <link linkend="_l00012">f()</link>.</para>
+Here is the caller graph for this function:<para>
+    <informalfigure>
+        <mediaobject>
+            <imageobject>
+                <imagedata width="50%" align="center" valign="middle" scalefit="0" fileref="namespacemultiprocessing_01_process_01_i_ds_aae6bc5e42a2db9d098921c286087da33_icgraph.png"></imagedata>
+            </imageobject>
+        </mediaobject>
+    </informalfigure>
+</para>
+</section>
+</section>
+<section>
+<title>Variable Documentation</title>
+<anchor xml:id="_namespacemultiprocessing_01_process_01_i_ds_1af78d5508168b92c6bf40ec1373736b51"/><section>
+    <title>p</title>
+<indexterm><primary>p</primary><secondary>multiprocessing Process IDs</secondary></indexterm>
+<indexterm><primary>multiprocessing Process IDs</primary><secondary>p</secondary></indexterm>
+<para><computeroutput>multiprocessing Process IDs.p = Process(target=<link linkend="_namespacemultiprocessing_01_process_01_i_ds_1ab06383f384f5f25ba5de944ffe533352">f</link>, args=(&apos;bob&apos;,))</computeroutput></para></section>
+</section>
+</section>

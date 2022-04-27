@@ -1,0 +1,17 @@
+\hypertarget{_cisco_8_python___lab__3_82_81_811_8py_source}{}\doxysection{Cisco.\+Python\+\_\+\+Lab\+\_\+3.2.1.11.py}
+\label{_cisco_8_python___lab__3_82_81_811_8py_source}\index{Module 3/Cisco.Python\_Lab\_3.2.1.11.py@{Module 3/Cisco.Python\_Lab\_3.2.1.11.py}}
+\mbox{\hyperlink{_cisco_8_python___lab__3_82_81_811_8py}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\Hypertarget{_cisco_8_python___lab__3_82_81_811_8py_source_l00001}\mbox{\hyperlink{namespace_cisco_ab1c8b9528844ca7620175522b79afa97}{00001}} income = float(input(\textcolor{stringliteral}{"{}Enter the annual income: "{}}))}
+\DoxyCodeLine{\Hypertarget{_cisco_8_python___lab__3_82_81_811_8py_source_l00002}00002 }
+\DoxyCodeLine{\Hypertarget{_cisco_8_python___lab__3_82_81_811_8py_source_l00003}\mbox{\hyperlink{namespace_cisco_a48fa64f65e0a69d3bf065edd6bccadb7}{00003}} tax = 0.0}
+\DoxyCodeLine{\Hypertarget{_cisco_8_python___lab__3_82_81_811_8py_source_l00004}00004 \textcolor{keywordflow}{if} income <= 85528:}
+\DoxyCodeLine{\Hypertarget{_cisco_8_python___lab__3_82_81_811_8py_source_l00005}00005     tax = income*0.18 -\/ 556.02}
+\DoxyCodeLine{\Hypertarget{_cisco_8_python___lab__3_82_81_811_8py_source_l00006}00006     \textcolor{keywordflow}{if} tax < 0:}
+\DoxyCodeLine{\Hypertarget{_cisco_8_python___lab__3_82_81_811_8py_source_l00007}00007         tax = 0}
+\DoxyCodeLine{\Hypertarget{_cisco_8_python___lab__3_82_81_811_8py_source_l00008}00008 \textcolor{keywordflow}{else}:}
+\DoxyCodeLine{\Hypertarget{_cisco_8_python___lab__3_82_81_811_8py_source_l00009}00009     tax = (income-\/85528)*.32 + 14839.02}
+\DoxyCodeLine{\Hypertarget{_cisco_8_python___lab__3_82_81_811_8py_source_l00010}00010 tax = round(tax, 0)}
+\DoxyCodeLine{\Hypertarget{_cisco_8_python___lab__3_82_81_811_8py_source_l00011}00011 print(\textcolor{stringliteral}{"{}The tax is:"{}}, tax)}
+
+\end{DoxyCode}

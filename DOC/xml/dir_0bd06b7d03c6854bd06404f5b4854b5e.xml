@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="dir_0bd06b7d03c6854bd06404f5b4854b5e" kind="dir">
+    <compoundname>Module 3</compoundname>
+    <innerdir refid="dir_fd6cca27c7b217717012da86b391c9f1">Module 3/quiz</innerdir>
+    <innerfile refid="3_81_81_84___l_a_b___questions__and__answers_8py">3.1.1.4_LAB_Questions_and_answers.py</innerfile>
+    <innerfile refid="3_84_81_813_01_l_a_b_01_the_01basics_01of_01lists__the_01_beatles_8py">3.4.1.13 LAB The basics of lists_the Beatles.py</innerfile>
+    <innerfile refid="_cisco_8_python___lab__3_81_81_810_8py">Cisco.Python_Lab_3.1.1.10.py</innerfile>
+    <innerfile refid="_cisco_8_python___lab__3_81_81_84_8py">Cisco.Python_Lab_3.1.1.4.py</innerfile>
+    <innerfile refid="_cisco_8_python___lab__3_82_81_810_8py">Cisco.Python_Lab_3.2.1.10.py</innerfile>
+    <innerfile refid="_cisco_8_python___lab__3_82_81_811_8py">Cisco.Python_Lab_3.2.1.11.py</innerfile>
+    <innerfile refid="_cisco_8_python___lab__3_82_81_814_8py">Cisco.Python_Lab_3.2.1.14.py</innerfile>
+    <innerfile refid="_cisco_8_python___lab__3_82_81_815_8py">Cisco.Python_Lab_3.2.1.15.py</innerfile>
+    <innerfile refid="_cisco_8_python___lab__3_82_81_89_8py">Cisco.Python_Lab_3.2.1.9.py</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Module 3/"/>
+  </compounddef>
+</doxygen>

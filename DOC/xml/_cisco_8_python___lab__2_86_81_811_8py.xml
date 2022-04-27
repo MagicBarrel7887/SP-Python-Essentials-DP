@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.3" xml:lang="en-US">
+  <compounddef id="_cisco_8_python___lab__2_86_81_811_8py" kind="file" language="Python">
+    <compoundname>Cisco.Python_Lab_2.6.1.11.py</compoundname>
+    <innernamespace refid="namespace_cisco">Cisco</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="namespace_cisco_1a9a4effebff616604c5acfb6772ee7a58" refkind="member"><highlight class="normal">hour<sp/>=<sp/>int(input(</highlight><highlight class="stringliteral">&quot;Starting<sp/>time<sp/>(hours):<sp/>&quot;</highlight><highlight class="normal">))</highlight></codeline>
+<codeline lineno="2" refid="namespace_cisco_1ac43154497ad1ffc397585ba26132a26d" refkind="member"><highlight class="normal">mins<sp/>=<sp/>int(input(</highlight><highlight class="stringliteral">&quot;Starting<sp/>time<sp/>(minutes):<sp/>&quot;</highlight><highlight class="normal">))</highlight></codeline>
+<codeline lineno="3" refid="namespace_cisco_1ac0f4768777c8e5bf6ce7785da2d1fa08" refkind="member"><highlight class="normal">dura<sp/>=<sp/>int(input(</highlight><highlight class="stringliteral">&quot;Event<sp/>duration<sp/>(minutes):<sp/>&quot;</highlight><highlight class="normal">))</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="namespace_cisco_1a986fb9fb32f5c9522d30eb7d50a84149" refkind="member"><highlight class="normal">time_hour<sp/>=<sp/>(hour<sp/>+<sp/>dura//60<sp/>+<sp/>(mins+<sp/>dura%60)//60)%24</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal">mins<sp/>=<sp/>(mins<sp/>+<sp/>dura<sp/>)<sp/>&amp;<sp/>60</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal">mins<sp/>=<sp/>mins<sp/>&amp;<sp/>60</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="comment">#<sp/>Write<sp/>your<sp/>code<sp/>here.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal">print(time_hour,<sp/>mins,<sp/>sep=</highlight><highlight class="stringliteral">&quot;:&quot;</highlight><highlight class="normal">)</highlight></codeline>
+    </programlisting>
+    <location file="Module 2/Cisco.Python_Lab_2.6.1.11.py"/>
+  </compounddef>
+</doxygen>

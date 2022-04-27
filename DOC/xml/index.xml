@@ -1,0 +1,241 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.3" xml:lang="en-US">
+  <compound refid="namespace1" kind="namespace"><name>1</name>
+  </compound>
+  <compound refid="namespace2" kind="namespace"><name>2</name>
+    <member refid="namespace2_1a0339c12b2ecf4cf3c0a0307223e7a117" kind="variable"><name>end</name></member>
+    <member refid="namespace2_1a1ffe38a47062daade03ee2cdba0cfc24" kind="variable"><name>sep</name></member>
+    <member refid="namespace2_1aee8602051b4f3e94bc9f3cde418dda44" kind="variable"><name>stars</name></member>
+    <member refid="namespace2_1a58b35af24c9de7e3b4b821b037544b93" kind="variable"><name>start</name></member>
+    <member refid="namespace2_1a8ee05c1f75adee656ec6ce3cea16cacc" kind="variable"><name>x</name></member>
+    <member refid="namespace2_1a05fccc4a73f965b73826ec1208548e5f" kind="variable"><name>y</name></member>
+    <member refid="namespace2_1a18a405b9db0b1b5939ce90b73cd2857e" kind="variable"><name>kilometers</name></member>
+    <member refid="namespace2_1a3bc4d0e1b9af56e2efc9941b30c1e90c" kind="variable"><name>miles</name></member>
+    <member refid="namespace2_1af310cedc1d91979eeb77403052ac4a16" kind="variable"><name>miles_to_kilometers</name></member>
+    <member refid="namespace2_1a56982eaa43067ed623eeb63df7f6fde3" kind="variable"><name>kilometers_to_miles</name></member>
+    <member refid="namespace2_1a32c4145004eee589655328730d8c966d" kind="variable"><name>a</name></member>
+    <member refid="namespace2_1a849f89866d171e78d0c58adcca46d4c0" kind="variable"><name>seconds</name></member>
+  </compound>
+  <compound refid="namespace3" kind="namespace"><name>3</name>
+    <member refid="namespace3_1a95df6fd368fe254cc240ab51d4680e7e" kind="variable"><name>egg</name></member>
+    <member refid="namespace3_1a20ac4a920fa774d4d79e5f66be3f117d" kind="variable"><name>spud</name></member>
+    <member refid="namespace3_1a6a79a292e7222cf2fd240cfaa744195b" kind="variable"><name>beatles</name></member>
+    <member refid="namespace3_1ab994b076a9bdff4b3233f6176238fd2d" kind="variable"><name>alt_members</name></member>
+  </compound>
+  <compound refid="namespace4" kind="namespace"><name>4</name>
+    <member refid="namespace4_1ad65d3c8afb33ec4c9ec4148aced8fc15" kind="variable"><name>test_data</name></member>
+    <member refid="namespace4_1a55fe6cb8acec5073f5cfe24da13a12c0" kind="variable"><name>test_results</name></member>
+    <member refid="namespace4_1a7f205950beeb3694a4af2f18690d914b" kind="variable"><name>yr</name></member>
+    <member refid="namespace4_1af332b7c6896964d2aa046a17704b5a75" kind="variable"><name>end</name></member>
+    <member refid="namespace4_1aaf85c9133402cd142b747b3d848c8111" kind="variable"><name>result</name></member>
+    <member refid="namespace4_1a1d6ecea828f360f62fc47e7c97b72127" kind="variable"><name>test_years</name></member>
+    <member refid="namespace4_1ab6d93261f72a418edbaa96547de1ec3f" kind="variable"><name>test_months</name></member>
+    <member refid="namespace4_1a93f267b11942b5736b0b3d671bc50feb" kind="variable"><name>mo</name></member>
+    <member refid="namespace4_1a667bb1209670933b50e00319d978e299" kind="function"><name>is_year_leap</name></member>
+    <member refid="namespace4_1ab74dc958c3a77c58a31a74ad84578528" kind="function"><name>days_in_month</name></member>
+    <member refid="namespace4_1a7a67e3eba3ee9a0e24f8b8c70e4178b3" kind="function"><name>day_of_year</name></member>
+    <member refid="namespace4_1af982fc797b61d4c0a9be339e25af9f22" kind="function"><name>is_prime</name></member>
+  </compound>
+  <compound refid="namespace_cisco" kind="namespace"><name>Cisco</name>
+    <member refid="namespace_cisco_1a7194c7b178ddd6ae57abeaddd5155caa" kind="variable"><name>x</name></member>
+    <member refid="namespace_cisco_1a2900ad212e97daecd1c92fc20fcc117d" kind="variable"><name>y</name></member>
+    <member refid="namespace_cisco_1ae28e0f8b41cb04212e9d04811a781d36" kind="variable"><name>john</name></member>
+    <member refid="namespace_cisco_1a27291b460dac1c454512a582dcd708dc" kind="variable"><name>mary</name></member>
+    <member refid="namespace_cisco_1a5cf18072f1ea696daf41d93605d63354" kind="variable"><name>adam</name></member>
+    <member refid="namespace_cisco_1ac75e445bef1e84532bce3e96ed82d92d" kind="variable"><name>sep</name></member>
+    <member refid="namespace_cisco_1a4420aac06f328aa722074787c911578b" kind="variable"><name>end</name></member>
+    <member refid="namespace_cisco_1a7f2a10a754b57011641377434342d99d" kind="variable"><name>total_apples</name></member>
+    <member refid="namespace_cisco_1af5fa77d48a75c9e02ffe2f954bc18387" kind="variable"><name>kilometers</name></member>
+    <member refid="namespace_cisco_1a1fc7c78ff114c57f695bfb0e987d8a31" kind="variable"><name>miles</name></member>
+    <member refid="namespace_cisco_1a58982ff43c15e23545a46ff368c502be" kind="variable"><name>miles_to_kilometers</name></member>
+    <member refid="namespace_cisco_1a7247a62192b971db634e20a1c2e2e45d" kind="variable"><name>kilometers_to_miles</name></member>
+    <member refid="namespace_cisco_1a9fb2b149de7a1d302673528adfe783ac" kind="variable"><name>a</name></member>
+    <member refid="namespace_cisco_1aa440b4e9013b7fbb7f3a826a57fbb69a" kind="variable"><name>seconds</name></member>
+    <member refid="namespace_cisco_1a025cf704a8fd74436df4f9a3fd100b66" kind="variable"><name>c</name></member>
+    <member refid="namespace_cisco_1a9a4effebff616604c5acfb6772ee7a58" kind="variable"><name>hour</name></member>
+    <member refid="namespace_cisco_1ac43154497ad1ffc397585ba26132a26d" kind="variable"><name>mins</name></member>
+    <member refid="namespace_cisco_1ac0f4768777c8e5bf6ce7785da2d1fa08" kind="variable"><name>dura</name></member>
+    <member refid="namespace_cisco_1a986fb9fb32f5c9522d30eb7d50a84149" kind="variable"><name>time_hour</name></member>
+    <member refid="namespace_cisco_1a9fdbbc095a5b5ce07afb1a74816e000d" kind="variable"><name>b</name></member>
+    <member refid="namespace_cisco_1a8208dd53e26ed243719d3fb12fdf4404" kind="variable"><name>spath</name></member>
+    <member refid="namespace_cisco_1afe366eb64a12feb8fb534632845d9f36" kind="variable"><name>Spathiphyllum</name></member>
+    <member refid="namespace_cisco_1a831e66b32a4676957b781ba4ee86e0a1" kind="variable"><name>spathiphyllum</name></member>
+    <member refid="namespace_cisco_1af7b7583f51868a828e0e2ca9b70321c4" kind="variable"><name>number</name></member>
+    <member refid="namespace_cisco_1adbdaa6ba9cfea20b61d9dcb006566535" kind="variable"><name>Expected</name></member>
+    <member refid="namespace_cisco_1a1df934710c2815320848fc6779838e16" kind="variable"><name>user_word</name></member>
+    <member refid="namespace_cisco_1ab1c8b9528844ca7620175522b79afa97" kind="variable"><name>income</name></member>
+    <member refid="namespace_cisco_1a48fa64f65e0a69d3bf065edd6bccadb7" kind="variable"><name>tax</name></member>
+    <member refid="namespace_cisco_1a3751ace599cf2b39ed56e8a5f44b6e4a" kind="variable"><name>nete</name></member>
+    <member refid="namespace_cisco_1a815d367cd29f0dc894ce380524b7ff50" kind="variable"><name>i</name></member>
+    <member refid="namespace_cisco_1ab3bfb42f57ba5ec19e31eb321af4bb96" kind="variable"><name>hisssss</name></member>
+    <member refid="namespace_cisco_1af4bd7c8a357622f47b18dc100c899acc" kind="variable"><name>tem_c0</name></member>
+    <member refid="namespace_cisco_1a004efc7c6ce5bfb0490e69048bd242fb" kind="variable"><name>c0</name></member>
+    <member refid="namespace_cisco_1a1964c14b2da0c190c1fd3dbb73f0ebe7" kind="variable"><name>steps</name></member>
+    <member refid="namespace_cisco_1a04982ebd2a5a80e043442fc57d90a1db" kind="variable"><name>passw</name></member>
+    <member refid="namespace_cisco_1a7aaab3dae54e7f704e193720efb6a2be" kind="variable"><name>in_pass</name></member>
+    <member refid="namespace_cisco_1ac31f777abe756fb4b29a9369858cd111" kind="function"><name>expression</name></member>
+  </compound>
+  <compound refid="namespace_final" kind="namespace"><name>Final</name>
+    <member refid="namespace_final_1a51ae200e38d1d6a97019a704201643d6" kind="variable"><name>board</name></member>
+    <member refid="namespace_final_1ae1e952199ef12ef1e9e4f72a65d57ba1" kind="variable"><name>numberOfMoves</name></member>
+    <member refid="namespace_final_1af4c121f8af928d28fe8fbe861181cd40" kind="variable"><name>human</name></member>
+    <member refid="namespace_final_1aee62b71150c464a0e3d571c9a387483c" kind="variable"><name>computer</name></member>
+    <member refid="namespace_final_1adfa4d5c078bc39ad34723a932123cf08" kind="function"><name>displayBoard</name></member>
+    <member refid="namespace_final_1a7c6bc51955b29c7061da4e149d774cf5" kind="function"><name>enterMove</name></member>
+    <member refid="namespace_final_1aec41efe1d39c4a149f01a4989543ea6e" kind="function"><name>makeListofFreeFields</name></member>
+    <member refid="namespace_final_1a82bd9535b8592dc8620747e66c80fa1b" kind="function"><name>victoryFor</name></member>
+    <member refid="namespace_final_1aeee15961e1378690c4d1597f8497fd02" kind="function"><name>drawMove</name></member>
+  </compound>
+  <compound refid="namespacemqtt" kind="namespace"><name>mqtt</name>
+    <member refid="namespacemqtt_1a6ea40616dbcf7aa672effa8c9698e91e" kind="variable"><name>broker</name></member>
+    <member refid="namespacemqtt_1a2761d8d2d50d93a8e528737fbe95167e" kind="variable"><name>port</name></member>
+    <member refid="namespacemqtt_1a71cb992573d174ca8319de2c53c274c9" kind="variable"><name>topic</name></member>
+    <member refid="namespacemqtt_1a5e7c086d73fb9df1bddb16348af24f70" kind="variable"><name>client_id</name></member>
+    <member refid="namespacemqtt_1ac56cb403c0e00a184e8d17c5b17844d1" kind="function"><name>connect_mqtt</name></member>
+    <member refid="namespacemqtt_1ade0576775e7ca369a2fe649952b99a15" kind="function"><name>publish</name></member>
+    <member refid="namespacemqtt_1a7e05d49b2ec875b812003fe651339658" kind="function"><name>run</name></member>
+  </compound>
+  <compound refid="namespacemultiprocessing_01_pool" kind="namespace"><name>multiprocessing Pool</name>
+    <member refid="namespacemultiprocessing_01_pool_1a87d1e41c4af542b16ed126c414c0de20" kind="function"><name>f</name></member>
+  </compound>
+  <compound refid="namespacemultiprocessing_01_process" kind="namespace"><name>multiprocessing Process</name>
+    <member refid="namespacemultiprocessing_01_process_1aeddafb416cb9ed3aeb6b82a2bbc74e7d" kind="variable"><name>p</name></member>
+    <member refid="namespacemultiprocessing_01_process_1abbddd0887b10c578a0db6dd3f9104ea0" kind="function"><name>f</name></member>
+  </compound>
+  <compound refid="namespacemultiprocessing_01_process_01_i_ds" kind="namespace"><name>multiprocessing Process IDs</name>
+    <member refid="namespacemultiprocessing_01_process_01_i_ds_1af78d5508168b92c6bf40ec1373736b51" kind="variable"><name>p</name></member>
+    <member refid="namespacemultiprocessing_01_process_01_i_ds_1aae6bc5e42a2db9d098921c286087da33" kind="function"><name>info</name></member>
+    <member refid="namespacemultiprocessing_01_process_01_i_ds_1ab06383f384f5f25ba5de944ffe533352" kind="function"><name>f</name></member>
+  </compound>
+  <compound refid="namespace_python" kind="namespace"><name>Python</name>
+    <member refid="namespace_python_1ad6e02663aef9e3054d611c2cf650dc18" kind="variable"><name>Gallon</name></member>
+    <member refid="namespace_python_1ac587c9bfe00edb38f498cf0ca4a439c3" kind="variable"><name>Mile</name></member>
+    <member refid="namespace_python_1a7dbc523d0e9e5e25dfb7f67f870b7184" kind="function"><name>liters_100km_to_miles_gallon</name></member>
+    <member refid="namespace_python_1a2e8ed7a63d41ae6ac596b2971b9ebd0a" kind="function"><name>miles_gallon_to_liters_100km</name></member>
+  </compound>
+  <compound refid="namespacequiz" kind="namespace"><name>quiz</name>
+    <member refid="namespacequiz_1ad08a3cc027b4d0239330217d392192ee" kind="variable"><name>my_list</name></member>
+    <member refid="namespacequiz_1a7044e218ca6707ad33d40ce869b352c1" kind="variable"><name>vals</name></member>
+    <member refid="namespacequiz_1a70155c4acfb408e38ce874db57962693" kind="variable"><name>nums</name></member>
+    <member refid="namespacequiz_1aea3eb0f600830fedc3ebd7ef9f0b1ac3" kind="variable"><name>a</name></member>
+    <member refid="namespacequiz_1ad2ad17be52a91ae5448b1fc1024cc134" kind="variable"><name>test_list</name></member>
+    <member refid="namespacequiz_1a2f49841239bc9f614c62510755e6cfd2" kind="variable"><name>x</name></member>
+    <member refid="namespacequiz_1af70f30a90c5dfb4998ea303809f5d960" kind="variable"><name>i</name></member>
+    <member refid="namespacequiz_1aebfd19aff5a8019dc5ef8b1a4a60d977" kind="variable"><name>z</name></member>
+    <member refid="namespacequiz_1a82cd0cca207fee46a14648b6700cdf83" kind="variable"><name>y</name></member>
+    <member refid="namespacequiz_1a02cb88bda5d3f58fa42fefe13594f8c4" kind="variable"><name>h</name></member>
+  </compound>
+  <compound refid="namespaceqz4" kind="namespace"><name>qz4</name>
+    <member refid="namespaceqz4_1ace40a073abc25150b174454e75a31a73" kind="variable"><name>first_prompt</name></member>
+    <member refid="namespaceqz4_1a405c4bf72321caf00b277a9b4480f089" kind="variable"><name>a</name></member>
+    <member refid="namespaceqz4_1a7186752a81e7254e70b44652fa8b283e" kind="variable"><name>second_prompt</name></member>
+    <member refid="namespaceqz4_1a5178460e627043479b5988d510be28a9" kind="variable"><name>b</name></member>
+  </compound>
+  <compound refid="namespacetest" kind="namespace"><name>test</name>
+    <member refid="namespacetest_1aeba184f71cfabaf1623355a8ddf3a740" kind="variable"><name>choices</name></member>
+    <member refid="namespacetest_1ac5ddc75d7029ace1bfb95e457e5c3510" kind="variable"><name>name</name></member>
+    <member refid="namespacetest_1abb7c67a9bddb66e0c3135472011ee35c" kind="variable"><name>block</name></member>
+  </compound>
+  <compound refid="namespacewx__test" kind="namespace"><name>wx_test</name>
+  </compound>
+  <compound refid="mqtt_8py" kind="file"><name>mqtt.py</name>
+  </compound>
+  <compound refid="test_8py" kind="file"><name>test.py</name>
+  </compound>
+  <compound refid="multiprocessing_01_pool_8py" kind="file"><name>multiprocessing Pool.py</name>
+  </compound>
+  <compound refid="multiprocessing_01_process_01_i_ds_8py" kind="file"><name>multiprocessing Process IDs.py</name>
+  </compound>
+  <compound refid="multiprocessing_01_process_8py" kind="file"><name>multiprocessing Process.py</name>
+  </compound>
+  <compound refid="wx__test_8py" kind="file"><name>wx_test.py</name>
+  </compound>
+  <compound refid="1_82_81_85_8py" kind="file"><name>1.2.1.5.py</name>
+  </compound>
+  <compound refid="2_81_81_81_8py" kind="file"><name>2.1.1.1.py</name>
+  </compound>
+  <compound refid="2_81_81_818___l_a_b___the__print_07_08__function_8py" kind="file"><name>2.1.1.18_LAB_The_print()_function.py</name>
+  </compound>
+  <compound refid="2_81_81_819___l_a_b___formatting__the__output_8py" kind="file"><name>2.1.1.19_LAB_Formatting_the_output.py</name>
+  </compound>
+  <compound refid="2_82_81_811___l_a_b___python__literals__-__strings_8py" kind="file"><name>2.2.1.11_LAB_Python_literals_-_strings.py</name>
+  </compound>
+  <compound refid="2_83_81_88_8py" kind="file"><name>2.3.1.8.py</name>
+  </compound>
+  <compound refid="2_84_81_810_8py" kind="file"><name>2.4.1.10.py</name>
+  </compound>
+  <compound refid="2_84_81_89_8py" kind="file"><name>2.4.1.9.py</name>
+  </compound>
+  <compound refid="2_85_81_82_8py" kind="file"><name>2.5.1.2.py</name>
+  </compound>
+  <compound refid="_cisco_8_python___lab__2_84_81_810_8py" kind="file"><name>Cisco.Python_Lab_2.4.1.10.py</name>
+  </compound>
+  <compound refid="_cisco_8_python___lab__2_84_81_87_8py" kind="file"><name>Cisco.Python_Lab_2.4.1.7.py</name>
+  </compound>
+  <compound refid="_cisco_8_python___lab__2_84_81_89_8py" kind="file"><name>Cisco.Python_Lab_2.4.1.9.py</name>
+  </compound>
+  <compound refid="_cisco_8_python___lab__2_85_81_82_8py" kind="file"><name>Cisco.Python_Lab_2.5.1.2.py</name>
+  </compound>
+  <compound refid="_cisco_8_python___lab__2_86_81_810_8py" kind="file"><name>Cisco.Python_Lab_2.6.1.10.py</name>
+  </compound>
+  <compound refid="_cisco_8_python___lab__2_86_81_811_8py" kind="file"><name>Cisco.Python_Lab_2.6.1.11.py</name>
+  </compound>
+  <compound refid="_cisco_8_python___lab__2_86_81_89_8py" kind="file"><name>Cisco.Python_Lab_2.6.1.9.py</name>
+  </compound>
+  <compound refid="3_81_81_84___l_a_b___questions__and__answers_8py" kind="file"><name>3.1.1.4_LAB_Questions_and_answers.py</name>
+  </compound>
+  <compound refid="3_84_81_813_01_l_a_b_01_the_01basics_01of_01lists__the_01_beatles_8py" kind="file"><name>3.4.1.13 LAB The basics of lists_the Beatles.py</name>
+  </compound>
+  <compound refid="_cisco_8_python___lab__3_81_81_810_8py" kind="file"><name>Cisco.Python_Lab_3.1.1.10.py</name>
+  </compound>
+  <compound refid="_cisco_8_python___lab__3_81_81_84_8py" kind="file"><name>Cisco.Python_Lab_3.1.1.4.py</name>
+  </compound>
+  <compound refid="_cisco_8_python___lab__3_82_81_810_8py" kind="file"><name>Cisco.Python_Lab_3.2.1.10.py</name>
+  </compound>
+  <compound refid="_cisco_8_python___lab__3_82_81_811_8py" kind="file"><name>Cisco.Python_Lab_3.2.1.11.py</name>
+  </compound>
+  <compound refid="_cisco_8_python___lab__3_82_81_814_8py" kind="file"><name>Cisco.Python_Lab_3.2.1.14.py</name>
+  </compound>
+  <compound refid="_cisco_8_python___lab__3_82_81_815_8py" kind="file"><name>Cisco.Python_Lab_3.2.1.15.py</name>
+  </compound>
+  <compound refid="_cisco_8_python___lab__3_82_81_89_8py" kind="file"><name>Cisco.Python_Lab_3.2.1.9.py</name>
+  </compound>
+  <compound refid="quiz_8py" kind="file"><name>quiz.py</name>
+  </compound>
+  <compound refid="4_83_81_86_01_l_a_b_01_a_01leap_01year_01writing_01your_01own_01functions_8py" kind="file"><name>4.3.1.6 LAB A leap year writing your own functions.py</name>
+  </compound>
+  <compound refid="4_83_81_87_01_l_a_b_01_how_01many_01days_01writing_01and_01using_01your_01own_01functions_8py" kind="file"><name>4.3.1.7 LAB How many days writing and using your own functions.py</name>
+  </compound>
+  <compound refid="4_83_81_88_01_l_a_b_01_day_01of_01the_01year_01writing_01and_01using_01your_01own_01functions_8py" kind="file"><name>4.3.1.8 LAB Day of the year writing and using your own functions.py</name>
+  </compound>
+  <compound refid="4_83_81_89_01_l_a_b_01_prime_01numbers_01-_01how_01to_01find_01them_01_8py" kind="file"><name>4.3.1.9 LAB Prime numbers - how to find them .py</name>
+  </compound>
+  <compound refid="_final_8_tic_8_tac_8_toe_8py" kind="file"><name>Final.Tic.Tac.Toe.py</name>
+  </compound>
+  <compound refid="_python_8_lab_84_83_81_810_8py" kind="file"><name>Python.Lab.4.3.1.10.py</name>
+  </compound>
+  <compound refid="qz4_8py" kind="file"><name>qz4.py</name>
+  </compound>
+  <compound refid="_r_e_a_d_m_e_8md" kind="file"><name>README.md</name>
+  </compound>
+  <compound refid="md__r_e_a_d_m_e" kind="page"><name>md_README</name>
+  </compound>
+  <compound refid="dir_61b9c66ddfca9e62c09eb8e2c1cb6b17" kind="dir"><name>jupyterLab</name>
+  </compound>
+  <compound refid="dir_a9d1bc984fee8341a9ff23b175562faf" kind="dir"><name>mini projets</name>
+  </compound>
+  <compound refid="dir_f938a8d840fa74f7ad04f31c604612d7" kind="dir"><name>Module 1</name>
+  </compound>
+  <compound refid="dir_d6b91dec10b8f5177a105e68f4ddcc44" kind="dir"><name>Module 2</name>
+  </compound>
+  <compound refid="dir_0bd06b7d03c6854bd06404f5b4854b5e" kind="dir"><name>Module 3</name>
+  </compound>
+  <compound refid="dir_6dd33c5ad641bd43f477733f0886b96b" kind="dir"><name>Module 4</name>
+  </compound>
+  <compound refid="dir_91ae49d7e49200e00dff992841879fae" kind="dir"><name>mini projets/multiprocessing</name>
+  </compound>
+  <compound refid="dir_0fa0d7d4fe9192720b728149b8601283" kind="dir"><name>jupyterLab/playsound-on-a-trigger-asink</name>
+  </compound>
+  <compound refid="dir_fd6cca27c7b217717012da86b391c9f1" kind="dir"><name>Module 3/quiz</name>
+  </compound>
+</doxygenindex>
