@@ -160,6 +160,6 @@ void MyClass::quiz12() {
 void MyClass::quiz13() {
 
 	cout << "/n13" << endl;
-	cout << 018 << endl;
+	// cout << 018 << endl;
 
 }
