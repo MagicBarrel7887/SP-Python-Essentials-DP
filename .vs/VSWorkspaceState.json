@@ -1,11 +1,15 @@
 {
   "ExpandedNodes": [
+<<<<<<< Updated upstream
     "",
     "\\c++",
     "\\c++\\quiz 1",
     "\\c++\\quiz 1\\CMakeProject1",
     "\\c++\\quiz 2",
     "\\c++\\quiz 2\\quiz 2"
+=======
+    ""
+>>>>>>> Stashed changes
   ],
   "PreviewInSolutionExplorer": false
 }
