@@ -18,3 +18,35 @@ c++/quiz 1/CMakeProject1/.vs/CMakeProject1/v16/Browse.VC.db-shm
 /c++/CEP1-MOD1T/out/build/x64-debug/.cmake
 /c++/CEP1-MOD1T/out/build/x64-debug/CMakeFiles
 
+
+#Ignore thumbnails created by Windows
+Thumbs.db
+#Ignore files built by Visual Studio
+*.obj
+*.exe
+*.pdb
+*.user
+*.aps
+*.pch
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.cache
+*.ilk
+*.log
+[Bb]in
+[Dd]ebug*/
+*.lib
+*.sbr
+obj/
+[Rr]elease*/
+_ReSharper*/
+[Tt]est[Rr]esult*
+.vs/
+#Nuget packages folder
+packages/
