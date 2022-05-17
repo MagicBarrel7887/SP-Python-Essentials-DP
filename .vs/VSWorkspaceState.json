@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\c++"
   ],
-  "SelectedNode": "\\jupyterLab",
+  "SelectedNode": "\\c++",
   "PreviewInSolutionExplorer": false
 }
