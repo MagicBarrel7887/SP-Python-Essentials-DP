@@ -1,0 +1,19 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "appliesTo": "Module 4/4.3.1.9 LAB Prime numbers - how to find them .py",
+      "taskLabel": "task-4.3.1.9 LAB Prime numbers - how to find them ",
+      "type": "launch"
+    }
+  ]
+}{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "task-SP-Python-Essentials-DP",
+      "appliesTo": "/",
+      "type": "launch"
+    }
+  ]
+}

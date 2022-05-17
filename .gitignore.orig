@@ -1,0 +1,115 @@
+<<<<<<< HEAD
+
+/c++/quiz 2/quiz 2/.vs/
+
+/c++/quiz 1/CMakeProject1/.vs/
+
+/.vs/-SP-Python-Essentials-DP/v16/Browse.VC.opendb
+/.vs/-SP-Python-Essentials-DP/v16/Browse.VC.db-wal
+/.vs/-SP-Python-Essentials-DP/v16/Browse.VC.db-shm
+/.vs/-SP-Python-Essentials-DP/v16/Browse.VC.db
+/c++/quiz 2/quiz 2/.vs/quiz 2/v16/Browse.VC.opendb
+
+
+/.vs/SP-Python-Essentials-DP
+
+/c++/module-2-quiz-2/out/build/x64-debug/CMakeFiles
+/c++/module-2-quiz-2/out/build/x64-debug/Testing/
+/c++/module-2-quiz-2/.vs/
+
+/c++/CEP1-MOD1T/.vs/CEP1-MOD1T/v17/Browse.VC.opendb
+
+
+
+/c++/CEP1-MOD1T/out/build/x64-debug/.cmake
+/c++/CEP1-MOD1T/out/build/x64-debug/CMakeFiles
+
+
+/c++/cpp-ess1-mod2/.vs/CEP1-MOD1T/v17/Browse.VC.opendb
+
+
+
+/c++/cpp-ess1-mod2/out/build/x64-debug/.cmake
+/c++/cpp-ess1-mod2/out/build/x64-debug/CMakeFiles
+
+=======
+c++/quiz 2/quiz 2/.vs/quiz 2/v16/Browse.VC.opendb
+
+c++/quiz 1/CMakeProject1/.vs/CMakeProject1/v16/Browse.VC.opendb
+c++/quiz 1/CMakeProject1/.vs/CMakeProject1/v16/Browse.VC.db-wal
+c++/quiz 1/CMakeProject1/.vs/CMakeProject1/v16/Browse.VC.db-shm
+
+/.vs/-SP-Python-Essentials-DP/
+/.vs/-SP-Python-Essentials-DP/
+/.vs/-SP-Python-Essentials-DP/
+/.vs/-SP-Python-Essentials-DP/
+
+/c++/quiz 2/quiz 2/.vs/
+
+.vs/SP-Python-Essentials-DP/v16/Browse.VC.opendb
+/c++/module-2-quiz-2/out/build/x64-debug/CMakeFiles
+/c++/module-2-quiz-2/out/build/x64-debug/Testing/Temporary
+
+/.vs/SP-Python-Essentials-DP/v17/Browse.VC.db
+
+/c++/module-2-quiz-2/.vs/module-2-quiz-2/v17/Browse.VC.opendb
+
+/c++/CEP1-MOD1T/.vs/CEP1-MOD1T/v17/Browse.VC.opendb
+
+/.vs/SP-Python-Essentials-DP/v17/Browse.VC.opendb
+.vs/SP-Python-Essentials-DP/v17/Browse.VC.opendb
+
+/c++/CEP1-MOD1T/out/build/x64-debug/.cmake
+/c++/CEP1-MOD1T/out/build/x64-debug/CMakeFiles
+/c++/CEP1-MOD1T/.vs
+>>>>>>> c++
+
+.vs/
+/.vs/
+
+<<<<<<< HEAD
+c++/CEP1-MOD1T/.v
+=======
+.vs/SP-Python-Essentials-DP/v16/.suo
+.vs/SP-Python-Essentials-DP/v16/Browse.VC.db
+.vs/SP-Python-Essentials-DP/v17/.suo
+.vs/VSWorkspaceState.json
+.vs/slnx.sqlite
+.vs/tasks.vs.json 
+
+/c++/cpp-ess1-mod2/out/build/x64-debug/.cmake
+/c++/cpp-ess1-mod2/out/build/x64-debug/CMakeFiles
+/c++/cpp-ess1-mod2/.vs
+>>>>>>> c++
+
+#Ignore thumbnails created by Windows
+Thumbs.db
+#Ignore files built by Visual Studio
+*.obj
+*.exe
+*.pdb
+*.user
+*.aps
+*.pch
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.cache
+*.ilk
+*.log
+[Bb]in
+[Dd]ebug*/
+*.lib
+*.sbr
+obj/
+[Rr]elease*/
+_ReSharper*/
+[Tt]est[Rr]esult*
+.vs/
+#Nuget packages folder
+packages/
