@@ -73,6 +73,7 @@ _ReSharper*/
 .vs/
 #Nuget packages folder
 packages/
+
 c++/quiz 2/quiz 2/.vs/quiz 2/v16/Browse.VC.opendb
 
 c++/quiz 1/CMakeProject1/.vs/CMakeProject1/v16/Browse.VC.opendb
@@ -148,3 +149,8 @@ _ReSharper*/
 .vs/
 #Nuget packages folder
 packages/
+
+c++/CEP1-MOD3T/out/build/x64-debug/CMakeFiles
+c++/CEP1-MOD3T/out/build/x64-debug/.cmake
+c++/CEP1-MOD3T/CMakeLists.txt
+c++/CEP1-MOD3T/out/build/x64-debug/CMakeCache.txt
