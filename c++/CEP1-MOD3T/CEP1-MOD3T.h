@@ -15,7 +15,6 @@ using namespace std;
 class MyClass
 {
 public:
-
 	void qz1();
 
 	void qz2();
@@ -40,7 +39,6 @@ public:
 
 private:
 	void temp();
-
 };
 
 void MyClass::temp()
