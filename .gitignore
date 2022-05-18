@@ -42,6 +42,8 @@ c++/quiz 1/CMakeProject1/.vs/CMakeProject1/v16/Browse.VC.db-shm
 /c++/cpp-ess1-mod2/out/build/x64-debug/CMakeFiles
 /c++/cpp-ess1-mod2/.vs
 
+/c++/cpp-ess1-mod3/out/build/x64-debug/.cmake
+
 #Ignore thumbnails created by Windows
 Thumbs.db
 #Ignore files built by Visual Studio
