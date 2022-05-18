@@ -38,12 +38,8 @@ public:
 
 	void qz10();
 
-
-
 private:
-
 	void temp();
-
 
 };
 
@@ -99,7 +95,7 @@ int MyClass::fun(int p)
 void MyClass::qz4()
 {
 	cout << lls() + lls(1) + lls(1, 2) << endl;
-	cout << "4" << "\n" << endl;
+	cout << "4" << endl;
 }
 
 
