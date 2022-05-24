@@ -8,7 +8,6 @@
 
 using namespace std;
 
-
 class MyClass
 {
 public:
@@ -43,9 +42,7 @@ public:
 	void qz15();
 
 	void qz16();
-
 private:
-
 };
 
 void MyClass::qz1()
@@ -55,7 +52,6 @@ void MyClass::qz1()
 	cout << " ";
 	cout << "1" << endl;
 }
-
 
 void MyClass::qz2()
 {
@@ -177,7 +173,6 @@ void MyClass::qz10()
 	cout << "10" << endl;
 }
 
-
 void MyClass::qz11()
 {
 	int i = 0, j = i++, k = --i;
@@ -222,7 +217,6 @@ void MyClass::qz12()
 	cout << " ";
 	cout << "12" << endl;
 }
-
 
 void MyClass::qz13()
 {
@@ -273,4 +267,5 @@ void MyClass::qz16() {
 	cout << " ";
 	cout << "16" << endl;
 }
+
 // TODO: Reference additional headers your program requires here.
