@@ -1,0 +1,3 @@
+C:/Users/coste/source/repos/MagicBarrel7887/SP-Python-Essentials-DP/c++/CEP1-MOD3Ts/out/build/x64-debug/CMakeFiles/CEP1-MOD3Ts.dir
+C:/Users/coste/source/repos/MagicBarrel7887/SP-Python-Essentials-DP/c++/CEP1-MOD3Ts/out/build/x64-debug/CMakeFiles/edit_cache.dir
+C:/Users/coste/source/repos/MagicBarrel7887/SP-Python-Essentials-DP/c++/CEP1-MOD3Ts/out/build/x64-debug/CMakeFiles/rebuild_cache.dir
