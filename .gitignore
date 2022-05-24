@@ -137,3 +137,5 @@ c++/CEP1-MOD3T/out/build/x64-debug/CMakeFiles
 c++/CEP1-MOD3T/out/build/x64-debug/.cmake
 c++/CEP1-MOD3T/CMakeLists.txt
 c++/CEP1-MOD3T/out/build/x64-debug/CMakeCache.txt
+
+.vs/slnx.sqlite
