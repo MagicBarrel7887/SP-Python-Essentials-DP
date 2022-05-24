@@ -32,6 +32,18 @@ public:
 
 	void qz10();
 
+	void qz11();
+
+	void qz12();
+
+	void qz13();
+
+	void qz14();
+
+	void qz15();
+
+	void qz16();
+
 private:
 
 };
@@ -145,8 +157,6 @@ void MyClass::qz9() {
 	Stru a = { 1,2,'a','b' };
 	Stru b = { 5, 6, 'x','y' };
 
-
-
 	cout << static_cast<char>(b.c1 + a.i1);
 	cout << static_cast<int>(a.c2 - a.c1);
 	cout << static_cast<int>(b.c2 - b.c1);
@@ -168,9 +178,9 @@ void MyClass::qz10()
 }
 
 
-void MyClass::qz10()
+void MyClass::qz11()
 {
-	int i = 1, j = i++, k = --i;
+	int i = 0, j = i++, k = --i;
 
 	if (i > 0){
 		j++;
@@ -195,8 +205,72 @@ void MyClass::qz10()
 		
 
 
-	cout << e;
+	cout << i * j *k;
 	cout << " ";
-	cout << "10" << endl;
+	cout << "11" << endl;
+}
+
+void MyClass::qz12()
+{
+	int i = 3, j = 0;
+	do {
+		i--;
+		j++;
+	} while (i >= 0);
+
+	cout << j;
+	cout << " ";
+	cout << "12" << endl;
+}
+
+
+void MyClass::qz13()
+{
+	struct s
+	{
+		int t;
+	};
+	struct SS
+	{
+		s t;
+	};
+
+	vector<SS> t = { {1},{2} };
+
+	cout << t[0].t.t << t[1].t.t;
+
+	cout << " ";
+	cout << "13" << endl;
+}
+
+void MyClass::qz14() {
+	vector<int> t = { 8,4,3,2,1 };
+	int i;
+
+	for (i = t[4]; i < t[3]; i++)
+		t[i - 1] = -t[3];
+
+	cout << i;
+	cout << " ";
+	cout << "14" << endl;
+}
+
+void MyClass::qz15() {
+	double big = 1e15;
+	double small = 1e-15;
+
+	cout << fixed << big + small;
+	cout << " ";
+	cout << "15" << endl;
+}
+
+void MyClass::qz16() {
+	vector<bool> t(2);
+	for (int i = 0; i < 2; i++)
+		t[1 - i] = !(i % 2);
+
+	cout << t[0] && t[1];
+	cout << " ";
+	cout << "16" << endl;
 }
 // TODO: Reference additional headers your program requires here.

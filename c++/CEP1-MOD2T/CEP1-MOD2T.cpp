@@ -19,6 +19,12 @@ int main()
 	sus.qz8();
 	sus.qz9();
 	sus.qz10();
+	sus.qz11();
+	sus.qz12();
+	sus.qz13();
+	sus.qz14();
+	sus.qz15();
+	sus.qz16();
 	cout << "Hello CMake." << endl;
 	return 0;
 }
