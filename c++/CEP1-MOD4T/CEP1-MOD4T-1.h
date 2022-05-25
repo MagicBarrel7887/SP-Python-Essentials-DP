@@ -5,48 +5,36 @@
 
 using namespace std;
 
-
-
 class MyClasss
 {
 public:
 	void qz0();
 	void qz1();
-
 	void qz2();
-
 	void qz3();
-
 	void qz4();
-
 	void qz5();
-
 	void qz6();
 private:
 };
-
 namespace S {
 	int A = 1;
 }
 namespace S {
 	int B = A + 2;
 }
-
 namespace S1 {
 	int A = 1;
 }
 namespace S2 {
 	int A = 2 ;
 }
-
 namespace SpaceA {
 	int A;
 }
-
 namespace SpaceB {
 	int A;
 }
-
 using namespace SpaceA; 
 using namespace SpaceB;
 

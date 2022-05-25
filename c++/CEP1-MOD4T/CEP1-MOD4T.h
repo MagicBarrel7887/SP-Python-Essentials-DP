@@ -44,7 +44,6 @@ public:
 	void qz15();
 private:
 };
-
 void MyClass::qz0()
 {
 	cout << "H" << endl;
