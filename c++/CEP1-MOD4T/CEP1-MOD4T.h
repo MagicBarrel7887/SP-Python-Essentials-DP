@@ -12,36 +12,22 @@ using namespace std;
 class MyClass
 {
 public:
-	void qz0();
-	void qz1();
-
-	void qz2();
-
-	void qz3();
-
-	void qz4();
-
-	void qz5();
-
-	void qz6();
-
-	void qz7();
-
-	void qz8();
-
-	void qz9();
-
-	void qz10();
-
-	void qz11();
-
-	void qz12();
-
-	void qz13();
-
-	void qz14();
-
-	void qz15();
+void qz0();
+void qz1();
+void qz2();
+void qz3();
+void qz4();
+void qz5();
+void qz6();
+void qz7();
+void qz8();
+void qz9();
+void qz10();
+void qz11();
+void qz12();
+void qz13();
+void qz14();
+void qz15();
 };
 void MyClass::qz0()
 {
