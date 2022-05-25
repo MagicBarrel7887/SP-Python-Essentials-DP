@@ -34,6 +34,11 @@ c++/quiz 1/CMakeProject1/.vs/CMakeProject1/v16/Browse.VC.db-shm
 /c++/CEP1-MOD3T/out/build/x64-debug/CMakeFiles
 /c++/CEP1-MOD3T/.vs
 
+/c++/CEP1-MOD4T/out/build/x64-debug/.cmake
+/c++/CEP1-MOD4T/out/build/x64-debug/CMakeFiles
+/c++/CEP1-MOD4T/.vs
+
+
 .vs/
 /.vs/
 
@@ -139,3 +144,8 @@ c++/CEP1-MOD3T/CMakeLists.txt
 c++/CEP1-MOD3T/out/build/x64-debug/CMakeCache.txt
 
 .vs/slnx.sqlite
+c++/CEP1-MOD4T/out/build/x64-debug/CMakeCache.txt
+c++/CEP1-MOD4T/out/build/x64-debug/cmake_install.cmake
+c++/CEP1-MOD4T/out/build/x64-debug/build.ninja
+c++/CEP1-MOD4T/out/build/x64-debug/.ninja_log
+c++/CEP1-MOD4T/out/build/x64-debug/.ninja_deps
