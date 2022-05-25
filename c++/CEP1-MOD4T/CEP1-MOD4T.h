@@ -42,10 +42,7 @@ public:
 	void qz14();
 
 	void qz15();
-	
-
 private:
-
 };
 
 void MyClass::qz0()
@@ -171,7 +168,6 @@ void MyClass::qz10()
 	cout << "10 \n" << endl;
 }
 
-
 void MyClass::qz11()
 {
 	string s = "1";
@@ -236,5 +232,4 @@ void MyClass::qz15()
 	cout << i/static_cast<float>(s) + int(f)/i + (long)d/s  << endl;
 	cout << "15 \n" << endl;
 }
-
 // TODO: Reference additional headers your program requires here.

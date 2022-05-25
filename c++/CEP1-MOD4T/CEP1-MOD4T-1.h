@@ -22,10 +22,7 @@ public:
 	void qz5();
 
 	void qz6();
-
-
 private:
-
 };
 
 namespace S {
