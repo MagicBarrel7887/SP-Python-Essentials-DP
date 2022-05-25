@@ -5,8 +5,7 @@
 
 using namespace std;
 
-class MyClasss
-{
+class MyClasss{
 public:
 	void qz0();
 	void qz1();
@@ -14,9 +13,8 @@ public:
 	void qz3();
 	void qz4();
 	void qz5();
-	void qz6();
-private:
-};
+	void qz6();};
+
 namespace S {int A = 1;}
 namespace S {int B = A + 2;}
 namespace S1 {int A = 1;}
@@ -26,8 +24,7 @@ namespace SpaceB {int A;}
 using namespace SpaceA; 
 using namespace SpaceB;
 
-void MyClasss::qz0()
-{
+void MyClasss::qz0(){
 	
 	S::A = S::A + 1; {
 		using namespace S;
@@ -49,8 +46,7 @@ void MyClasss::qz2() {
 	cout << "1 \n" << endl;
 }
 
-void MyClasss::qz3()
-{
+void MyClasss::qz3(){
 	SpaceA::A = SpaceB::A = 1;
 
 	cout << A + 1 << endl;

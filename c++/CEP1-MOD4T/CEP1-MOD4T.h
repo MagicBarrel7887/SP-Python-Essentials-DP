@@ -9,8 +9,7 @@
 
 using namespace std;
 
-class MyClass
-{
+class MyClass{
 public:
 void qz0();
 void qz1();
@@ -27,16 +26,13 @@ void qz11();
 void qz12();
 void qz13();
 void qz14();
-void qz15();
-};
-void MyClass::qz0()
-{
+void qz15();};
+void MyClass::qz0(){
 	cout << "H" << endl;
 	cout << "1 \n" << endl;
 }
 
-void MyClass::qz1()
-{
+void MyClass::qz1(){
 	string s1 = "ab";
 	string s2 = "Abc";
 
@@ -48,8 +44,7 @@ void MyClass::qz1()
 	cout << "1 \n" << endl;
 }
 
-void MyClass::qz2()
-{
+void MyClass::qz2(){
 	short s = 1;
 	int i = 2;
 	float f = 4.4;
@@ -59,16 +54,14 @@ void MyClass::qz2()
 	cout << "2 \n" << endl;
 }
 
-void MyClass::qz3()
-{
+void MyClass::qz3(){
 	string s = "a";
 
 	//cout << s << "b" + "c" << endl;
 	cout << "3 \n" << endl;
 }
 
-void MyClass::qz4()
-{
+void MyClass::qz4(){
 	int i = 2;
 	float f = 5.8;
 
@@ -79,8 +72,7 @@ void MyClass::qz4()
 	cout << "4 \n" << endl;
 }
 
-void MyClass::qz5()
-{
+void MyClass::qz5(){
 	int i = 2;
 	string s = "2";
 
@@ -88,8 +80,7 @@ void MyClass::qz5()
 	cout << "5 \n" << endl;
 }
 
-void MyClass::qz6()
-{
+void MyClass::qz6(){
 	string s = "AB";
 	s.append(s).push_back(s[s.length() - 1]);
 
@@ -97,8 +88,7 @@ void MyClass::qz6()
 	cout << "6 \n" << endl;
 }
 
-void MyClass::qz7()
-{
+void MyClass::qz7(){
 	string s1 = "aleph";
 	string s2 = "alpha";
 	string s;
@@ -111,8 +101,7 @@ void MyClass::qz7()
 	cout << "5 \n" << endl;
 }
 
-void MyClass::qz8()
-{
+void MyClass::qz8(){
 	vector<string> t = { "alpha","beta","gamma" };
 	int *cnt = new int[3], *p = &cnt[0];
 
@@ -124,8 +113,7 @@ void MyClass::qz8()
 	cout << "8 \n" << endl;
 }
 
-void MyClass::qz9()
-{
+void MyClass::qz9(){
 	int *it[3];
 
 	for (int i = 0; i < 3; i++)
@@ -143,8 +131,7 @@ void MyClass::qz9()
 	cout << "9 \n" << endl;
 }
 
-void MyClass::qz10()
-{
+void MyClass::qz10(){
 	string s = "0123";
 	cout << s.substr(1,3).substr(2).substr();
 
@@ -152,8 +139,7 @@ void MyClass::qz10()
 	cout << "10 \n" << endl;
 }
 
-void MyClass::qz11()
-{
+void MyClass::qz11(){
 	string s = "1";
 	string s2 = "2";
 	cout << s.compare(s2);
@@ -162,8 +148,7 @@ void MyClass::qz11()
 	cout << "11 \n" << endl;
 }
 
-void MyClass::qz12()
-{
+void MyClass::qz12(){
 	string s = "ABC";
 	for (int i = 1; i < s.length(); i += 2)
 		s[i - 1] = s[i] + 'a' - 'A';
@@ -174,8 +159,7 @@ void MyClass::qz12()
 	cout << "12 \n" << endl;
 }
 
-void MyClass::qz13()
-{
+void MyClass::qz13(){
 	int i = 2;
 	float f = 4.4;
 	//cout << f % static_cast<float>(i);
@@ -184,8 +168,7 @@ void MyClass::qz13()
 	cout << "13 \n" << endl;
 }
 
-void MyClass::qz14()
-{
+void MyClass::qz14(){
 	vector<float*> ft = { new float[3], new float[3], new float[3] };
 	float *p = nullptr;
 
@@ -206,8 +189,7 @@ void MyClass::qz14()
 	cout << "14 \n" << endl;
 }
 
-void MyClass::qz15()
-{
+void MyClass::qz15(){
 	short s = 1;
 	int i = 2;
 	float f = 4.4;
