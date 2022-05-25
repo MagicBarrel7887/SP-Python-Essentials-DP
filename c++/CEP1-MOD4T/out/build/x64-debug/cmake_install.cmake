@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/coste/Documents/GitHub/SP-Python-Essentials-DP/c++/CEP1-MOD4T
+# Install script for directory: C:/Users/coste/source/repos/MagicBarrel7887/SP-Python-Essentials-DP/c++/CEP1-MOD4T
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Users/coste/Documents/GitHub/SP-Python-Essentials-DP/c++/CEP1-MOD4T/out/install/x64-debug")
+  set(CMAKE_INSTALL_PREFIX "C:/Users/coste/source/repos/MagicBarrel7887/SP-Python-Essentials-DP/c++/CEP1-MOD4T/out/install/x64-debug")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/coste/Documents/GitHub/SP-Python-Essentials-DP/c++/CEP1-MOD4T/out/build/x64-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/coste/source/repos/MagicBarrel7887/SP-Python-Essentials-DP/c++/CEP1-MOD4T/out/build/x64-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

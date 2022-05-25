@@ -144,3 +144,8 @@ c++/CEP1-MOD3T/CMakeLists.txt
 c++/CEP1-MOD3T/out/build/x64-debug/CMakeCache.txt
 
 .vs/slnx.sqlite
+c++/CEP1-MOD4T/out/build/x64-debug/CMakeCache.txt
+c++/CEP1-MOD4T/out/build/x64-debug/cmake_install.cmake
+c++/CEP1-MOD4T/out/build/x64-debug/build.ninja
+c++/CEP1-MOD4T/out/build/x64-debug/.ninja_log
+c++/CEP1-MOD4T/out/build/x64-debug/.ninja_deps
