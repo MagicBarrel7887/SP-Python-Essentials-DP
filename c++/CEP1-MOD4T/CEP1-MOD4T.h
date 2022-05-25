@@ -42,7 +42,6 @@ public:
 	void qz14();
 
 	void qz15();
-private:
 };
 void MyClass::qz0()
 {

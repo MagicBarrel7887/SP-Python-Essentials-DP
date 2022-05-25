@@ -17,24 +17,12 @@ public:
 	void qz6();
 private:
 };
-namespace S {
-	int A = 1;
-}
-namespace S {
-	int B = A + 2;
-}
-namespace S1 {
-	int A = 1;
-}
-namespace S2 {
-	int A = 2 ;
-}
-namespace SpaceA {
-	int A;
-}
-namespace SpaceB {
-	int A;
-}
+namespace S {int A = 1;}
+namespace S {int B = A + 2;}
+namespace S1 {int A = 1;}
+namespace S2 {int A = 2 ;}
+namespace SpaceA {int A;}
+namespace SpaceB {int A;}
 using namespace SpaceA; 
 using namespace SpaceB;
 
