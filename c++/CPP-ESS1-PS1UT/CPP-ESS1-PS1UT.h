@@ -18,6 +18,7 @@ public:
 	void qz4();
 	void qz5();
 	void qz6();
+	void qz7();
 };
 
 void MyClass::qz0()
@@ -116,6 +117,20 @@ void MyClass::qz6()
 	cout << "\n" << endl;
 	cout << k << endl;
 	cout << "6" << endl;
+}
+
+void MyClass::qz7()
+{
+	string s1 = "brick";
+	string s2 = "block";
+	string s;
+	s1.swap(s2);
+	s2.swap(s);
+	s.swap(s2);
+
+	cout << "\n" << endl;
+	cout << s1 << endl;
+	cout << "7" << endl;
 }
 
 // TODO: Reference additional headers your program requires here.

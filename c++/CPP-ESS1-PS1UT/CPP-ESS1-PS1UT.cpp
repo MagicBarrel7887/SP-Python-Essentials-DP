@@ -15,6 +15,7 @@ int main()
 	sus.qz4();
 	sus.qz5();
 	sus.qz6();
+	sus.qz7();
 
 	cout << "Hello CMake." << endl;
 	return 0;

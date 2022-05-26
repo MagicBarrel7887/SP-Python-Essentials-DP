@@ -36,10 +36,10 @@ void MyClasss::qz0(){
 
 void MyClasss::qz2() {
 	{ using namespace S1;
-	S2::A = A + 1;
+//	S2::A = A + 1;
 	}
 	{using namespace S2;
-	S1::A = A + 1;
+//	S1::A = A + 1;
 	}
 	cout << S1::A << S2::A << endl;
 	cout << "\n" << endl;
@@ -47,9 +47,9 @@ void MyClasss::qz2() {
 }
 
 void MyClasss::qz3(){
-	SpaceA::A = SpaceB::A = 1;
+//	SpaceA::A = SpaceB::A = 1;
 
-	cout << A + 1 << endl;
+//	cout << A + 1 << endl;
 	cout << "\n" << endl;
 	cout << "3 \n" << endl;
 }
