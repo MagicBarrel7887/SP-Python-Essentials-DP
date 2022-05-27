@@ -5,6 +5,7 @@
 
 #include <iostream>
 #include <string>
+#include <vector>
 
 using namespace std;
 
@@ -19,6 +20,10 @@ public:
 	void qz5();
 	void qz6();
 	void qz7();
+	void qz8();
+	void qz9();
+	void qz10();
+	void qz11();
 };
 
 void MyClass::qz0()
@@ -43,7 +48,6 @@ void MyClass::qz1()
 char do1(char* x) {
 	return *x;
 }
-
 char* do2(char* y)
 {
 	return y;
@@ -131,6 +135,59 @@ void MyClass::qz7()
 	cout << "\n" << endl;
 	cout << s1 << endl;
 	cout << "7" << endl;
+}
+
+
+void MyClass::qz8()
+{
+	int i = 1, k = i << 1;
+	switch (k)
+	{
+	case 1: i += 1;
+		break;
+	case 2: i += 2;
+		break;
+	default: i += 3;
+	}
+	cout << "\n" << endl;
+	cout << i << endl;
+	cout << "8" << endl;
+}
+
+void MyClass::qz9()
+{
+	int a = 2, b = a >> 1;
+	int c = a >> b;
+	int d = 1 << c;
+	int e = d >> d;
+
+	cout << "\n" << endl;
+	cout << e << endl;
+	cout << "9" << endl;
+}
+
+
+void MyClass::qz10()
+{
+	short s = 1;
+	int i = 2;
+	float f = 4.;
+
+	cout << "\n" << endl;
+	cout << i/static_cast<float>(s) + i/2 + i/f << endl;
+	cout << "10" << endl;
+}
+
+void MyClass::qz11()
+{
+	int i, k = 1;
+
+	for (i = 0; i < 3; i += 2)
+		k++;
+
+	cout << "\n" << endl;
+	cout << k << endl;
+	cout << "10" << endl;
 }
 
 // TODO: Reference additional headers your program requires here.

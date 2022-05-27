@@ -6,7 +6,7 @@ cmake_minimum_required (VERSION 3.8)
 project ("CPP-ESS1-PS1UT")
 
 # Add source to this project's executable.
-add_executable (CPP-ESS1-PS1UT "CPP-ESS1-PS1UT.cpp" "CPP-ESS1-PS1UT.h")
+add_executable (CPP-ESS1-PS1UT "CPP-ESS1-PS1UT.cpp" "CPP-ESS1-PS1UT.h" "CPP-ESS1-PS1USS.h")
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
   set_property(TARGET CPP-ESS1-PS1UT PROPERTY CXX_STANDARD 20)

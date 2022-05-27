@@ -2,10 +2,13 @@
 //
 
 #include "CPP-ESS1-PS1UT.h"
+#include "CPP-ESS1-PS1USS.h"
 
 using namespace std;
 
 MyClass sus;
+
+MyClasss sus2;
 
 int main()
 {
@@ -16,6 +19,23 @@ int main()
 	sus.qz5();
 	sus.qz6();
 	sus.qz7();
+	sus.qz8();
+	sus.qz9();
+	sus.qz10();
+	sus.qz11();
+	cout << "------------" << endl;
+
+
+	cout << "------------" << endl;
+	sus2.qz0();
+	sus2.qz1();
+	sus2.qz2();
+	sus2.qz3();
+	sus2.qz4();
+	sus2.qz5();
+	sus2.qz6();
+	sus2.qz7();
+	sus2.qz8();
 
 	cout << "Hello CMake." << endl;
 	return 0;
