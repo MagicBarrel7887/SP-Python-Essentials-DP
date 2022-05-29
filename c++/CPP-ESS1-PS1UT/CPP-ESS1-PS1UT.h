@@ -23,6 +23,8 @@ public:
 	void qz8();
 	void qz9();
 	void qz10();
+	void qz12();
+	void qz13();
 	void qz11();
 };
 
@@ -178,6 +180,7 @@ void MyClass::qz10()
 	cout << "10" << endl;
 }
 
+
 void MyClass::qz11()
 {
 	int i, k = 1;
@@ -187,7 +190,31 @@ void MyClass::qz11()
 
 	cout << "\n" << endl;
 	cout << k << endl;
-	cout << "10" << endl;
+	cout << "11" << endl;
+}
+
+void MyClass::qz12()
+{
+	int i = 2;
+	float f = 1;
+
+	cout << "\n" << endl;
+	//cout << static_cast<float>(i) >> 1;
+	cout << "12" << endl;
+}
+
+void MyClass::qz13()
+{
+	int i = 0, k = i;
+	while (i == 0)
+	{
+		if (k > 1)
+			i = k;
+		++k;
+	}
+	cout << "\n" << endl;
+	cout << k << endl;
+	cout << "13" << endl;
 }
 
 // TODO: Reference additional headers your program requires here.

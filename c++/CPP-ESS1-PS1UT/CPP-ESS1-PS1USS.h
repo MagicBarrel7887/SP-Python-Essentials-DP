@@ -21,6 +21,10 @@ public:
 	void qz6();
 	void qz7();
 	void qz8();
+	void qz9();
+	void qz10();
+	void qz11();
+	void qz12();
 };
 
 namespace Universe {
@@ -107,9 +111,9 @@ void MyClasss::qz4()
 	swap(&t[0], &t[2]);
 
 	cout << "\n" << endl;
-	cout << t[1];
-	cout << "\n" << endl;
-	cout << "4" << endl;
+	cout << t[1] << endl;
+	
+	cout << "4::" << endl;
 }
 
 void MyClasss::qz5()
@@ -163,4 +167,52 @@ void MyClasss::qz8()
 	use(1.f);
 	cout << "\n" << endl;
 	cout << "8" << endl;
+}
+
+void MyClasss::qz9()
+{
+
+	cout << "\n" << endl;
+	float x = 1.0 / 5.0;
+	int i = x;
+	cout << i << endl;
+	cout << "9" << endl;
+}
+
+void MyClasss::qz10()
+{
+	int i = 1, k = i & 0;
+	do {
+		k++;
+		if (k > 1)
+			i = k;
+	} while (i < 2);
+	cout << k << endl;
+	cout << "10" << endl;
+}
+
+void MyClasss::qz11()
+{
+	int a = 0x02, b = 001;
+	int c = a ^ b;
+	int d = c | a;
+	int e = d & 0;
+	cout << e << endl;
+	cout << "11" << endl;
+}
+
+void MyClasss::qz12()
+{
+	vector<float*> ft = { new float[1],new float[2], new float[3] };
+
+	for (int i = 0; i < 3; i++) {
+		float* p = ft[i];
+		*p = i;
+	}
+	cout << *ft[1];
+	for (int i = 0; i < 3; i++) {
+		delete[] ft[i];
+	}
+	cout << "HE" << endl;
+	cout << "12" << endl;
 }

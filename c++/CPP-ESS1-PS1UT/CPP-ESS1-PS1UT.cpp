@@ -23,6 +23,9 @@ int main()
 	sus.qz9();
 	sus.qz10();
 	sus.qz11();
+	sus.qz12();
+	sus.qz13();
+	//sus.qz14();
 	cout << "------------" << endl;
 
 
@@ -36,6 +39,10 @@ int main()
 	sus2.qz6();
 	sus2.qz7();
 	sus2.qz8();
+	sus2.qz9();
+	sus2.qz10();
+	sus2.qz11();
+	sus2.qz12();
 
 	cout << "Hello CMake." << endl;
 	return 0;
