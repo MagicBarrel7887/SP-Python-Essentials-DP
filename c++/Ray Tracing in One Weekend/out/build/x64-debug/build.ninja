@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: CEP1-MOD4T
+# Project: Ray Tracing in One Weekend
 # Configurations: Debug
 # =============================================================================
 
@@ -39,51 +39,50 @@ include CMakeFiles\rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = C$:\Users\coste\source\repos\MagicBarrel7887\SP-Python-Essentials-DP\c++\CEP1-MOD4T\out\build\x64-debug\
+cmake_ninja_workdir = C$:\Users\coste\source\repos\MagicBarrel7887\SP-Python-Essentials-DP\c++\Ray$ Tracing$ in$ One$ Weekend\out\build\x64-debug\
 # =============================================================================
-# Object build statements for EXECUTABLE target CEP1-MOD4T
+# Object build statements for EXECUTABLE target CMakeTarget
 
 
 #############################################
-# Order-only phony target for CEP1-MOD4T
+# Order-only phony target for CMakeTarget
 
-build cmake_object_order_depends_target_CEP1-MOD4T: phony || CMakeFiles\CEP1-MOD4T.dir
+build cmake_object_order_depends_target_CMakeTarget: phony || CMakeFiles\CMakeTarget.dir
 
-build CMakeFiles\CEP1-MOD4T.dir\CEP1-MOD4T.cpp.obj: CXX_COMPILER__CEP1-MOD4T_Debug C$:\Users\coste\source\repos\MagicBarrel7887\SP-Python-Essentials-DP\c++\CEP1-MOD4T\CEP1-MOD4T.cpp || cmake_object_order_depends_target_CEP1-MOD4T
+build CMakeFiles\CMakeTarget.dir\Ray_Tracing_in_One_Weekend.cpp.obj: CXX_COMPILER__CMakeTarget_Debug C$:\Users\coste\source\repos\MagicBarrel7887\SP-Python-Essentials-DP\c++\Ray$ Tracing$ in$ One$ Weekend\Ray$ Tracing$ in$ One$ Weekend.cpp || cmake_object_order_depends_target_CMakeTarget
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++20
-  OBJECT_DIR = CMakeFiles\CEP1-MOD4T.dir
-  OBJECT_FILE_DIR = CMakeFiles\CEP1-MOD4T.dir
-  TARGET_COMPILE_PDB = CMakeFiles\CEP1-MOD4T.dir\
-  TARGET_PDB = CEP1-MOD4T.pdb
+  OBJECT_DIR = CMakeFiles\CMakeTarget.dir
+  OBJECT_FILE_DIR = CMakeFiles\CMakeTarget.dir
+  TARGET_COMPILE_PDB = CMakeFiles\CMakeTarget.dir\
+  TARGET_PDB = CMakeTarget.pdb
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target CEP1-MOD4T
+# Link build statements for EXECUTABLE target CMakeTarget
 
 
 #############################################
-# Link the executable CEP1-MOD4T.exe
+# Link the executable CMakeTarget.exe
 
-build CEP1-MOD4T.exe: CXX_EXECUTABLE_LINKER__CEP1-MOD4T_Debug CMakeFiles\CEP1-MOD4T.dir\CEP1-MOD4T.cpp.obj
+build CMakeTarget.exe: CXX_EXECUTABLE_LINKER__CMakeTarget_Debug CMakeFiles\CMakeTarget.dir\Ray_Tracing_in_One_Weekend.cpp.obj
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
   LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
-  OBJECT_DIR = CMakeFiles\CEP1-MOD4T.dir
+  OBJECT_DIR = CMakeFiles\CMakeTarget.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_COMPILE_PDB = CMakeFiles\CEP1-MOD4T.dir\
-  TARGET_FILE = CEP1-MOD4T.exe
-  TARGET_IMPLIB = CEP1-MOD4T.lib
-  TARGET_PDB = CEP1-MOD4T.pdb
+  TARGET_COMPILE_PDB = CMakeFiles\CMakeTarget.dir\
+  TARGET_FILE = CMakeTarget.exe
+  TARGET_IMPLIB = CMakeTarget.lib
+  TARGET_PDB = CMakeTarget.pdb
 
 
 #############################################
 # Utility command for edit_cache
 
 build CMakeFiles\edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\coste\source\repos\MagicBarrel7887\SP-Python-Essentials-DP\c++\CEP1-MOD4T\out\build\x64-debug && "C:\Program Files\CMake\bin\cmake-gui.exe" -SC:\Users\coste\source\repos\MagicBarrel7887\SP-Python-Essentials-DP\c++\CEP1-MOD4T -BC:\Users\coste\source\repos\MagicBarrel7887\SP-Python-Essentials-DP\c++\CEP1-MOD4T\out\build\x64-debug"
-  DESC = Running CMake cache editor...
-  pool = console
+  COMMAND = cmd.exe /C "cd /D "C:\Users\coste\source\repos\MagicBarrel7887\SP-Python-Essentials-DP\c++\Ray Tracing in One Weekend\out\build\x64-debug" && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
   restat = 1
 
 build edit_cache: phony CMakeFiles\edit_cache.util
@@ -93,7 +92,7 @@ build edit_cache: phony CMakeFiles\edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\coste\source\repos\MagicBarrel7887\SP-Python-Essentials-DP\c++\CEP1-MOD4T\out\build\x64-debug && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Users\coste\source\repos\MagicBarrel7887\SP-Python-Essentials-DP\c++\CEP1-MOD4T -BC:\Users\coste\source\repos\MagicBarrel7887\SP-Python-Essentials-DP\c++\CEP1-MOD4T\out\build\x64-debug"
+  COMMAND = cmd.exe /C "cd /D "C:\Users\coste\source\repos\MagicBarrel7887\SP-Python-Essentials-DP\c++\Ray Tracing in One Weekend\out\build\x64-debug" && "C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" --regenerate-during-build -S"C:\Users\coste\source\repos\MagicBarrel7887\SP-Python-Essentials-DP\c++\Ray Tracing in One Weekend" -B"C:\Users\coste\source\repos\MagicBarrel7887\SP-Python-Essentials-DP\c++\Ray Tracing in One Weekend\out\build\x64-debug""
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -103,7 +102,7 @@ build rebuild_cache: phony CMakeFiles\rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build CEP1-MOD4T: phony CEP1-MOD4T.exe
+build CMakeTarget: phony CMakeTarget.exe
 
 # =============================================================================
 # Folder targets.
@@ -111,9 +110,9 @@ build CEP1-MOD4T: phony CEP1-MOD4T.exe
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/coste/source/repos/MagicBarrel7887/SP-Python-Essentials-DP/c++/CEP1-MOD4T/out/build/x64-debug
+# Folder: C:/Users/coste/source/repos/MagicBarrel7887/SP-Python-Essentials-DP/c++/Ray Tracing in One Weekend/out/build/x64-debug
 
-build all: phony CEP1-MOD4T.exe
+build all: phony CMakeTarget.exe
 
 # =============================================================================
 # Built-in targets
