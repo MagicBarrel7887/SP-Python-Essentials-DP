@@ -27,6 +27,7 @@ void qz12();
 void qz13();
 void qz14();
 void qz15();};
+
 void MyClass::qz0(){
 	cout << "H" << endl;
 	cout << "1 \n" << endl;
