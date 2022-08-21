@@ -159,7 +159,6 @@ void MyClasss::qz9()
 	cout << i << endl;
 	cout << "9" << endl;
 }
-
 void MyClasss::qz10()
 {
 	int i = 1, k = i & 0;
@@ -171,7 +170,6 @@ void MyClasss::qz10()
 	cout << k << endl;
 	cout << "10" << endl;
 }
-
 void MyClasss::qz11()
 {
 	int a = 0x02, b = 001;
@@ -181,11 +179,9 @@ void MyClasss::qz11()
 	cout << e << endl;
 	cout << "11" << endl;
 }
-
 void MyClasss::qz12()
 {
 	vector<float*> ft = { new float[1],new float[2], new float[3] };
-
 	for (int i = 0; i < 3; i++) {
 		float* p = ft[i];
 		*p = i;
