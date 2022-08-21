@@ -141,7 +141,6 @@ void MyClasss::qz7()
 {
 	vector<double> arr = { 1e-1,1e0,1e1 };
 	double* ptr = arr.data() + 2;
-
 	cout << "\n" << endl;
 	cout << arr[1] - *ptr;
 	cout << "\n" << endl;
@@ -151,7 +150,6 @@ void MyClasss::qz7()
 double eval(double x)
 {
 	return x / (.5 * x);
-
 }
 void use(double n)
 {
@@ -162,7 +160,6 @@ void use(double n)
 
 void MyClasss::qz8()
 {
-	
 	cout << "\n" << endl;
 	use(1.f);
 	cout << "\n" << endl;
