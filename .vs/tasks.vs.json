@@ -7,4 +7,13 @@
       "type": "launch"
     }
   ]
+}{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "task-SP-Python-Essentials-DP",
+      "appliesTo": "/",
+      "type": "launch"
+    }
+  ]
 }
