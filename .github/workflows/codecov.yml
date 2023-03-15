@@ -1,6 +1,14 @@
 name: codecov
 
-on: [pull_request_target, issues]
+on: 
+  issues:
+    types:
+      - opened
+  push:
+    branches:
+    - Python-Essentials-1---STUDY-RESOURCES
+    - release/*
+  workflow_dispatch:
 
 jobs:
   codecov:
