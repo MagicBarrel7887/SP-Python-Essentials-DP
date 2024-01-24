@@ -1,5 +1,0 @@
-var dir_776767acb31eecd36158cf4815415a12 =
-[
-    [ "3.22.22040401-MSVC_2", "dir_1015b8e364c296a83716dc86d6a33b21.html", "dir_1015b8e364c296a83716dc86d6a33b21" ],
-    [ "ShowIncludes", "dir_9009c395dc15f0fa8081624a8b07f4f4.html", "dir_9009c395dc15f0fa8081624a8b07f4f4" ]
-];
